@@ -1,0 +1,16 @@
+RewriteCond %{HTTP_HOST} !^excapes.tv$ [NC]
+RewriteCond %{HTTP_HOST} !^mail.excapes.tv$ [NC]
+RewriteRule ^(.*)$ http://excapes.tv/$1 [L,R=301]
+RedirectMatch 301 ^/_site/(.*)$ http://excapes.tv/
+
+ErrorDocument 404 /404/
+
+# 3 WEEKS
+#<FilesMatch "\.(jpg|svg|png|ico)$">
+#Header set Cache-Control "max-age=1814400, public"
+#</FilesMatch>
+
+# 1 WEEK
+#<FilesMatch "\.(css|js)$">
+#Header set Cache-Control "max-age=604800, proxy-revalidate"
+#</FilesMatch>

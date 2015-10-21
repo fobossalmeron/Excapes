@@ -1,0 +1,40 @@
+<footer class="site-footer">
+  <div class="medialuna"></div>
+<script src="{{ site.baseurl }}scripts/main.js"></script> 
+<script src="{{ site.baseurl }}scripts/remodal.js"></script>
+
+<div class="sponfoot">
+  <img id="logo_footer" src="{{ site.baseurl }}images/layout/logowhite.svg" alt="Excapes">
+
+  <p>No sería lo mismo sin el apoyo de</p>
+  <ul class="sponsor main">
+    {% for sponsor in site.sponsors %}
+      {% if sponsor.footer == "top" %}
+        <li>
+          <a href="{{ site.baseurl }}patrocinadores/">
+            <img src="{{ site.baseurl }}images/patrocinadores/footer/{{ sponsor.logo }}">
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p>Nuestros patrocinadores tienen promociones para ti, revísalas <a href="{{ site.baseurl }}patrocinadores/"><b>aquí</b></a>.</p>
+  
+  <ul class="sponsor second">
+    {% for sponsor in site.sponsors %}
+      {% if sponsor.footer == "bottom" %}
+      <li>
+        <a href="{{ site.baseurl }}patrocinadores/">
+          <img src="{{ site.baseurl }}images/patrocinadores/footer/{{ sponsor.logo }}">
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p><em><b>© Excapes</b> Derechos Reservados 2015<em></p>
+
+</div>
+
+</footer>

@@ -1,0 +1,12 @@
+  <form action="http://formspree.io/contact@excapes.tv" method="POST">
+    <label class="form_name" for="name">Nombre</label>    
+    <input type="text" id="name" name="name">
+    <label class="form_email" for="email">Email</label>
+    <input type="email" id="email" name="_replyto"><br>
+    <label class="form_message" for="message">Mensaje</label>
+    <textarea name="message" id="message"></textarea>
+    <img class="form_img" src="{{ site.baseurl }}images/layout/contacto.svg">
+    <input type="hidden" name="_next" value="{{ site.baseurl }}gracias/" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Enviar" class="sendbutton">
+  </form>
