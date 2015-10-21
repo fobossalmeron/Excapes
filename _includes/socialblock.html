@@ -2,35 +2,35 @@
   <p> Visita nuestras <b>redes sociales</b>.</p>
   <ul class="social-media-list">
             {% if site.facebook_username %}
-            <li class="facebook">
-              <a href="https://facebook.com/{{ site.facebook_username }}">
-                  <img class="icon" src="{{ site.baseurl }}images/layout/fb.svg">
-              </a>
-            </li>
+            <a href="https://facebook.com/{{ site.facebook_username }}">
+              <li class="facebook">
+                    <img class="icon" src="{{ site.baseurl }}images/layout/fb.svg">
+              </li>
+            </a>
             {% endif %}
 
             {% if site.twitter_username %}
-            <li class="twitter">
-              <a href="https://twitter.com/{{ site.twitter_username }}">
-                  <img class="icon" src="{{ site.baseurl }}images/layout/twi.svg">
-              </a>
-            </li>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <li class="twitter">
+                    <img class="icon" src="{{ site.baseurl }}images/layout/twi.svg">
+              </li>
+            </a>
             {% endif %}
 
             {% if site.instagram_username %}
-            <li class="instagram">
-              <a href="https://instagram.com/{{ site.instagram_username }}">
-                  <img class="icon" src="{{ site.baseurl }}images/layout/inst.svg">
-              </a>
-            </li>
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+              <li class="instagram">
+                    <img class="icon" src="{{ site.baseurl }}images/layout/inst.svg">
+              </li>
+            </a>
             {% endif %}
 
             {% if site.youtube_username %}
-            <li class="youtube">
-              <a href="https://youtube.com/{{ site.youtube_username }}">
-                  <img class="icon" src="{{ site.baseurl }}images/layout/yt.svg">
-              </a>
-            </li>
+            <a href="https://youtube.com/{{ site.youtube_username }}">
+              <li class="youtube">
+                    <img class="icon" src="{{ site.baseurl }}images/layout/yt.svg">
+              </li>
+            </a>
             {% endif %}
   </ul>
 </div>

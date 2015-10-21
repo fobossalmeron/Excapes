@@ -427,7 +427,7 @@ iframe{
 .intro{
     width: 80%;
     margin: 0 10% 1% 10%;
-    text-align: center;
+    text-align: justify;
     float:left;
     clear:both;
 }
@@ -435,7 +435,7 @@ iframe{
 .introsecond{
     width: 80%;
     margin: 1% 10% 0 10%;
-    text-align: center;
+    text-align: justify;
     float:left;
     clear:both;
 }
@@ -517,6 +517,12 @@ iframe{
         float:left;
         padding: 0 3.3%;
         width: 16.5%;
+        opacity: 0.8;
+        @include transition(.4s, ease);
+
+        &:hover{
+            opacity:1;
+        }
     }
 }
 
@@ -595,7 +601,7 @@ footer {
     margin-left: 0;
     margin-bottom: 0;
     
-    li{
+    a{
         float: left;
         width: 48%;
         height: 48%;

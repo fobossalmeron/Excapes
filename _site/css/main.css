@@ -645,14 +645,14 @@ iframe {
 .intro {
   width: 80%;
   margin: 0 10% 1% 10%;
-  text-align: center;
+  text-align: justify;
   float: left;
   clear: both; }
 
 .introsecond {
   width: 80%;
   margin: 1% 10% 0 10%;
-  text-align: center;
+  text-align: justify;
   float: left;
   clear: both; }
 
@@ -735,7 +735,15 @@ iframe {
   .sponsor li {
     float: left;
     padding: 0 3.3%;
-    width: 16.5%; }
+    width: 16.5%;
+    opacity: 0.8;
+    -webkit-transition: all 0.4s 0s ease;
+    -moz-transition: all 0.4s 0s ease;
+    -ms-transition: all 0.4s 0s ease;
+    -o-transition: all 0.4s 0s ease;
+    transition: all 0.4s 0s ease; }
+    .sponsor li:hover {
+      opacity: 1; }
 
 footer {
   padding: 0;
@@ -818,7 +826,7 @@ footer {
   position: relative;
   margin-left: 0;
   margin-bottom: 0; }
-  .social-media-list li {
+  .social-media-list a {
     float: left;
     width: 48%;
     height: 48%;
@@ -831,9 +839,9 @@ footer {
     -o-transition: all 0.4s 0s ease;
     transition: all 0.4s 0s ease;
     margin-right: 4%; }
-    .social-media-list li:hover {
+    .social-media-list a:hover {
       opacity: 1; }
-    .social-media-list li:nth-child(even) {
+    .social-media-list a:nth-child(even) {
       margin-right: 0px; }
 
 /**
