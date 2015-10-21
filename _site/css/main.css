@@ -649,6 +649,13 @@ iframe {
   float: left;
   clear: both; }
 
+.textcenter {
+  width: 80%;
+  margin: 0 10% 1% 10%;
+  text-align: center;
+  float: left;
+  clear: both; }
+
 .introsecond {
   width: 80%;
   margin: 1% 10% 0 10%;
