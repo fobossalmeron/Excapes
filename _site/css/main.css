@@ -833,6 +833,8 @@ footer {
   position: relative;
   margin-left: 0;
   margin-bottom: 0; }
+  .social-media-list li {
+    width: 100%; }
   .social-media-list a {
     float: left;
     width: 48%;
@@ -862,13 +864,16 @@ main {
 .fullmain {
   width: 100%; }
 
-.episodio h1 {
-  margin-bottom: 0px;
-  margin-top: 1%; }
-.episodio p {
+.episodio {
   float: left;
-  margin-bottom: 4%;
-  text-align: justify; }
+  margin-bottom: 5%; }
+  .episodio h1 {
+    margin-bottom: 0px;
+    margin-top: 1%; }
+  .episodio p {
+    float: left;
+    margin-bottom: 4%;
+    text-align: justify; }
 
 .capsulas {
   list-style: none;
@@ -2061,11 +2066,11 @@ Sidebar
   .locaciones li {
     width: 100%; }
 
-  .social-media-list li {
+  .social-media-list a {
     width: 22%; }
-    .social-media-list li:nth-child(even) {
+    .social-media-list a:nth-child(even) {
       margin-right: 4%; }
-    .social-media-list li:nth-last-child(1) {
+    .social-media-list a:nth-last-child(1) {
       margin-right: 0px; }
 
   .unit {
@@ -2141,11 +2146,11 @@ Smartphone Down
     width: 100%;
     margin-bottom: 5%; }
 
-  .social-media-list li {
+  .social-media-list a {
     width: 48%; }
-    .social-media-list li:nth-child(even) {
+    .social-media-list a:nth-child(even) {
       margin-right: 0px; }
-    .social-media-list li:nth-last-child(1) {
+    .social-media-list a:nth-last-child(1) {
       margin-right: 0px; }
 
   #homevideo {

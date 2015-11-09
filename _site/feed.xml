@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excapes</title>
-    <description>Excapes es una web-series de viajes.</description>
+    <description>Excapes es una web-serie de viajes.</description>
     <link>http://excapes.tv//</link>
     <atom:link href="http://excapes.tv//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Oct 2015 18:47:14 -0500</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2015 18:47:14 -0500</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sun, 08 Nov 2015 21:00:39 -0600</pubDate>
+    <lastBuildDate>Sun, 08 Nov 2015 21:00:39 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
     
   </channel>
 </rss>

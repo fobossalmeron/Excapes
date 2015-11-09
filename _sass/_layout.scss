@@ -608,6 +608,10 @@ footer {
     position: relative;
     margin-left: 0;
     margin-bottom: 0;
+
+    li{
+        width:100%;
+    }
     
     a{
         float: left;
@@ -645,6 +649,9 @@ padding: 0 3% 3% 3%
 }
 
 .episodio{
+    float:left;
+    margin-bottom: 5%;
+    
     h1{
         margin-bottom: 0px;
         margin-top: 1%;
