@@ -1,5 +1,6 @@
 RewriteCond %{HTTP_HOST} !^excapes.tv$ [NC]
 RewriteCond %{HTTP_HOST} !^mail.excapes.tv$ [NC]
+RewriteCond %{HTTP_HOST} !^drive.excapes.tv$ [NC]
 RewriteRule ^(.*)$ http://excapes.tv/$1 [L,R=301]
 RedirectMatch 301 ^/_site/(.*)$ http://excapes.tv/
 

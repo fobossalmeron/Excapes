@@ -7,7 +7,7 @@ permalink: patrocinadores/
 		{% for sponsor in site.sponsors %}
 		<li>
 			{% if sponsor.link %}
-				<a href="{{sponsor.link}}">
+				<a href="{{sponsor.link}}" rel="nofollow">
 			{% endif %}
 			<div class="sponsorlogo_side">
 				<img src="{{ site.baseurl }}images/patrocinadores/sponsorpage/{{sponsor.logo}}">
