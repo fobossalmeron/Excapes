@@ -712,13 +712,21 @@ aside {
 .add_space {
     @include border-radius(5px);
     overflow: hidden;
+    @include transition(.4s, ease);
+    &:hover{
+        opacity:0.8;
+    }
 }
 
 .mini_add_space {
     display:block;
     @include border-radius(5px);
+    @include transition(.4s, ease);
     margin-top: 25%;
     overflow: hidden;
+    &:hover{
+        opacity:0.8;
+    }
 }
 
 .page-content {

@@ -927,7 +927,14 @@ aside {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-transition: all 0.4s 0s ease;
+  -moz-transition: all 0.4s 0s ease;
+  -ms-transition: all 0.4s 0s ease;
+  -o-transition: all 0.4s 0s ease;
+  transition: all 0.4s 0s ease; }
+  .add_space:hover {
+    opacity: 0.8; }
 
 .mini_add_space {
   display: block;
@@ -936,8 +943,15 @@ aside {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  -webkit-transition: all 0.4s 0s ease;
+  -moz-transition: all 0.4s 0s ease;
+  -ms-transition: all 0.4s 0s ease;
+  -o-transition: all 0.4s 0s ease;
+  transition: all 0.4s 0s ease;
   margin-top: 25%;
   overflow: hidden; }
+  .mini_add_space:hover {
+    opacity: 0.8; }
 
 .page-content {
   padding: 4% 0; }

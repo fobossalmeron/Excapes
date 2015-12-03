@@ -3,4 +3,10 @@
 Desarrollo de sitio para Excapes
 
 ## Falta
-- iconos portada
+
+### Iconos portada
+- Moto de agua
+- Sandboard
+- Motocicleta
+- Cuatrimoto
+- Tirolesa
