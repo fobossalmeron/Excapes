@@ -10,3 +10,7 @@ Desarrollo de sitio para Excapes
 - Motocicleta
 - Cuatrimoto
 - Tirolesa
+
+### Inicio
+
+- 3 Loops .gif 600x400
