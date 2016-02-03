@@ -6,7 +6,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://excapes.tv" # the base hostname & protocol for your site
 twitter_username: excapes.twitter
 facebook_username:  excapes.facebook
-instagram_username: excapes.instagram
+instagram_username: excapestv
 youtube_username: excapes.youtube
 counter: '0'
 
