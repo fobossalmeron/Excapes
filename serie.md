@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Episodios
-permalink: episodios/
+title: Serie
+permalink: serie/
 mainsponsor: sidebar-ad-diablo.png
 mainsponsorhorizontal: horizontal-ad-diablo.png
 mainsponsorlink: https://www.facebook.com/diablofashion/

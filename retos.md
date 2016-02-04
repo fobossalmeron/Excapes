@@ -3,7 +3,7 @@ layout: page
 title: Retos
 permalink: retos/
 mainsponsor: sidebar-ad1.jpg
-mainsponsorhorizontal: horizontal-ad1.jpg
+mainsponsorhorizontal: horizontal-ad1.jpg 
 mainsponsorlink: http://www.redbull.com/mx/es
 secondarysponsor: sidebar-ad-mini1.jpg
 secondarysponsorhorizontal: horizontal-ad-mini1.jpg

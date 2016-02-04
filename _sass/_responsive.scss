@@ -62,9 +62,12 @@ Sidebar
 	}
 
 	.retos li{
-		width:45%;
-		&:nth-child(3n+2){
-			margin-right: 5%;
+		width: 47.5%;
+		&:nth-child(6n+5) {
+    		margin-right: 5%;
+		}
+		&:nth-child(4n+3) {
+    		margin-right: 0%;
 		}
 	}
 
@@ -154,6 +157,10 @@ Smartphone Down
 		&:nth-child(3n+2){
 			margin-right: 0px;
 		}
+	}
+
+	.challenge_list li{
+		width:100%;
 	}
 	.panel{
 		width:100%;

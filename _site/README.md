@@ -10,6 +10,18 @@ Desarrollo de sitio para Excapes
 - Motocicleta
 - Cuatrimoto
 - Tirolesa
+- Paracaídas
+- Volar en globo
+- Surfear
+- Esquiar
+- Rapelear
+- Parapente
+- Espeleologia
+- Buceo
+- Windsurf
+- Kayak
+- Sandboard
+- Decenso en rápidos
 
 ### Inicio
 

@@ -13,7 +13,7 @@ locations:
     contacts:
       - name: "Parapentes de Chacahua"
         link: "http://holi.com/"
-        info: "53-84-63-99-62"
+        info: "53-84-63-99-62" 
       - name: "Parapentes de Chacahua"
         link: "http://holi.com/"
         info: "Texto de parapentes"

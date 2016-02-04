@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Nosotros
-permalink: nosotros/
+title: Quiénes somos?
+permalink: quienessomos/
 mainsponsor: sidebar-ad1.jpg
 mainsponsorhorizontal: horizontal-ad1.jpg
 mainsponsorlink: http://www.redbull.com/mx/es

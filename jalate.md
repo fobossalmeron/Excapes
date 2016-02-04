@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Únete
-permalink: unete/
+title: Jálate
+permalink: jalate/
 mainsponsor: sidebar-ad1.jpg
 mainsponsorhorizontal: horizontal-ad1.jpg
 mainsponsorlink: http://www.redbull.com/mx/es
