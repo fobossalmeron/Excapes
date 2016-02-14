@@ -4,6 +4,8 @@ Desarrollo de sitio para Excapes
 
 ## Falta
 
+### Botón de descargables
+
 ### Iconos portada
 - Moto de agua
 - Sandboard

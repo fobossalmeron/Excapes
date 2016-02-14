@@ -5,7 +5,7 @@ permalink: inicio/
 ---
 
 <div class="homegrid">
-  <a href="{{ site.baseurl }}episodios/">
+  <a href="{{ site.baseurl }}serie/">
    <div id="image1" class="unit"></div>
   </a>
   <div id="icon1" class="halfunit mobile_hide"></div>
@@ -14,7 +14,7 @@ permalink: inicio/
   <div class="halfunit">
     <div id="graphic1" class="mini"></div>
   </div>
-  <a href="{{ site.baseurl }}destinos/">
+  <a href="{{ site.baseurl }}armatuviaje/">
    <div id="image3" class="unit"></div>
   </a>
 
@@ -41,26 +41,35 @@ permalink: inicio/
 
     <div id="icon3" class="halfunit"></div>
   </span>
-  <a href="{{ site.baseurl }}retos/">
+  <a href="{{ site.baseurl }}quienessomos/">
     <div id="image4" class="unit"></div>
   </a>
 
   <div class="halfunit spaces">
     <div id="graphic4" class="mini"></div>
   </div>
-  <a href="{{ site.baseurl }}unete/">
+  <a href="{{ site.baseurl }}jalate/">
   <div id="image5" class="unit"></div>
   </a>
 
 </div>
 <h1 class="introtitle">Bienvenido a Excapes!</h1>
 <p class="intro">
-Sed ut peiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore eritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+</b>E<span class="xtext"></span>CAPES</b> es un proyecto que sigue a Manu en su viaje por México. Cualquiera puede <a href="{{site.baseurl}}jalate/">unirse al plan</a>, te invitamos a que nos acompañes no sólo desde tu computadora, queremos que vengas de viaje con nosotros y formes parte de <a href="{{site.baseurl}}serie/">la serie</a>. 
 </p>
-<div class="graphicseparator mini"></div>
+
+<img class="polaroid" src="{{site.baseurl}}images/layout/polaroid.png">
+
 <p class="introsecond">
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia volupas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+El itinerario de Manu está marcado por los lugares de México por los que viajó su padre pero las personas y las vivencias que el grupo de amigos se vaya topando en el camino, marcarán el destino de los capítulos.  
+<br><br>
+Detrás de todo esto hay un <a href="{{site.baseurl}}quienessomos/">grupo de cineastas</a> con las mismas ganas de viajar que Manu y que tú, por eso decidimos hacer una web serie y una guía de viajes que te muestre cómo descubrir México a través del viaje de Manu. 
+<br><br>
+Este sitio web es una guía de viajes que busca inspirarte a <a href="{{site.baseurl}}armatuviaje/">conocer México</a> y llevar tu experiencia al extremo. En ella encontrarás todo aquello con lo que Manu y el resto de los viajeros se hayan encontrado en el camino, por ejemplo, destinos extraordinarios y poco conocidos, actividades extremas, tips de viajero y listas de TOP 5. 
+<br><br>
+Para viajar solo necesitas una e<span class="xtext"></span>cusa, ¿cuál es la tuya?
 </p>
 <div class="social-home-block">
 {% include socialblock.html %}
 </div>
+

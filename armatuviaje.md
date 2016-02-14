@@ -10,7 +10,7 @@ secondarysponsorhorizontal: horizontal-ad-mini-ojosdepapel.png
 secondarysponsorlink: http://www.ojosdepapelvolando.com
 ---
 
-<p style="float:left;"> Bienvenido a nuestra guía de viajero! Aquí encontrarás todas las herramientas que necesitas para seguir los viajes de Manu por tu cuenta.</p>
+<p style="float:left;">Échale un ojo a esta guía para que viajes por México como te dé la gana.</p>
 {% for destination in site.destinations %}
  
 <div class="destination">
@@ -28,7 +28,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 		</div>
 		{% endfor %}
 
-		<h2 class="promociones_title">Promociones</h2>
+		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
 		<ul class="challenge_list">
 		    {% for deal in destination.deals %}
 				<a href="{{ deal.link }}" class="coupon">
@@ -41,7 +41,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 				</a>
 			{% endfor %}
 		</ul>
-		<h2>Retos</h2>
+		<h2>¿Te avientas?</h2>
 <ul class="retos">
 	{% for challenge in destination.challenges %}
 		<li class="locacion_clickable locacion_clickable{{ challenge.id }}" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.image }})">

@@ -131,6 +131,11 @@ Tablet Down
     	letter-spacing: 2px;
 	}
 
+	.descarga_boton{
+	    p{
+	        font-size: .8em;
+	    }
+	}
 }
 
  
@@ -211,6 +216,12 @@ Smartphone Down
 			margin-left: 1%;
 			margin-top: 19px;
 		}
+	}
+	.descarga_material{
+		padding:0 20%;
+	}
+	.descarga_boton p {
+    font-size: 1em;
 	}
 }
 /**

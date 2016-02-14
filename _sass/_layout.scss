@@ -254,7 +254,7 @@ iframe{
     &:before{
         font-family: $secondary-font-family;
         @include translateX(-100%);
-        content: "Episodios";
+        content: "La Serie";
         color: $white;
         font-size: 30px;
         text-transform: uppercase;
@@ -287,7 +287,7 @@ iframe{
     &:before{
         font-family: $secondary-font-family;
         @include translateX(100%);
-        content: "Destinos";
+        content: "Arma tu Viaje";
         color: $white;
         font-size: 30px;
         text-transform: uppercase;
@@ -311,7 +311,7 @@ iframe{
     &:before{
         font-family: $secondary-font-family;
         @include translateX(-100%);
-        content: "Retos";
+        content: "Quienes Somos";
         color: $white;
         font-size: 30px;
         text-transform: uppercase;
@@ -335,7 +335,7 @@ iframe{
     &:before{
         font-family: $secondary-font-family;
         @include translateX(100%);
-        content: "Únete";
+        content: "Jálate";
         color: $white;
         font-size: 30px;
         text-transform: uppercase;
@@ -443,7 +443,7 @@ iframe{
 .intro{
     width: 80%;
     margin: 0 10% 1% 10%;
-    text-align: justify;
+    text-align: center;
     float:left;
     clear:both;
 }
@@ -459,9 +459,32 @@ iframe{
 .introsecond{
     width: 80%;
     margin: 1% 10% 0 10%;
-    text-align: justify;
+    text-align: center;
     float:left;
     clear:both;
+}
+
+.polaroid{
+    height:auto;
+    width:50%;
+    left: 50%;
+    @include translateX(-50%);
+    position: relative;
+    float:left;
+    clear:both;
+    max-width: 250px;
+    margin: 2%;
+}
+
+.xtext{
+    background-image: url("../images/layout/graphicseparator.svg");
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    margin: 0 -3px;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
 }
 
 .graphicseparator{
@@ -837,7 +860,6 @@ h2 {
     h1{
         margin-top: 1%;
         margin-bottom: 0px;
-        font-size: 35px;
     }
 
     .promociones_title{
@@ -1400,12 +1422,13 @@ Stickynav
 }
 
 .xbutton{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     display: block;
 }
 .descarga_material{
-    padding: 4%;
+    width:30%;
+    padding:0 2.5%;
     p{
         width: 140px;
         text-align: center;
@@ -1422,19 +1445,28 @@ Stickynav
     }
 }
 
+.data_for_email{
+    width:65%;
+}
+
 .descarga_boton{
-    width: 210px;
-    display: block;
-    height: 210px;
-    padding: 30px 16px 16px 16px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding: 50% 0;
+    border-radius: 50%;
     @include border-radius(50%);
-    margin: 0 auto;
     border: 3px $red solid;
     @include transition(.4s, ease);
     box-shadow: 0px 0px $contrastred;
     &:hover{
         box-shadow: 0px 10px $contrastred;
         @include translateY(-10px);
+    }
+    p{
+        position: absolute;
+        top:20%;
     }
 }
 
