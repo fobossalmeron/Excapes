@@ -2,6 +2,7 @@
 layout: default
 title: Inicio
 permalink: inicio/
+video: https://www.youtube.com/embed/v_vqxGQW5lg
 ---
 
 <div class="homegrid">
@@ -29,7 +30,7 @@ permalink: inicio/
   </span>
 
   <div id="homevideo" class="video">
-    <iframe src="https://www.youtube.com/embed/wJF5NXygL4k" frameborder="0" allowfullscreen></iframe>
+    <iframe src="{{ page.video }}?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <span class="homegrid_column mobile_hide">

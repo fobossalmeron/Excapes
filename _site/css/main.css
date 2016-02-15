@@ -436,6 +436,8 @@ nav {
   width: 71.428%;
   height: 435px;
   float: left;
+  border-radius: 5px;
+  overflow: hidden;
   margin: .55% 0;
   display: block;
   position: relative; }

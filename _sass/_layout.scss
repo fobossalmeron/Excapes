@@ -236,6 +236,8 @@ $grid-height: 145px;
     width: 71.428%;
     height: $grid-height * 3;
     float: left;
+    border-radius: 5px;
+    overflow: hidden;
     margin: .55% 0;
     display:block;
     position:relative;
