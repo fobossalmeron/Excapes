@@ -19,7 +19,7 @@ secondarysponsorlink: http://www.redbull.com/mx/es/surfing
 -->
 <div class="about_info">
 <br>
-Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b>E<span class="xtext"></span>CAPES</b>. Si quieres participar graba un video contándonos cuál es tu eXcusa para viajar. Grábate con cualquier cámara o con tu celular, dónde quieras, cómo quieras y <a href="mailto:contacto@excapes.tv" target="_blank">manda tu video!</a> No importa de dónde seas sino tus ganas de viajar.
+Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b>E<span class="xtext"></span>CAPES</b>. Si quieres participar graba un video contándonos cuál es tu e<span class="xtext"></span>cusa para viajar. Grábate con cualquier cámara o con tu celular, dónde quieras, cómo quieras y <a href="mailto:contacto@excapes.tv" target="_blank">manda tu video!</a> No importa de dónde seas sino tus ganas de viajar.
 </div>
 
 <div class="panel data_for_email">
@@ -33,10 +33,8 @@ Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b
 		</li>
 	</ul>
 	<p>
-	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext"></span>cusa más original. <br><br>
+	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext"></span>cusa más original. Recuerda que al enviarlo aceptas nuestros <a href="{{ site.baseurl }}pdfs/terminosycondiciones.pdf">términos y condiciones</a>.<br><br>
 	<b>No esperes más y envíanos tu video!!!</b>
-	<br><br>
-	Recuerda que al enviarlo aceptas nuestros <a href="{{ site.baseurl }}pdfs/terminosycondiciones.pdf">Términos y Condiciones</a>.
 	</p>
 </div>
 
