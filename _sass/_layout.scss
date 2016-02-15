@@ -839,6 +839,13 @@ h2 {
     float:left;
 }
 
+.main_about{
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
     h3 {
@@ -860,6 +867,13 @@ h2 {
     h1{
         margin-top: 1%;
         margin-bottom: 0px;
+        font-size: 2em;
+        float: left;
+        clear:both;
+    }
+    h2{
+        float:left;
+        clear:both;
     }
 
     .promociones_title{

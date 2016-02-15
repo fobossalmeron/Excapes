@@ -15,6 +15,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
  
 <div class="destination">
 	<h1>{{ destination.title }}</h1>
+	<h2>{{ destination.subtitle }}</h2>
 	<div class="main_video">
 		<iframe src="{{ destination.video }}" frameborder="0" allowfullscreen></iframe>
 	</div>

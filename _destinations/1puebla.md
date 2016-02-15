@@ -1,5 +1,6 @@
 ---
-title: "Checa lo que encontramos en Puebla"
+title: "Puebla"
+subtitle: "Checa lo que encontramos!"
 video: "https://www.youtube.com/embed/Mr7uGgl40QU"
 deals:
   - type: "plane"

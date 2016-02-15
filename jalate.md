@@ -30,8 +30,8 @@ Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b
 		</li>
 	</ul>
 	<p>
-	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext"></span>cusa más original. <br>
-	No esperes más y envíanos tu video!!!</a>
+	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext"></span>cusa más original. <br><br>
+	<b>No esperes más y envíanos tu video!!!</b>
 	<br><br>
 	Recuerda que al enviarlo aceptas nuestros <a href="{{ site.baseurl }}pdfs/terminosycondiciones.pdf">Términos y Condiciones</a>.
 	</p>

@@ -1,5 +1,6 @@
 ---
-title: "Descubrimos joyas de Michoacán"
+title: "Michoacán"
+subtitle: "Checa lo que encontramos!"
 video: "https://www.youtube.com/embed/-k65ampKwhQ"
 deals:
   - type: "plane"
