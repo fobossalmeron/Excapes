@@ -11,15 +11,13 @@ secondarysponsorlink: http://www.redbull.com/mx/es/surfing
 ---
 
 <div class="main_video">
-		<iframe src="https://www.youtube.com/embed/WTYXsprhc0M" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/WTYXsprhc0M" frameborder="0" allowfullscreen></iframe>
 </div>
-<!--
-<h2 class="join_h2_left">↟ Mira las instrucciones ↟</h2>
-<h2 class="join_h2_right">↡ O lee las instrucciones ↡</h2>
--->
+
 <div class="about_info">
-<br>
-Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b>E<span class="xtext"></span>CAPES</b>. Si quieres participar graba un video contándonos cuál es tu e<span class="xtext"></span>cusa para viajar. Grábate con cualquier cámara o con tu celular, dónde quieras, cómo quieras y <a href="mailto:contacto@excapes.tv" target="_blank">manda tu video!</a> No importa de dónde seas sino tus ganas de viajar.
+	<br>
+	Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b>E<span class="xtext">X</span>CAPES</b>.Si quieres participar graba un video contándonos cuál es tu e<span class="xtext">x</span>cusa para viajar. 
+	Grábate con cualquier cámara o con tu celular, dónde quieras, cómo quieras y <a href="mailto:contacto@excapes.tv" target="_blank">manda tu video!</a> No importa de dónde seas sino tus ganas de viajar.
 </div>
 
 <div class="panel data_for_email">
@@ -33,7 +31,7 @@ Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b
 		</li>
 	</ul>
 	<p>
-	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext"></span>cusa más original. Recuerda que al enviarlo aceptas nuestros <a href="{{ site.baseurl }}pdfs/terminosycondiciones.pdf">términos y condiciones</a>.<br><br>
+	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext">x</span>cusa más original. Recuerda que al enviarlo aceptas nuestros <a href="{{ site.baseurl }}pdfs/terminosycondiciones.pdf">términos y condiciones</a>.<br><br>
 	<b>No esperes más y envíanos tu video!!!</b>
 	</p>
 </div>

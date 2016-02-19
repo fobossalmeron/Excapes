@@ -3,8 +3,7 @@
 Desarrollo de sitio para Excapes
 
 ## Falta
-
-### Botón de descargables
+Descripción del sitio
 
 ### Iconos portada
 - Moto de agua
@@ -22,7 +21,6 @@ Desarrollo de sitio para Excapes
 - Buceo
 - Windsurf
 - Kayak
-- Sandboard
 - Decenso en rápidos
 
 ### Inicio
