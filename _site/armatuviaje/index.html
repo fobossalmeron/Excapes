@@ -137,27 +137,231 @@
 	<main class="destination_content"> 
 
 		
-		<div class="remodal" data-remodal-id="modalculiacan1" data-remodal-action="confirm">
+		<!--0-->
+		<div class="remodal" data-remodal-id="modal1" data-remodal-action="confirm">
 			<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="/images/locaciones/1.jpg" />
 		</div>
 		
-		<div class="remodal" data-remodal-id="modalculiacan2" data-remodal-action="confirm">
+		<!--1-->
+		<div class="remodal" data-remodal-id="modal2" data-remodal-action="confirm">
 			<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="/images/locaciones/2.jpg" />
 		</div>
 		
-		<div class="remodal" data-remodal-id="modalculiacan3" data-remodal-action="confirm">
+		<!--2-->
+		<div class="remodal" data-remodal-id="modal3" data-remodal-action="confirm">
 			<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="/images/locaciones/3.jpg" />
 		</div>
 		
-		<div class="remodal" data-remodal-id="modalculiacan4" data-remodal-action="confirm">
+		<!--3-->
+		<div class="remodal" data-remodal-id="modal4" data-remodal-action="confirm">
 			<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="/images/locaciones/4.jpg" />
 		</div>
 		
-		<div class="remodal" data-remodal-id="modal" data-remodal-action="confirm">
+		<!--4-->
+		<div class="remodal" data-remodal-id="modal5" data-remodal-action="confirm">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<img src="/images/locaciones/5.jpg" />
+		</div>
+		
+
+		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
+		<ul class="challenge_list">
+		    
+				<a href="http://www.volaris.com/" class="coupon">
+					<li class="challenge deal" style="background-image: url(/images/promociones/plane.svg);">
+						<span class="deal_info">Código de Promoción<br />$400 MXN</span>
+						
+						<span class="deal_hiddeninfo">CÓDIGO:<br />VOLARISEX0101</span>
+						
+					</li>
+				</a>
+			
+				<a href="http://santaanitahotel.com/" class="coupon">
+					<li class="challenge deal" style="background-image: url(/images/promociones/hotel.svg);">
+						<span class="deal_info">Hotel Santa Anita<br />Convenio Excapes</span>
+						
+						<span class="deal_hiddeninfo">CONVENIO:<br />REYESEX0101</span>
+						
+					</li>
+				</a>
+			
+		</ul>
+		<h2>¿Te avientas?</h2>
+<ul class="retos">
+	
+		<!--0-->
+		<li class="locacion_clickable locacion_clickable1" style="background-image: url(/images/retos/Rapel.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Rapel.svg" />
+		    <h1 class="challenge_title">Rapel</h1>
+		    <ul class="locaciones locaciones1">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Cuetzalan</h3>
+			    		<a href="http://holi.com/" target="_blank">Cascadas Las Brisas</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion1 = querySelector('.locaciones1');
+		  var locTrigger1 = querySelector('.locacion_clickable1');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger1.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger1.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger1.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--1-->
+		<li class="locacion_clickable locacion_clickable2" style="background-image: url(/images/retos/Espeleologia.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Espeleologia.svg" />
+		    <h1 class="challenge_title">Espeleologia</h1>
+		    <ul class="locaciones locaciones2">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Zapotitlán</h3>
+			    		<a href="http://zapotitlan.com/" target="_blank">Grutas de Zapotitlán</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion2 = querySelector('.locaciones2');
+		  var locTrigger2 = querySelector('.locacion_clickable2');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger2.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger2.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger2.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--2-->
+		<li class="locacion_clickable locacion_clickable3" style="background-image: url(/images/retos/Cuatrimoto.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Cuatrimoto.svg" />
+		    <h1 class="challenge_title">Cuatrimoto</h1>
+		    <ul class="locaciones locaciones3">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Huauchinango</h3>
+			    		<a href="http://holi.com/" target="_blank">Cuatrimotos Estrella</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion3 = querySelector('.locaciones3');
+		  var locTrigger3 = querySelector('.locacion_clickable3');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger3.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger3.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger3.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+</ul>
+		
+		<h2>Recuerdos</h2>
+			<ul class="destination_gallery">
+				
+				<!--0-->
+				<a data-remodal-target="modal1">
+					<li style="background-image: url(/images/locaciones/1.jpg);"></li>
+				</a>
+				
+				<!--1-->
+				<a data-remodal-target="modal2">
+					<li style="background-image: url(/images/locaciones/2.jpg);"></li>
+				</a>
+				
+				<!--2-->
+				<a data-remodal-target="modal3">
+					<li style="background-image: url(/images/locaciones/3.jpg);"></li>
+				</a>
+				
+				<!--3-->
+				<a data-remodal-target="modal4">
+					<li style="background-image: url(/images/locaciones/4.jpg);"></li>
+				</a>
+				
+				<!--4-->
+				<a data-remodal-target="modal5">
+					<li style="background-image: url(/images/locaciones/5.jpg);"></li>
+				</a>
+				
+			</ul>
+		
+
+	</main>
+
+</div>
+
+<div class="destination">
+	<h1>Michoacán</h1>
+	<h2>Checa lo que encontramos!</h2>
+	<div class="main_video">
+		<iframe src="https://www.youtube.com/embed/-k65ampKwhQ" frameborder="0" allowfullscreen=""></iframe>
+	</div>
+
+	<main class="destination_content"> 
+
+		
+		<!--5-->
+		<div class="remodal" data-remodal-id="modal6" data-remodal-action="confirm">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<img src="/images/locaciones/2.jpg" />
+		</div>
+		
+		<!--6-->
+		<div class="remodal" data-remodal-id="modal7" data-remodal-action="confirm">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<img src="/images/locaciones/3.jpg" />
+		</div>
+		
+		<!--7-->
+		<div class="remodal" data-remodal-id="modal8" data-remodal-action="confirm">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<img src="/images/locaciones/4.jpg" />
+		</div>
+		
+		<!--8-->
+		<div class="remodal" data-remodal-id="modal9" data-remodal-action="confirm">
 			<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="/images/locaciones/5.jpg" />
 		</div>
@@ -195,10 +399,11 @@
 		<h2>¿Te avientas?</h2>
 <ul class="retos">
 	
-		<li class="locacion_clickable locacion_clickable11" style="background-image: url(/images/retos/parapente.jpg)">
-			<img class="reto_icon" src="/images/retos/parapente.svg" />
-		    <h1 class="challenge_title">Parapente</h1>
-		    <ul class="locaciones locaciones11">
+		<!--3-->
+		<li class="locacion_clickable locacion_clickable4" style="background-image: url(/images/retos/Tirolesa.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Tirolesa.svg" />
+		    <h1 class="challenge_title">Tirolesa</h1>
+		    <ul class="locaciones locaciones4">
 		    	
 		    	<li>
 		    		<h3 class="challenge_title">Cuetzalan</h3>
@@ -209,6 +414,244 @@
 		    	<li>
 		    		<h3 class="challenge_title">Aconco</h3>
 			    		<a href="http://holi.com/" target="_blank">Parapentes de Cuetzalan 2</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion4 = querySelector('.locaciones4');
+		  var locTrigger4 = querySelector('.locacion_clickable4');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger4.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger4.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger4.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--4-->
+		<li class="locacion_clickable locacion_clickable5" style="background-image: url(/images/retos/Rapel.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Rapel.svg" />
+		    <h1 class="challenge_title">Rapel</h1>
+		    <ul class="locaciones locaciones5">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion5 = querySelector('.locaciones5');
+		  var locTrigger5 = querySelector('.locacion_clickable5');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger5.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger5.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger5.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--5-->
+		<li class="locacion_clickable locacion_clickable6" style="background-image: url(/images/retos/Buceo.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Buceo.svg" />
+		    <h1 class="challenge_title">Buceo</h1>
+		    <ul class="locaciones locaciones6">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion6 = querySelector('.locaciones6');
+		  var locTrigger6 = querySelector('.locacion_clickable6');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger6.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger6.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger6.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--6-->
+		<li class="locacion_clickable locacion_clickable7" style="background-image: url(/images/retos/Espeleologia.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Espeleologia.svg" />
+		    <h1 class="challenge_title">Espeleologia</h1>
+		    <ul class="locaciones locaciones7">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion7 = querySelector('.locaciones7');
+		  var locTrigger7 = querySelector('.locacion_clickable7');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger7.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger7.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger7.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--7-->
+		<li class="locacion_clickable locacion_clickable8" style="background-image: url(/images/retos/Kayak.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Kayak.svg" />
+		    <h1 class="challenge_title">Kayak</h1>
+		    <ul class="locaciones locaciones8">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion8 = querySelector('.locaciones8');
+		  var locTrigger8 = querySelector('.locacion_clickable8');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger8.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger8.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger8.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--8-->
+		<li class="locacion_clickable locacion_clickable9" style="background-image: url(/images/retos/Windsurf.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Windsurf.svg" />
+		    <h1 class="challenge_title">Windsurf</h1>
+		    <ul class="locaciones locaciones9">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion9 = querySelector('.locaciones9');
+		  var locTrigger9 = querySelector('.locacion_clickable9');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger9.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger9.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger9.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--9-->
+		<li class="locacion_clickable locacion_clickable10" style="background-image: url(/images/retos/Parapente.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Parapente.svg" />
+		    <h1 class="challenge_title">Parapente</h1>
+		    <ul class="locaciones locaciones10">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion10 = querySelector('.locaciones10');
+		  var locTrigger10 = querySelector('.locacion_clickable10');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger10.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger10.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger10.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--10-->
+		<li class="locacion_clickable locacion_clickable11" style="background-image: url(/images/retos/Paracaidas.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Paracaidas.svg" />
+		    <h1 class="challenge_title">Paracaidas</h1>
+		    <ul class="locaciones locaciones11">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
 			    		<p>53-84-63-99-62</p>
 		    	</li>
 		    	
@@ -234,9 +677,10 @@
 		</script>
 
 	
-		<li class="locacion_clickable locacion_clickable12" style="background-image: url(/images/retos/buceo.jpg)">
-			<img class="reto_icon" src="/images/retos/buceo.svg" />
-		    <h1 class="challenge_title">Buceo</h1>
+		<!--11-->
+		<li class="locacion_clickable locacion_clickable12" style="background-image: url(/images/retos/Globo.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Globo.svg" />
+		    <h1 class="challenge_title">Globo</h1>
 		    <ul class="locaciones locaciones12">
 		    	
 		    	<li>
@@ -267,9 +711,10 @@
 		</script>
 
 	
-		<li class="locacion_clickable locacion_clickable13" style="background-image: url(/images/retos/esqui.jpg)">
-			<img class="reto_icon" src="/images/retos/esqui.svg" />
-		    <h1 class="challenge_title">Esquí</h1>
+		<!--12-->
+		<li class="locacion_clickable locacion_clickable13" style="background-image: url(/images/retos/Jetski.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Jetski.svg" />
+		    <h1 class="challenge_title">Jetski</h1>
 		    <ul class="locaciones locaciones13">
 		    	
 		    	<li>
@@ -300,9 +745,10 @@
 		</script>
 
 	
-		<li class="locacion_clickable locacion_clickable14" style="background-image: url(/images/retos/esqui.jpg)">
-			<img class="reto_icon" src="/images/retos/esqui.svg" />
-		    <h1 class="challenge_title">Esquí</h1>
+		<!--13-->
+		<li class="locacion_clickable locacion_clickable14" style="background-image: url(/images/retos/Cuatrimoto.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Cuatrimoto.svg" />
+		    <h1 class="challenge_title">Cuatrimoto</h1>
 		    <ul class="locaciones locaciones14">
 		    	
 		    	<li>
@@ -333,137 +779,11 @@
 		</script>
 
 	
-</ul>
-		
-		<h2>Recuerdos</h2>
-			<ul class="destination_gallery">
-				
-				<a data-remodal-target="modalculiacan1">
-					<li style="background-image: url(/images/locaciones/1.jpg);"></li>
-				</a>
-				
-				<a data-remodal-target="modalculiacan2">
-					<li style="background-image: url(/images/locaciones/2.jpg);"></li>
-				</a>
-				
-				<a data-remodal-target="modalculiacan3">
-					<li style="background-image: url(/images/locaciones/3.jpg);"></li>
-				</a>
-				
-				<a data-remodal-target="modalculiacan4">
-					<li style="background-image: url(/images/locaciones/4.jpg);"></li>
-				</a>
-				
-				<a data-remodal-target="modal">
-					<li style="background-image: url(/images/locaciones/5.jpg);"></li>
-				</a>
-				
-			</ul>
-		
-
-	</main>
-
-</div>
-
-<div class="destination">
-	<h1>Michoacán</h1>
-	<h2>Checa lo que encontramos!</h2>
-	<div class="main_video">
-		<iframe src="https://www.youtube.com/embed/-k65ampKwhQ" frameborder="0" allowfullscreen=""></iframe>
-	</div>
-
-	<main class="destination_content"> 
-
-		
-		<div class="remodal" data-remodal-id="modalculiacan2" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/2.jpg" />
-		</div>
-		
-		<div class="remodal" data-remodal-id="modalculiacan3" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/3.jpg" />
-		</div>
-		
-		<div class="remodal" data-remodal-id="modalculiacan4" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/4.jpg" />
-		</div>
-		
-		<div class="remodal" data-remodal-id="modal" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/5.jpg" />
-		</div>
-		
-
-		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
-		<ul class="challenge_list">
-		    
-				<a href="http://www.volaris.com/" class="coupon">
-					<li class="challenge deal" style="background-image: url(/images/promociones/plane.svg);">
-						<span class="deal_info">Código de Promoción<br />$800 MXN</span>
-						
-						<span class="deal_hiddeninfo">CÓDIGO:<br />VOLARISEX0101</span>
-						
-					</li>
-				</a>
-			
-				<a href="http://santaanitahotel.com/" class="coupon">
-					<li class="challenge deal" style="background-image: url(/images/promociones/hotel.svg);">
-						<span class="deal_info">Hostal Reyes<br />Convenio Excapes</span>
-						
-						<span class="deal_hiddeninfo">CONVENIO:<br />REYESEX0101</span>
-						
-					</li>
-				</a>
-			
-		</ul>
-		<h2>¿Te avientas?</h2>
-<ul class="retos">
-	
-		<li class="locacion_clickable locacion_clickable21" style="background-image: url(/images/retos/parapente.jpg)">
-			<img class="reto_icon" src="/images/retos/parapente.svg" />
-		    <h1 class="challenge_title">Parapente</h1>
-		    <ul class="locaciones locaciones21">
-		    	
-		    	<li>
-		    		<h3 class="challenge_title">Cuetzalan</h3>
-			    		<a href="http://holi.com/" target="_blank">Parapentes de Cuetzalan</a>
-			    		<p>53-84-63-99-62</p>
-		    	</li>
-		    	
-		    	<li>
-		    		<h3 class="challenge_title">Aconco</h3>
-			    		<a href="http://holi.com/" target="_blank">Parapentes de Cuetzalan 2</a>
-			    		<p>53-84-63-99-62</p>
-		    	</li>
-		    	
-		    </ul>
-		</li>
-
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion21 = querySelector('.locaciones21');
-		  var locTrigger21 = querySelector('.locacion_clickable21');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-
-		  function closeAccordion(){
-		    locTrigger21.classList.remove('locaciones_open');
-		  }
-
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
-		    locTrigger21.classList.toggle('locaciones_open');
-		  }
-
-		  locTrigger21.addEventListener('click', toggleAccordion);
-		</script>
-
-	
-		<li class="locacion_clickable locacion_clickable22" style="background-image: url(/images/retos/buceo.jpg)">
-			<img class="reto_icon" src="/images/retos/buceo.svg" />
-		    <h1 class="challenge_title">Buceo</h1>
-		    <ul class="locaciones locaciones22">
+		<!--14-->
+		<li class="locacion_clickable locacion_clickable15" style="background-image: url(/images/retos/Surf.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Surf.svg" />
+		    <h1 class="challenge_title">Surf</h1>
+		    <ul class="locaciones locaciones15">
 		    	
 		    	<li>
 		    		<h3 class="challenge_title">Aconco</h3>
@@ -476,20 +796,156 @@
 
 		<script>
 		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion22 = querySelector('.locaciones22');
-		  var locTrigger22 = querySelector('.locacion_clickable22');
+		  var locAccordion15 = querySelector('.locaciones15');
+		  var locTrigger15 = querySelector('.locacion_clickable15');
 		  var locTriggerOther = querySelector('.locacion_clickable');
 
 		  function closeAccordion(){
-		    locTrigger22.classList.remove('locaciones_open');
+		    locTrigger15.classList.remove('locaciones_open');
 		  }
 
 		  function toggleAccordion(){
 		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
-		    locTrigger22.classList.toggle('locaciones_open');
+		    locTrigger15.classList.toggle('locaciones_open');
 		  }
 
-		  locTrigger22.addEventListener('click', toggleAccordion);
+		  locTrigger15.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--15-->
+		<li class="locacion_clickable locacion_clickable16" style="background-image: url(/images/retos/Rafting.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Rafting.svg" />
+		    <h1 class="challenge_title">Rafting</h1>
+		    <ul class="locaciones locaciones16">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion16 = querySelector('.locaciones16');
+		  var locTrigger16 = querySelector('.locacion_clickable16');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger16.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger16.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger16.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--16-->
+		<li class="locacion_clickable locacion_clickable17" style="background-image: url(/images/retos/Motocicleta.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Motocicleta.svg" />
+		    <h1 class="challenge_title">Motocicleta</h1>
+		    <ul class="locaciones locaciones17">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion17 = querySelector('.locaciones17');
+		  var locTrigger17 = querySelector('.locacion_clickable17');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger17.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger17.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger17.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--17-->
+		<li class="locacion_clickable locacion_clickable18" style="background-image: url(/images/retos/Sandboard.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Sandboard.svg" />
+		    <h1 class="challenge_title">Sandboard</h1>
+		    <ul class="locaciones locaciones18">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion18 = querySelector('.locaciones18');
+		  var locTrigger18 = querySelector('.locacion_clickable18');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger18.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger18.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger18.addEventListener('click', toggleAccordion);
+		</script>
+
+	
+		<!--18-->
+		<li class="locacion_clickable locacion_clickable19" style="background-image: url(/images/retos/Esqui.jpg)"> 
+			<img class="reto_icon" src="/images/retos/Esqui.svg" />
+		    <h1 class="challenge_title">Esqui</h1>
+		    <ul class="locaciones locaciones19">
+		    	
+		    	<li>
+		    		<h3 class="challenge_title">Aconco</h3>
+			    		<a href="http://holi.com/" target="_blank">Parapentes de Puebla</a>
+			    		<p>53-84-63-99-62</p>
+		    	</li>
+		    	
+		    </ul>
+		</li>
+
+		<script>
+		  var querySelector = document.querySelector.bind(document);
+		  var locAccordion19 = querySelector('.locaciones19');
+		  var locTrigger19 = querySelector('.locacion_clickable19');
+		  var locTriggerOther = querySelector('.locacion_clickable');
+
+		  function closeAccordion(){
+		    locTrigger19.classList.remove('locaciones_open');
+		  }
+
+		  function toggleAccordion(){
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		    locTrigger19.classList.toggle('locaciones_open');
+		  }
+
+		  locTrigger19.addEventListener('click', toggleAccordion);
 		</script>
 
 	
@@ -498,19 +954,23 @@
 		<h2>Recuerdos</h2>
 			<ul class="destination_gallery">
 				
-				<a data-remodal-target="modalculiacan2">
+				<!--5-->
+				<a data-remodal-target="modal6">
 					<li style="background-image: url(/images/locaciones/2.jpg);"></li>
 				</a>
 				
-				<a data-remodal-target="modalculiacan3">
+				<!--6-->
+				<a data-remodal-target="modal7">
 					<li style="background-image: url(/images/locaciones/3.jpg);"></li>
 				</a>
 				
-				<a data-remodal-target="modalculiacan4">
+				<!--7-->
+				<a data-remodal-target="modal8">
 					<li style="background-image: url(/images/locaciones/4.jpg);"></li>
 				</a>
 				
-				<a data-remodal-target="modal">
+				<!--8-->
+				<a data-remodal-target="modal9">
 					<li style="background-image: url(/images/locaciones/5.jpg);"></li>
 				</a>
 				

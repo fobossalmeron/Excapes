@@ -683,13 +683,14 @@ iframe {
   clear: both; }
 
 .polaroid {
-  width: 100%;
+  width: 96%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
   background-color: red;
+  box-sizing: border-box;
   float: left;
   margin: 2%; }
 
@@ -1308,7 +1309,7 @@ Retos
       text-align: center;
       color: #f9f9f9;
       margin: 0;
-      padding: 0 0 11px 0;
+      padding: 0 0 6px 0;
       font-size: 15px; }
     .retos li .reto_image {
       -webkit-border-radius: 5px;
@@ -1325,6 +1326,7 @@ Retos
       float: left;
       left: 50%;
       margin-top: 0px;
+      width: 105px;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);

@@ -1,25 +1,25 @@
 ---
-title: "Parapente"
-image: "parapente.jpg"
-icon: "parapente.svg"
-id: "1"
+title: "Buceo"
+image: "buceo.jpg"
+icon: "buceo.svg"
+id: "3"
 locations:
   - place: "Puebla"
     contacts:
-      - name: "Parapentes de Puebla"
+      - name: "Buceo de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - place: "Chacahua"
     contacts:
-      - name: "Parapentes de Chacahua"
+      - name: "Buceo de Chacahua"
         link: "http://holi.com/"
-        info: "53-84-63-99-62" 
-      - name: "Parapentes de Chacahua"
+        info: "53-84-63-99-62"
+      - name: "Buceo de Chacahua"
         link: "http://holi.com/"
-        info: "Texto de parapentes"
+        info: "Texto de buceo"
   - place: "Bacalar"
     contacts:
-      - name: "Parapentes de Bacalar"
+      - name: "Buceo de Bacalar"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
 ---

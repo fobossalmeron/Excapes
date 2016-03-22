@@ -1,25 +1,25 @@
 ---
-title: "Buceo"
-image: "buceo.jpg"
-icon: "buceo.svg"
-id: "2"
+title: "Espeleologia"
+image: "espeleologia.jpg"
+icon: "espeleologia.svg"
+id: "4"
 locations:
   - place: "Puebla"
     contacts:
-      - name: "Buceo de Puebla"
+      - name: "Cuevas de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - place: "Chacahua"
     contacts:
-      - name: "Buceo de Chacahua"
+      - name: "Cuevas de Chacahua"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
-      - name: "Buceo de Chacahua"
+      - name: "Esqui de Chacahua"
         link: "http://holi.com/"
-        info: "Texto de buceo"
+        info: "Texto de esqui"
   - place: "Bacalar"
     contacts:
-      - name: "Buceo de Bacalar"
+      - name: "Cuevas de Bacalar"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
 ---

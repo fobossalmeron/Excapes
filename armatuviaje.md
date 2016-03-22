@@ -23,7 +23,8 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 	<main class="destination_content"> 
 
 		{% for image in destination.images %}
-		<div class="remodal" data-remodal-id="modal{{ image.id }}" data-remodal-action="confirm">
+		<!--{% increment image_id %}-->
+		<div class="remodal" data-remodal-id="modal{{ image_id }}" data-remodal-action="confirm">
 			<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="{{ site.baseurl }}images/locaciones/{{ image.link }}">
 		</div>
@@ -45,10 +46,11 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 		<h2>¿Te avientas?</h2>
 <ul class="retos">
 	{% for challenge in destination.challenges %}
-		<li class="locacion_clickable locacion_clickable{{ challenge.id }}" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.image }})">
-			<img class="reto_icon" src="{{ site.baseurl }}images/retos/{{ challenge.icon }}">
-		    <h1 class="challenge_title">{{ challenge.name }}</h1>
-		    <ul class="locaciones locaciones{{ challenge.id }}">
+		<!--{% increment challenge_id %}-->
+		<li class="locacion_clickable locacion_clickable{{challenge_id}}" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.name }}.jpg)"> 
+			<img class="reto_icon" src="{{ site.baseurl }}images/retos/{{ challenge.name }}.svg">
+		    <h1 class="challenge_title">{{challenge.name}}</h1>
+		    <ul class="locaciones locaciones{{ challenge_id }}">
 		    	{% for location in challenge.locations %}
 		    	<li>
 		    		<h3 class="challenge_title">{{ location.place }}</h3>
@@ -61,20 +63,20 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 
 		<script>
 		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion{{ challenge.id }} = querySelector('.locaciones{{ challenge.id }}');
-		  var locTrigger{{ challenge.id }} = querySelector('.locacion_clickable{{ challenge.id }}');
+		  var locAccordion{{ challenge_id }} = querySelector('.locaciones{{ challenge_id }}');
+		  var locTrigger{{ challenge_id }} = querySelector('.locacion_clickable{{ challenge_id }}');
 		  var locTriggerOther = querySelector('.locacion_clickable');
 
 		  function closeAccordion(){
-		    locTrigger{{ challenge.id }}.classList.remove('locaciones_open');
+		    locTrigger{{ challenge_id }}.classList.remove('locaciones_open');
 		  }
 
 		  function toggleAccordion(){
 		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
-		    locTrigger{{ challenge.id }}.classList.toggle('locaciones_open');
+		    locTrigger{{ challenge_id }}.classList.toggle('locaciones_open');
 		  }
 
-		  locTrigger{{ challenge.id }}.addEventListener('click', toggleAccordion);
+		  locTrigger{{ challenge_id }}.addEventListener('click', toggleAccordion);
 		</script>
 
 	{% endfor %}
@@ -83,7 +85,8 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 		<h2>Recuerdos</h2>
 			<ul class="destination_gallery">
 				{% for image in destination.images %}
-				<a data-remodal-target="modal{{ image.id }}">
+				<!--{% increment image_id2 %}-->
+				<a data-remodal-target="modal{{image_id2}}">
 					<li style="background-image: url({{ site.baseurl }}images/locaciones/{{ image.link }});"></li>
 				</a>
 				{% endfor %}

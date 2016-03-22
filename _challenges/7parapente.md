@@ -1,25 +1,25 @@
 ---
-title: "Esqui"
-image: "esqui.jpg"
-icon: "esqui.svg"
-id: "3"
+title: "Parapente"
+image: "parapente.jpg"
+icon: "parapente.svg"
+id: "7"
 locations:
   - place: "Puebla"
     contacts:
-      - name: "Esqui de Puebla"
+      - name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - place: "Chacahua"
     contacts:
-      - name: "Esqui de Chacahua"
+      - name: "Parapentes de Chacahua"
         link: "http://holi.com/"
-        info: "53-84-63-99-62"
-      - name: "Esqui de Chacahua"
+        info: "53-84-63-99-62" 
+      - name: "Parapentes de Chacahua"
         link: "http://holi.com/"
-        info: "Texto de esqui"
+        info: "Texto de parapentes"
   - place: "Bacalar"
     contacts:
-      - name: "Esqui de Bacalar"
+      - name: "Parapentes de Bacalar"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
 ---
