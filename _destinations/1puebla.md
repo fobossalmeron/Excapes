@@ -12,19 +12,19 @@ deals:
     link: "http://santaanitahotel.com/"
     hiddeninfo: "CONVENIO:<br>REYESEX0101" 
 challenges:
-  - name: "Rapel"
+  - name: "rapel"
     locations: 
       - place: "Cuetzalan"
         name: "Cascadas Las Brisas"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
-  - name: "Espeleologia"
+  - name: "espeleologia"
     locations: 
       - place: "Zapotitlán"
         name: "Grutas de Zapotitlán"
         link: "http://zapotitlan.com/"
         info: "53-84-63-99-62"
-  - name: "Cuatrimoto"
+  - name: "cuatrimoto"
     locations: 
       - place: "Huauchinango"
         name: "Cuatrimotos Estrella"
