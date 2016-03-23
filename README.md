@@ -10,3 +10,4 @@ Desarrollo de sitio para Excapes
 
 - 3 Loops .gif 600x400 
 - Descripción del sitio
+- Descargables (stickers). 
