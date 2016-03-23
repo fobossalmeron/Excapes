@@ -959,10 +959,11 @@ h2 {
     float: left;
     width:49%;
     margin-right: 4%;
-    @include border-radius(0px);
+    @include border-radius(5px);
 
         span.deal_hiddeninfo{
             @include translateY(100%);
+            @include border-radius(0px);
             background-color: $contrastred;
             color: $white;
             text-align: center;
@@ -1089,7 +1090,7 @@ Retos
         cursor:pointer;
         overflow: hidden;
         @include transition(.2s, ease);
-        opacity: 0.8;
+        opacity: 1;
 
         &:nth-child(6n+5) {
             margin-right: 0;
@@ -1097,6 +1098,13 @@ Retos
 
         &:hover{
             opacity: 1;
+            background-size: 0px 0px !important;
+            .reto_icon{
+                opacity:1;
+            }
+            .reto_image{
+                opacity:0;
+            }
         }
 
         h1{
@@ -1107,12 +1115,23 @@ Retos
             font-size: 15px;
         }
 
-        .reto_image{
+     /*.reto_image{
             @include border-radius(5px);
             width: 100%;
             height:100px;
             position:relative;
             float:left;
+        }*/
+        .reto_image{
+            position: absolute;
+            background-size: cover;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            @include transition(.2s, ease);
+            @include border-radius(5px);
         }
         .reto_icon{
             position: relative;
@@ -1121,6 +1140,8 @@ Retos
             margin-top: 0px;
             width: 105px;
             @include translateX(-50%);
+            opacity: 0;
+            @include transition(.2s, ease);
         }
     }
 }
@@ -1189,15 +1210,15 @@ Retos
     overflow:visible !important;
     border-radius: 5px 5px 0px 0px !important;
     opacity:1 !important;
+    background-image: none !important;
+    .reto_icon{
+        opacity:1 !important;
+    }
+    .reto_image{
+        opacity:0 !important;
+    }
 
 }
-
-//.locacion_clickable:nth-child(3n+3){
-//    margin-right: 0px;
-//}
-//.locacion_clickable3, .locacion_clickable6, .locacion_clickable9, .locacion_clickable12{
-//    margin-right: 0 !important;
-//}
 
 /*
 About

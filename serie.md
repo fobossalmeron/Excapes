@@ -18,8 +18,9 @@ secondarysponsorlink: /patrocinadores/
     <h1>{{ episode.title }}</h1>
 	{{ episode.content }}
     {% for capsule in episode.capsules %}
-      {% if capsule.image %} 
-			<div class="remodal" data-remodal-id="modal{{ capsule.id }}" data-remodal-action="confirm">
+      {% if capsule.image %}
+      		<!--{% increment capsule_id %}--> 
+			<div class="remodal" data-remodal-id="modal{{ capsule_id }}" data-remodal-action="confirm">
 				<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="{{ site.baseurl }}images/locaciones/{{ capsule.image }}">
 			</div>
@@ -31,12 +32,11 @@ secondarysponsorlink: /patrocinadores/
 			{% if capsule.video %}
 			<div class="cap_episode">
 				<iframe src="{{ capsule.video }}" frameborder="0" allowfullscreen></iframe>
-			</div>
+			</div>  
 			{% endif %}
-			{% if capsule.image %}  
-			<a data-remodal-target="modal{{ capsule.id }}">
+			{% if capsule.image %}
+			<a data-remodal-target="modal{{ capsule_id }}">
 				<div class="cap_episode" style="background-image: url({{ site.baseurl }}images/episodios/{{ capsule.image }})">
-					<!--	<img src="{{ site.baseurl }}images/episodios/{{ capsule.image }}">-->
 				</div>
 			</a>
 			{% endif %}

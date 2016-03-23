@@ -47,7 +47,8 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 <ul class="retos">
 	{% for challenge in destination.challenges %}
 		<!--{% increment challenge_id %}-->
-		<li class="locacion_clickable locacion_clickable{{challenge_id}}" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.name }}.jpg)"> 
+		<li class="locacion_clickable locacion_clickable{{challenge_id}}"> 
+			<div class="reto_image" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.name }}.jpg)"></div>
 			<img class="reto_icon" src="{{ site.baseurl }}images/retos/{{ challenge.name }}.svg">
 		    <h1 class="challenge_title">{{challenge.name}}</h1>
 		    <ul class="locaciones locaciones{{ challenge_id }}">

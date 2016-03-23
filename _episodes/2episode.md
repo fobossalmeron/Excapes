@@ -8,7 +8,6 @@ capsules:
     video: "https://www.youtube.com/embed/wJF5NXygL4k"
   - title: "Un recuerdo"
     image: "1.jpg"
-    id:    "cap2img1"
   - title: "Top 5"
     video: "https://www.youtube.com/embed/wJF5NXygL4k"
   - title: "Bloopers"

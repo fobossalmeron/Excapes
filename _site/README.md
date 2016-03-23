@@ -3,16 +3,10 @@
 Desarrollo de sitio para Excapes
 
 ## Falta
-Descripción del sitio
-X's en movil y Logo en iphone 6s
+- X's en movil  
+- Logo en iPhone 6s
 
-### Iconos portada
-- Bus
-- Avión
-- Hotel
-- Mochila
-- Señal de kilómetros
+### Bernardo: 
 
-### Inicio
-
-- 3 Loops .gif 600x400
+- 3 Loops .gif 600x400 
+- Descripción del sitio

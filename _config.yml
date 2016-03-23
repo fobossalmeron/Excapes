@@ -17,5 +17,4 @@ markdown: kramdown
 collections:
   - episodes
   - destinations
-  - challenges
   - sponsors
