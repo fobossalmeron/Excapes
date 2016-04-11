@@ -142,7 +142,7 @@ nav {
                 color:$contrastred;
             }
             &::after{
-                color:$contrastred;                
+                color:$contrastred;
             }
         }
     }
@@ -180,6 +180,7 @@ nav {
 
 $full-width: 28.571%;
 $half-width: 14.286%;
+$three-widths: 42.857%;
 $grid-height: 145px;
 
 .unit{
@@ -208,6 +209,10 @@ $grid-height: 145px;
     background-repeat: no-repeat;
     overflow: hidden;
     @include transition(.2s, ease);
+}
+
+.expandunit{
+  width:$three-widths;
 }
 
 .homegrid_column {
@@ -250,9 +255,9 @@ iframe{
 }
 
 #image1{
-    background-image: url("../images/inicio/1.jpg");
+    background-image: url("../images/inicio/1hash.jpg");
     background-size: cover;
-    
+
     &:before{
         font-family: $secondary-font-family;
         @include translateX(-100%);
@@ -267,7 +272,6 @@ iframe{
     }
 
     &:hover{
-        opacity: 0.9;
         &:before{
             @include translateX(0%);
         }
@@ -275,16 +279,13 @@ iframe{
 }
 
 #image2{
-    background-image: url("../images/inicio/2.jpg");
-    background-size: cover; 
-    &:hover{
-        background-image: url("../images/inicio/2.gif"); 
-    }
+    background-image: url("../images/inicio/2hash.jpg");
+    background-size: cover;
 }
 
 #image3{
-    background-image: url("../images/inicio/6.jpg");
-    background-size: cover; 
+    background-image: url("../images/inicio/6hash.jpg");
+    background-size: cover;
 
     &:before{
         font-family: $secondary-font-family;
@@ -300,7 +301,6 @@ iframe{
     }
 
     &:hover{
-        opacity: 0.9;
         &:before{
             @include translateX(0%);
         }
@@ -308,8 +308,8 @@ iframe{
 }
 
 #image4{
-    background-image: url("../images/inicio/4.jpg");
-    background-size: cover; 
+    background-image: url("../images/inicio/4hash.jpg");
+    background-size: cover;
     &:before{
         font-family: $secondary-font-family;
         @include translateX(-100%);
@@ -324,7 +324,6 @@ iframe{
     }
 
     &:hover{
-        opacity: 0.9;
         &:before{
             @include translateX(0%);
         }
@@ -332,8 +331,8 @@ iframe{
 }
 
 #image5{
-    background-image: url("../images/inicio/5.jpg");
-    background-size: cover; 
+    background-image: url("../images/inicio/5hash.jpg");
+    background-size: cover;
     &:before{
         font-family: $secondary-font-family;
         @include translateX(100%);
@@ -348,7 +347,6 @@ iframe{
     }
 
     &:hover{
-        opacity: 0.9;
         &:before{
             @include translateX(0%);
         }
@@ -356,23 +354,17 @@ iframe{
 }
 
 #image6{
-    background-image: url("../images/inicio/3.jpg");
-    background-size: cover; 
+    background-image: url("../images/inicio/3hash.jpg");
+    background-size: cover;
     width: 95%;
     margin: 0 5% 0 0;
-    &:hover{
-        background-image: url("../images/inicio/3.gif"); 
-    }
 }
 
 #image7{
-    background-image: url("../images/inicio/7.jpg");
-    background-size: cover; 
+    background-image: url("../images/inicio/7hash.jpg");
+    background-size: cover;
     margin: 0 0 0 5%;
     width:95%;
-    &:hover{
-        background-image: url("../images/inicio/7.gif"); 
-    }
 }
 
 #icon1{
@@ -395,17 +387,17 @@ iframe{
     position: absolute;
     bottom: 0;
     left: 0;
-    background-image: url("../images/inicio/graphic1.svg");
+    background-image: url("../images/inicio/graphic2.svg");
     background-color: $red;
 }
 #graphic2{
-    background-image: url("../images/inicio/graphic2.svg");
+    background-image: url("../images/inicio/graphic1.svg");
     margin: 5% 5% 5% 45%;
     background-color: $red;
 }
 #graphic3{
     background-image: url("../images/inicio/graphic5.svg");
-    margin: 5px; 
+    margin: 5px;
     background-color: $red;
 }
 
@@ -579,7 +571,7 @@ iframe{
 
 footer {
     padding: 0;
-    background-color: $red; 
+    background-color: $red;
     margin-top: 10%;
 }
 
@@ -657,7 +649,7 @@ footer {
         border-bottom: 5px solid rgba(0,0,0,0.2);
         @include border-radius(5px);
     }
-    
+
     a{
         float: left;
         width: 48%;
@@ -667,7 +659,7 @@ footer {
         opacity: 0.7;
         @include transition(.4s, ease);
         margin-right: 4%;
-   
+
 
         &:hover{
             opacity:1;
@@ -693,10 +685,40 @@ padding: 0 3% 3% 3%
     width:100%;
 }
 
+.inversed_name{
+  margin-bottom:0;
+}
+
+.calltoaction{
+    width:90% !important;
+    margin: 0 5%;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    padding-top:1%;
+
+      a{
+        color:$red;
+        padding: 6px 6px 2px 6px;
+        width:100%;
+        text-align: center;
+        float: left;
+        background-position: 100% 0;
+        box-shadow: inset 0 0 0 0 $red;
+        border-radius: 5px;
+        @include transition(0.4s,ease);
+        &:hover{
+          box-shadow: inset 700px 0 0 0 $red;
+          text-decoration: none;
+          color: $contrastred;
+          background-position: 0 0;
+        }
+      }
+}
+
 .episodio{
     float:left;
     margin-bottom: 5%;
-    
+
     h1{
         margin-bottom: 0px;
         margin-top: 1%;
@@ -725,7 +747,7 @@ padding: 0 3% 3% 3%
                 width:100%;
             }
         }
-        
+
         &:nth-child(3n+3){
             margin-right: 0;
         }
@@ -843,6 +865,7 @@ h2 {
     width:100%;
     height: 330px;
     float:left;
+    margin-bottom: 2%;
 }
 
 .main_about{
@@ -869,7 +892,7 @@ h2 {
 .destination{
     float:left;
     width: 100%;
-    
+
     h1{
         margin-top: 1%;
         margin-bottom: 0px;
@@ -894,7 +917,7 @@ h2 {
     float: left;
     clear:both;
     padding: 0;
-} 
+}
 .destination_options{
     padding: 0px;
     width: 32%;
@@ -910,7 +933,7 @@ h2 {
         float: left;
         width: 23%;
         margin-right: 2%;
-   
+
         height: 70px;
         overflow: hidden;
         margin-bottom: 10px;
@@ -1017,7 +1040,7 @@ h2 {
 .coupon{
     &:nth-child(even){
       li{ margin-right: 0;
-      } 
+      }
     }
 }
 
@@ -1089,7 +1112,7 @@ Retos
         margin: 0 5% 3% 0;
         cursor:pointer;
         overflow: hidden;
-        @include transition(.2s, ease);
+        @include transition(.1s, ease);
         opacity: 1;
 
         &:nth-child(6n+5) {
@@ -1098,6 +1121,8 @@ Retos
 
         &:hover{
             opacity: 1;
+            overflow: visible;
+            @include border-radius-multiple(5px, 5px, 0px, 0px);
             background-size: 0px 0px !important;
             .reto_icon{
                 opacity:1;
@@ -1115,13 +1140,6 @@ Retos
             font-size: 15px;
         }
 
-     /*.reto_image{
-            @include border-radius(5px);
-            width: 100%;
-            height:100px;
-            position:relative;
-            float:left;
-        }*/
         .reto_image{
             position: absolute;
             background-size: cover;
@@ -1153,6 +1171,7 @@ Retos
   opacity: 1;
   background-color: cornflowerblue;
   float: left;
+  @include transition(.2s, ease);
   @include border-radius(5px);
 
   li{
@@ -1267,7 +1286,7 @@ form{
         text-align: right;
         width: 15%;
         color:$white;
-   
+
     }
     input{
         float: left;
@@ -1434,7 +1453,7 @@ Stickynav
 }
 
 .stickyopen{
-    @include translateY(0%);  
+    @include translateY(0%);
 }
 
 .stickyvisible{
@@ -1481,7 +1500,7 @@ Stickynav
         color: $black;
         @include translateX(-50%);
         position: relative;
-        
+
         a{
             color: $black;
         }

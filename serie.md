@@ -9,17 +9,18 @@ secondarysponsor: sidebar-ad-mini-semiosfera.png
 secondarysponsorhorizontal: horizontal-ad-mini-semiosfera.png
 secondarysponsorlink: /patrocinadores/
 ---
- 
-{% for episode in site.episodes reversed %}
+
+{% for episode in site.episodes %}
 <div class="episodio">
+  <h1 class="inversed_name">{{ episode.title }}</h1>
 	<div class="main_video">
 		<iframe src="{{ episode.video }}" frameborder="0" allowfullscreen></iframe>
 	</div>
-    <h1>{{ episode.title }}</h1>
+    <h2 class="calltoaction"><a href="{{ site.baseurl }}jalate/">Se el próximo aventurero, jálate!</a></h2>
 	{{ episode.content }}
     {% for capsule in episode.capsules %}
       {% if capsule.image %}
-      		<!--{% increment capsule_id %}--> 
+      		<!--{% increment capsule_id %}-->
 			<div class="remodal" data-remodal-id="modal{{ capsule_id }}" data-remodal-action="confirm">
 				<button data-remodal-action="close" class="remodal-close"></button>
 				<img src="{{ site.baseurl }}images/locaciones/{{ capsule.image }}">
@@ -32,7 +33,7 @@ secondarysponsorlink: /patrocinadores/
 			{% if capsule.video %}
 			<div class="cap_episode">
 				<iframe src="{{ capsule.video }}" frameborder="0" allowfullscreen></iframe>
-			</div>  
+			</div>
 			{% endif %}
 			{% if capsule.image %}
 			<a data-remodal-target="modal{{ capsule_id }}">

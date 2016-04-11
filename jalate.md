@@ -2,6 +2,19 @@
 layout: page
 title: Jálate
 permalink: jalate/
+travelers:
+  - title: "Juan"
+    video: "https://www.youtube.com/embed/wJF5NXygL4k"
+  - title: "Emma"
+    video: "https://www.youtube.com/embed/wJF5NXygL4k"
+  - title: "Sayra"
+    video: "https://www.youtube.com/embed/wJF5NXygL4k"
+  - title: "Fernanda"
+    video: "https://www.youtube.com/embed/wJF5NXygL4k"
+  - title: "Mercedes"
+    video: "https://www.youtube.com/embed/wJF5NXygL4k"
+  - title: "Andrea"
+    video: "https://www.youtube.com/embed/wJF5NXygL4k"
 mainsponsor: sidebar-ad1.jpg
 mainsponsorhorizontal: horizontal-ad1.jpg
 mainsponsorlink: http://www.redbull.com/mx/es
@@ -14,10 +27,20 @@ secondarysponsorlink: http://www.redbull.com/mx/es/surfing
 	<iframe src="https://www.youtube.com/embed/WTYXsprhc0M" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<ul class="capsulas">
+		{% for traveler in page.travelers %}
+	<li>
+		<div class="cap_episode">
+			<iframe src="{{ traveler.video }}" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<h2>{{ traveler.title }}</h2>
+	</li>
+	{% endfor %}
+</ul>
+
 <div class="about_info">
-	<br>
-	Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b>E<span class="xtext">X</span>CAPES</b>. Si quieres participar graba un video contándonos cuál es tu e<span class="xtext">x</span>cusa para viajar. 
-	Grábate con cualquier cámara o con tu celular, dónde quieras, cómo quieras y <a href="mailto:contacto@excapes.tv" target="_blank">manda tu video!</a> No importa de dónde seas sino tus ganas de viajar.
+	Queremos invitarte a que agarres tu mochila y vengas a descubrir México con </b>E<span class="xtext">X</span>CAPES</b>. Si quieres participar graba un video contándonos cuál es tu e<span class="xtext">x</span>cusa para viajar.
+	Grábate con cualquier cámara o con tu celular, dónde quieras, cómo quieras y <a href="mailto:quieroviajar@excapes.tv" target="_blank">manda tu video!</a> No importa de dónde seas sino tus ganas de viajar.
 </div>
 
 <div class="panel data_for_email">
@@ -25,9 +48,9 @@ secondarysponsorlink: http://www.redbull.com/mx/es/surfing
 	<ul>
 		<li><b>Primer paso:</b> tener un chingo de ganas de viajar y aparecer en la serie.
 		</li>
-		<li><b>Segundo paso:</b> grabar un video de máximo 30 segundos y máximo 25 megas, contándonos cuál es tu excusa, y si te late puedes hacerlo acompañado de 1 o 2 amigos más. 
+		<li><b>Segundo paso:</b> grabar un video de máximo 30 segundos y máximo 25 megas, contándonos cuál es tu excusa, y si te late puedes hacerlo acompañado de 1 o 2 amigos más.
 		</li>
-		<li><b>Tercer paso:</b> mándanos el video a <a href="mailto:quieroviajar@excapes.tv" target="_blank">quieroviajar@excapes.tv</a> con tus datos personales: nombre, edad y lugar de procedencia. 
+		<li><b>Tercer paso:</b> mándanos el video a <a href="mailto:quieroviajar@excapes.tv" target="_blank">quieroviajar@excapes.tv</a> con tus datos personales: nombre, edad y lugar de procedencia.
 		</li>
 	</ul>
 	<p>
@@ -39,7 +62,7 @@ secondarysponsorlink: http://www.redbull.com/mx/es/surfing
 <div class="panel descarga_material">
 	<a href="{{ site.baseurl }}pdfs/promocion.pdf">
 			<div class="descarga_boton">
-			<p>Descarga stickers y diseños de la serie!</p>
+			<p>Descarga stickers y stencils de la serie!</p>
 			<div class="graphicseparator xbutton"></div>
 			</div>
 	</a>

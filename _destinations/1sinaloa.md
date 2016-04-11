@@ -1,5 +1,5 @@
 ---
-title: "Michoacán"
+title: "Sinaloa"
 subtitle: "Checa lo que encontramos!"
 video: "https://www.youtube.com/embed/-k65ampKwhQ"
 deals:
@@ -10,13 +10,13 @@ deals:
   - type: "hotel"
     info: "Hotel Santa Anita<br>Convenio Excapes"
     link: "http://santaanitahotel.com/"
-    hiddeninfo: "CONVENIO:<br>REYESEX0101" 
+    hiddeninfo: "CONVENIO:<br>REYESEX0101"
   - type: "bus"
     info: "Autovías<br>Convenio Excapes"
     link: "http://www.volaris.com/"
 challenges:
   - name: "tirolesa"
-    locations: 
+    locations:
       - place: "Cuetzalan"
         name: "Parapentes de Cuetzalan"
         link: "http://holi.com/"
@@ -26,91 +26,91 @@ challenges:
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "rapel"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "buceo"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "espeleologia"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "kayak"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "windsurf"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "parapente"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "paracaidas"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "globo"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "jetski"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "cuatrimoto"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "surf"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "rafting"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "motocicleta"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "sandboard"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
         info: "53-84-63-99-62"
   - name: "esqui"
-    locations: 
+    locations:
       - place: "Aconco"
         name: "Parapentes de Puebla"
         link: "http://holi.com/"
