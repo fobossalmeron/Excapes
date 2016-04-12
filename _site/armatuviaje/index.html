@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head> 
+  <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,7 @@
   <meta name="description" content="Excapes es una web-serie de viajes.">
 
   <link rel="stylesheet" href="/css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,300italic|Special+Elite' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="http://excapes.tv/armatuviaje/">
   <link rel="alternate" type="application/rss+xml" title="Excapes" href="http://excapes.tv/feed.xml" />
 
@@ -31,10 +32,8 @@
   <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <link rel="shortcut icon" href="/favicon.ico" />
-
-  <script src="/scripts/jquery-1.11.3.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,300italic|Special+Elite' rel='stylesheet' type='text/css'>
   
+  <script src="/scripts/jquery-1.11.3.min.js"></script>
 </head>
 
 
@@ -128,69 +127,141 @@
     <p style="float:left;">Échale un ojo a esta guía para que viajes por México como te dé la gana.</p>
 
 <div class="destination">
-	  <h1>Sinaloa</h1>
-	  <h2>Checa lo que encontramos!</h2>
-	  <div class="main_video">
-		     <iframe src="https://www.youtube.com/embed/-k65ampKwhQ" frameborder="0" allowfullscreen=""></iframe>
-	  </div>
+	<h1>Sinaloa</h1>
+	<h2>Checa lo que encontramos!</h2>
+	<div class="main_video">
+	  <iframe src="https://www.youtube.com/embed/-k65ampKwhQ" frameborder="0" allowfullscreen=""></iframe>
+	</div>
 
-    <main class="destination_content">
-		
-		<!--0-->
-		<div class="remodal" data-remodal-id="modal1" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/2.jpg" />
-		</div>
-		
-		<!--1-->
-		<div class="remodal" data-remodal-id="modal2" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/3.jpg" />
-		</div>
-		
-		<!--2-->
-		<div class="remodal" data-remodal-id="modal3" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/4.jpg" />
-		</div>
-		
-		<!--3-->
-		<div class="remodal" data-remodal-id="modal4" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/5.jpg" />
-		</div>
-		
-
+  <main class="destination_content">
+    
 		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
   	<ul class="challenge_list">
 		  
-				<a href="http://www.volaris.com/" class="coupon">
-					<li class="challenge deal" style="background-image: url(/images/promociones/plane.svg);">
-						<span class="deal_info">Código de Promoción<br />$400 MXN</span>
-						
-						<span class="deal_hiddeninfo">CÓDIGO:<br />VOLARISEX0101</span>
-						
+      <!--0-->
+					<li class="challenge deal locacion_clickable deal_clickable1">
+
+            
+            <img class="deal_icon" src="/images/promociones/plane.svg" />
+            <span class="deal_info">Vuelos</span>
+            
+            
+            
+
+            <ul class="deal_hiddeninfo deals1">
+  						
+  						<li>
+                <h3>Mochis</h3>
+                <a href="http://holi.com/">Vuelo a mochis</a>
+                <p>Vuela con Volaris</p>
+              </li>
+              
+  						<li>
+                <h3>Mazatlán</h3>
+                <a href="http://holi.com/">Vuelo a Mazatlán</a>
+                <p>Vuela con Interjet</p>
+              </li>
+              
+            </ul>
 					</li>
-				</a>
+
+          <script>
+            var querySelector = document.querySelector.bind(document);
+            var locAccordiond1 = querySelector('.deals1');
+            var locTriggerd1 = querySelector('.deal_clickable1');
+            var locTriggerOther = querySelector('.locacion_clickable');
+            function closeAccordion(){
+              locTriggerd1.classList.remove('locaciones_open');
+            }
+            function toggleAccordion(){
+              $('.locacion_clickable').not(this).removeClass('locaciones_open');
+              locTriggerd1.classList.toggle('locaciones_open');
+            }
+            locTriggerd1.addEventListener('click', toggleAccordion);
+          </script>
 			
-				<a href="http://santaanitahotel.com/" class="coupon">
-					<li class="challenge deal" style="background-image: url(/images/promociones/hotel.svg);">
-						<span class="deal_info">Hotel Santa Anita<br />Convenio Excapes</span>
-						
-						<span class="deal_hiddeninfo">CONVENIO:<br />REYESEX0101</span>
-						
+      <!--1-->
+					<li class="challenge deal locacion_clickable deal_clickable2">
+
+            
+            
+            <img class="deal_icon" src="/images/promociones/hotel.svg" />
+            <span class="deal_info">Hoteles</span>
+            
+            
+
+            <ul class="deal_hiddeninfo deals2">
+  						
+  						<li>
+                <h3>Mochis</h3>
+                <a href="http://holi.com/">Hotel en Mochis</a>
+                <p>Hospédate en el hotel Mochis y pregunta por EXCAPES!</p>
+              </li>
+              
+  						<li>
+                <h3>Mazatlán</h3>
+                <a href="http://holi.com/">Hotel en Mazatlán</a>
+                <p>Hospédate en el hotel Super Mazatlán.</p>
+              </li>
+              
+            </ul>
 					</li>
-				</a>
+
+          <script>
+            var querySelector = document.querySelector.bind(document);
+            var locAccordiond2 = querySelector('.deals2');
+            var locTriggerd2 = querySelector('.deal_clickable2');
+            var locTriggerOther = querySelector('.locacion_clickable');
+            function closeAccordion(){
+              locTriggerd2.classList.remove('locaciones_open');
+            }
+            function toggleAccordion(){
+              $('.locacion_clickable').not(this).removeClass('locaciones_open');
+              locTriggerd2.classList.toggle('locaciones_open');
+            }
+            locTriggerd2.addEventListener('click', toggleAccordion);
+          </script>
 			
-				<a href="http://www.volaris.com/" class="coupon">
-					<li class="challenge deal" style="background-image: url(/images/promociones/bus.svg);">
-						<span class="deal_info">Autovías<br />Convenio Excapes</span>
-						
+      <!--2-->
+					<li class="challenge deal locacion_clickable deal_clickable3">
+
+            
+            
+            
+            <img class="deal_icon" src="/images/promociones/bus.svg" />
+            <span class="deal_info">Autobuses</span>
+            
+
+            <ul class="deal_hiddeninfo deals3">
+  						
+  						<li>
+                <h3>Mochis</h3>
+                <a href="http://holi.com/">Hotel en Mochis</a>
+                <p>Hospédate en el hotel</p>
+              </li>
+              
+            </ul>
 					</li>
-				</a>
+
+          <script>
+            var querySelector = document.querySelector.bind(document);
+            var locAccordiond3 = querySelector('.deals3');
+            var locTriggerd3 = querySelector('.deal_clickable3');
+            var locTriggerOther = querySelector('.locacion_clickable');
+            function closeAccordion(){
+              locTriggerd3.classList.remove('locaciones_open');
+            }
+            function toggleAccordion(){
+              $('.locacion_clickable').not(this).removeClass('locaciones_open');
+              locTriggerd3.classList.toggle('locaciones_open');
+            }
+            locTriggerd3.addEventListener('click', toggleAccordion);
+          </script>
 			
 		</ul>
+    
 
+		
 		<h2>¿Te avientas?</h2>
     <ul class="retos">
 	    
@@ -214,23 +285,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion1 = querySelector('.locaciones1');
-		  var locTrigger1 = querySelector('.locacion_clickable1');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger1.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger1.classList.toggle('locaciones_open');
-		  }
-		  locTrigger1.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion1 = querySelector('.locaciones1');
+  		  var locTrigger1 = querySelector('.locacion_clickable1');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger1.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger1.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger1.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--1-->
 	  	<li class="locacion_clickable locacion_clickable2">
 			 <div class="reto_image" style="background-image: url(/images/retos/rapel.jpg)"></div>
@@ -245,23 +316,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion2 = querySelector('.locaciones2');
-		  var locTrigger2 = querySelector('.locacion_clickable2');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger2.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger2.classList.toggle('locaciones_open');
-		  }
-		  locTrigger2.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion2 = querySelector('.locaciones2');
+  		  var locTrigger2 = querySelector('.locacion_clickable2');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger2.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger2.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger2.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--2-->
 	  	<li class="locacion_clickable locacion_clickable3">
 			 <div class="reto_image" style="background-image: url(/images/retos/buceo.jpg)"></div>
@@ -276,23 +347,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion3 = querySelector('.locaciones3');
-		  var locTrigger3 = querySelector('.locacion_clickable3');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger3.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger3.classList.toggle('locaciones_open');
-		  }
-		  locTrigger3.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion3 = querySelector('.locaciones3');
+  		  var locTrigger3 = querySelector('.locacion_clickable3');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger3.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger3.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger3.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--3-->
 	  	<li class="locacion_clickable locacion_clickable4">
 			 <div class="reto_image" style="background-image: url(/images/retos/espeleologia.jpg)"></div>
@@ -307,23 +378,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion4 = querySelector('.locaciones4');
-		  var locTrigger4 = querySelector('.locacion_clickable4');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger4.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger4.classList.toggle('locaciones_open');
-		  }
-		  locTrigger4.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion4 = querySelector('.locaciones4');
+  		  var locTrigger4 = querySelector('.locacion_clickable4');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger4.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger4.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger4.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--4-->
 	  	<li class="locacion_clickable locacion_clickable5">
 			 <div class="reto_image" style="background-image: url(/images/retos/kayak.jpg)"></div>
@@ -338,23 +409,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion5 = querySelector('.locaciones5');
-		  var locTrigger5 = querySelector('.locacion_clickable5');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger5.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger5.classList.toggle('locaciones_open');
-		  }
-		  locTrigger5.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion5 = querySelector('.locaciones5');
+  		  var locTrigger5 = querySelector('.locacion_clickable5');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger5.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger5.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger5.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--5-->
 	  	<li class="locacion_clickable locacion_clickable6">
 			 <div class="reto_image" style="background-image: url(/images/retos/windsurf.jpg)"></div>
@@ -369,23 +440,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion6 = querySelector('.locaciones6');
-		  var locTrigger6 = querySelector('.locacion_clickable6');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger6.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger6.classList.toggle('locaciones_open');
-		  }
-		  locTrigger6.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion6 = querySelector('.locaciones6');
+  		  var locTrigger6 = querySelector('.locacion_clickable6');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger6.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger6.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger6.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--6-->
 	  	<li class="locacion_clickable locacion_clickable7">
 			 <div class="reto_image" style="background-image: url(/images/retos/parapente.jpg)"></div>
@@ -400,23 +471,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion7 = querySelector('.locaciones7');
-		  var locTrigger7 = querySelector('.locacion_clickable7');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger7.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger7.classList.toggle('locaciones_open');
-		  }
-		  locTrigger7.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion7 = querySelector('.locaciones7');
+  		  var locTrigger7 = querySelector('.locacion_clickable7');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger7.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger7.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger7.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--7-->
 	  	<li class="locacion_clickable locacion_clickable8">
 			 <div class="reto_image" style="background-image: url(/images/retos/paracaidas.jpg)"></div>
@@ -431,23 +502,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion8 = querySelector('.locaciones8');
-		  var locTrigger8 = querySelector('.locacion_clickable8');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger8.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger8.classList.toggle('locaciones_open');
-		  }
-		  locTrigger8.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion8 = querySelector('.locaciones8');
+  		  var locTrigger8 = querySelector('.locacion_clickable8');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger8.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger8.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger8.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--8-->
 	  	<li class="locacion_clickable locacion_clickable9">
 			 <div class="reto_image" style="background-image: url(/images/retos/globo.jpg)"></div>
@@ -462,23 +533,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion9 = querySelector('.locaciones9');
-		  var locTrigger9 = querySelector('.locacion_clickable9');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger9.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger9.classList.toggle('locaciones_open');
-		  }
-		  locTrigger9.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion9 = querySelector('.locaciones9');
+  		  var locTrigger9 = querySelector('.locacion_clickable9');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger9.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger9.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger9.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--9-->
 	  	<li class="locacion_clickable locacion_clickable10">
 			 <div class="reto_image" style="background-image: url(/images/retos/jetski.jpg)"></div>
@@ -493,23 +564,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion10 = querySelector('.locaciones10');
-		  var locTrigger10 = querySelector('.locacion_clickable10');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger10.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger10.classList.toggle('locaciones_open');
-		  }
-		  locTrigger10.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion10 = querySelector('.locaciones10');
+  		  var locTrigger10 = querySelector('.locacion_clickable10');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger10.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger10.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger10.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--10-->
 	  	<li class="locacion_clickable locacion_clickable11">
 			 <div class="reto_image" style="background-image: url(/images/retos/cuatrimoto.jpg)"></div>
@@ -524,23 +595,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion11 = querySelector('.locaciones11');
-		  var locTrigger11 = querySelector('.locacion_clickable11');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger11.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger11.classList.toggle('locaciones_open');
-		  }
-		  locTrigger11.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion11 = querySelector('.locaciones11');
+  		  var locTrigger11 = querySelector('.locacion_clickable11');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger11.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger11.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger11.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--11-->
 	  	<li class="locacion_clickable locacion_clickable12">
 			 <div class="reto_image" style="background-image: url(/images/retos/surf.jpg)"></div>
@@ -555,23 +626,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion12 = querySelector('.locaciones12');
-		  var locTrigger12 = querySelector('.locacion_clickable12');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger12.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger12.classList.toggle('locaciones_open');
-		  }
-		  locTrigger12.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion12 = querySelector('.locaciones12');
+  		  var locTrigger12 = querySelector('.locacion_clickable12');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger12.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger12.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger12.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--12-->
 	  	<li class="locacion_clickable locacion_clickable13">
 			 <div class="reto_image" style="background-image: url(/images/retos/rafting.jpg)"></div>
@@ -586,23 +657,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion13 = querySelector('.locaciones13');
-		  var locTrigger13 = querySelector('.locacion_clickable13');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger13.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger13.classList.toggle('locaciones_open');
-		  }
-		  locTrigger13.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion13 = querySelector('.locaciones13');
+  		  var locTrigger13 = querySelector('.locacion_clickable13');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger13.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger13.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger13.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--13-->
 	  	<li class="locacion_clickable locacion_clickable14">
 			 <div class="reto_image" style="background-image: url(/images/retos/motocicleta.jpg)"></div>
@@ -617,23 +688,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion14 = querySelector('.locaciones14');
-		  var locTrigger14 = querySelector('.locacion_clickable14');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger14.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger14.classList.toggle('locaciones_open');
-		  }
-		  locTrigger14.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion14 = querySelector('.locaciones14');
+  		  var locTrigger14 = querySelector('.locacion_clickable14');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger14.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger14.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger14.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--14-->
 	  	<li class="locacion_clickable locacion_clickable15">
 			 <div class="reto_image" style="background-image: url(/images/retos/sandboard.jpg)"></div>
@@ -648,23 +719,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion15 = querySelector('.locaciones15');
-		  var locTrigger15 = querySelector('.locacion_clickable15');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger15.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger15.classList.toggle('locaciones_open');
-		  }
-		  locTrigger15.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion15 = querySelector('.locaciones15');
+  		  var locTrigger15 = querySelector('.locacion_clickable15');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger15.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger15.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger15.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--15-->
 	  	<li class="locacion_clickable locacion_clickable16">
 			 <div class="reto_image" style="background-image: url(/images/retos/esqui.jpg)"></div>
@@ -679,48 +750,113 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion16 = querySelector('.locaciones16');
-		  var locTrigger16 = querySelector('.locacion_clickable16');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger16.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger16.classList.toggle('locaciones_open');
-		  }
-		  locTrigger16.addEventListener('click', toggleAccordion);
-		</script>
-	
-  </ul>
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion16 = querySelector('.locaciones16');
+  		  var locTrigger16 = querySelector('.locacion_clickable16');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger16.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger16.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger16.addEventListener('click', toggleAccordion);
+  		</script>
+	    
+    </ul>
+    
 
 		
 		<h2>Tienes que visitar estos lugares!</h2>
-			<ul class="destination_gallery">
+			<ul class="retos hotspots">
 				
 				<!--0-->
-				<a data-remodal-target="modal1">
-					<li style="background-image: url(/images/locaciones/2.jpg);"></li>
-				</a>
+            <li class="locacion_clickable hotspot_clickable1">
+              <div class="reto_image" style="background-image: url(/images/locaciones/1.jpg)"></div>
+              <img class="reto_icon" src="/images/locaciones/locacion.svg" />
+              <h1 class="challenge_title">El Maviri</h1>
+              <ul class="locaciones hotspots1">
+                <li>
+                  <a href="https://goo.gl/maps/LsQYajYmo6L2" target="_blank">Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin.</a>
+                </li>
+              </ul>
+            </li>
+
+            <script>
+        		  var querySelector = document.querySelector.bind(document);
+        		  var locAccordion_h1 = querySelector('.hotspots1');
+        		  var locTrigger_h1 = querySelector('.hotspot_clickable1');
+        		  var locTriggerOther = querySelector('.locacion_clickable');
+        		  function closeAccordion(){
+        		    locTrigger_h1.classList.remove('locaciones_open');
+        		  }
+        		  function toggleAccordion(){
+        		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+        		    locTrigger_h1.classList.toggle('locaciones_open');
+        		  }
+        		  locTrigger_h1.addEventListener('click', toggleAccordion);
+        		</script>
+
 				
 				<!--1-->
-				<a data-remodal-target="modal2">
-					<li style="background-image: url(/images/locaciones/3.jpg);"></li>
-				</a>
+            <li class="locacion_clickable hotspot_clickable2">
+              <div class="reto_image" style="background-image: url(/images/locaciones/2.jpg)"></div>
+              <img class="reto_icon" src="/images/locaciones/locacion.svg" />
+              <h1 class="challenge_title">Mazatlán</h1>
+              <ul class="locaciones hotspots2">
+                <li>
+                  <a href="https://goo.gl/maps/LsQYajYmo6L2" target="_blank">Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin.</a>
+                </li>
+              </ul>
+            </li>
+
+            <script>
+        		  var querySelector = document.querySelector.bind(document);
+        		  var locAccordion_h2 = querySelector('.hotspots2');
+        		  var locTrigger_h2 = querySelector('.hotspot_clickable2');
+        		  var locTriggerOther = querySelector('.locacion_clickable');
+        		  function closeAccordion(){
+        		    locTrigger_h2.classList.remove('locaciones_open');
+        		  }
+        		  function toggleAccordion(){
+        		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+        		    locTrigger_h2.classList.toggle('locaciones_open');
+        		  }
+        		  locTrigger_h2.addEventListener('click', toggleAccordion);
+        		</script>
+
 				
 				<!--2-->
-				<a data-remodal-target="modal3">
-					<li style="background-image: url(/images/locaciones/4.jpg);"></li>
-				</a>
-				
-				<!--3-->
-				<a data-remodal-target="modal4">
-					<li style="background-image: url(/images/locaciones/5.jpg);"></li>
-				</a>
+            <li class="locacion_clickable hotspot_clickable3">
+              <div class="reto_image" style="background-image: url(/images/locaciones/3.jpg)"></div>
+              <img class="reto_icon" src="/images/locaciones/locacion.svg" />
+              <h1 class="challenge_title">Culiacán</h1>
+              <ul class="locaciones hotspots3">
+                <li>
+                  <a href="https://goo.gl/maps/LsQYajYmo6L2" target="_blank">Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin.</a>
+                </li>
+              </ul>
+            </li>
+
+            <script>
+        		  var querySelector = document.querySelector.bind(document);
+        		  var locAccordion_h3 = querySelector('.hotspots3');
+        		  var locTrigger_h3 = querySelector('.hotspot_clickable3');
+        		  var locTriggerOther = querySelector('.locacion_clickable');
+        		  function closeAccordion(){
+        		    locTrigger_h3.classList.remove('locaciones_open');
+        		  }
+        		  function toggleAccordion(){
+        		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+        		    locTrigger_h3.classList.toggle('locaciones_open');
+        		  }
+        		  locTrigger_h3.addEventListener('click', toggleAccordion);
+        		</script>
+
 				
 			</ul>
 		
@@ -730,68 +866,57 @@
 </div>
 
 <div class="destination">
-	  <h1>Puebla</h1>
-	  <h2>Checa lo que encontramos!</h2>
-	  <div class="main_video">
-		     <iframe src="https://www.youtube.com/embed/Mr7uGgl40QU" frameborder="0" allowfullscreen=""></iframe>
-	  </div>
+	<h1>Puebla</h1>
+	<h2>Checa lo que encontramos!</h2>
+	<div class="main_video">
+	  <iframe src="https://www.youtube.com/embed/Mr7uGgl40QU" frameborder="0" allowfullscreen=""></iframe>
+	</div>
 
-    <main class="destination_content">
-		
-		<!--4-->
-		<div class="remodal" data-remodal-id="modal5" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/1.jpg" />
-		</div>
-		
-		<!--5-->
-		<div class="remodal" data-remodal-id="modal6" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/2.jpg" />
-		</div>
-		
-		<!--6-->
-		<div class="remodal" data-remodal-id="modal7" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/3.jpg" />
-		</div>
-		
-		<!--7-->
-		<div class="remodal" data-remodal-id="modal8" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/4.jpg" />
-		</div>
-		
-		<!--8-->
-		<div class="remodal" data-remodal-id="modal9" data-remodal-action="confirm">
-			<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="/images/locaciones/5.jpg" />
-		</div>
-		
-
+  <main class="destination_content">
+    
 		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
   	<ul class="challenge_list">
 		  
-				<a href="http://www.volaris.com/" class="coupon">
-					<li class="challenge deal" style="background-image: url(/images/promociones/plane.svg);">
-						<span class="deal_info">Código de Promoción<br />$400 MXN</span>
-						
-						<span class="deal_hiddeninfo">CÓDIGO:<br />VOLARISEX0101</span>
-						
+      <!--3-->
+					<li class="challenge deal locacion_clickable deal_clickable4">
+
+            
+            <img class="deal_icon" src="/images/promociones/plane.svg" />
+            <span class="deal_info">Vuelos</span>
+            
+            
+            
+
+            <ul class="deal_hiddeninfo deals4">
+  						
+  						<li>
+                <h3>Mochis</h3>
+                <a href="http://holi.com/">Vuelo a mochis</a>
+                <p>Vuela con Volaris</p>
+              </li>
+              
+            </ul>
 					</li>
-				</a>
-			
-				<a href="http://santaanitahotel.com/" class="coupon">
-					<li class="challenge deal" style="background-image: url(/images/promociones/hotel.svg);">
-						<span class="deal_info">Hotel Santa Anita<br />Convenio Excapes</span>
-						
-						<span class="deal_hiddeninfo">CONVENIO:<br />REYESEX0101</span>
-						
-					</li>
-				</a>
+
+          <script>
+            var querySelector = document.querySelector.bind(document);
+            var locAccordiond4 = querySelector('.deals4');
+            var locTriggerd4 = querySelector('.deal_clickable4');
+            var locTriggerOther = querySelector('.locacion_clickable');
+            function closeAccordion(){
+              locTriggerd4.classList.remove('locaciones_open');
+            }
+            function toggleAccordion(){
+              $('.locacion_clickable').not(this).removeClass('locaciones_open');
+              locTriggerd4.classList.toggle('locaciones_open');
+            }
+            locTriggerd4.addEventListener('click', toggleAccordion);
+          </script>
 			
 		</ul>
+    
 
+		
 		<h2>¿Te avientas?</h2>
     <ul class="retos">
 	    
@@ -809,23 +934,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion17 = querySelector('.locaciones17');
-		  var locTrigger17 = querySelector('.locacion_clickable17');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger17.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger17.classList.toggle('locaciones_open');
-		  }
-		  locTrigger17.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion17 = querySelector('.locaciones17');
+  		  var locTrigger17 = querySelector('.locacion_clickable17');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger17.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger17.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger17.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--17-->
 	  	<li class="locacion_clickable locacion_clickable18">
 			 <div class="reto_image" style="background-image: url(/images/retos/espeleologia.jpg)"></div>
@@ -840,23 +965,23 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion18 = querySelector('.locaciones18');
-		  var locTrigger18 = querySelector('.locacion_clickable18');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger18.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger18.classList.toggle('locaciones_open');
-		  }
-		  locTrigger18.addEventListener('click', toggleAccordion);
-		</script>
-	
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion18 = querySelector('.locaciones18');
+  		  var locTrigger18 = querySelector('.locacion_clickable18');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger18.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger18.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger18.addEventListener('click', toggleAccordion);
+  		</script>
+	    
 		  <!--18-->
 	  	<li class="locacion_clickable locacion_clickable19">
 			 <div class="reto_image" style="background-image: url(/images/retos/cuatrimoto.jpg)"></div>
@@ -871,53 +996,57 @@
 		    	</li>
 		    	
 		    </ul>
-		</li>
+		  </li>
 
-		<script>
-		  var querySelector = document.querySelector.bind(document);
-		  var locAccordion19 = querySelector('.locaciones19');
-		  var locTrigger19 = querySelector('.locacion_clickable19');
-		  var locTriggerOther = querySelector('.locacion_clickable');
-		  function closeAccordion(){
-		    locTrigger19.classList.remove('locaciones_open');
-		  }
-		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-		    locTrigger19.classList.toggle('locaciones_open');
-		  }
-		  locTrigger19.addEventListener('click', toggleAccordion);
-		</script>
-	
-  </ul>
+  		<script>
+  		  var querySelector = document.querySelector.bind(document);
+  		  var locAccordion19 = querySelector('.locaciones19');
+  		  var locTrigger19 = querySelector('.locacion_clickable19');
+  		  var locTriggerOther = querySelector('.locacion_clickable');
+  		  function closeAccordion(){
+  		    locTrigger19.classList.remove('locaciones_open');
+  		  }
+  		  function toggleAccordion(){
+  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+  		    locTrigger19.classList.toggle('locaciones_open');
+  		  }
+  		  locTrigger19.addEventListener('click', toggleAccordion);
+  		</script>
+	    
+    </ul>
+    
 
 		
 		<h2>Tienes que visitar estos lugares!</h2>
-			<ul class="destination_gallery">
+			<ul class="retos hotspots">
 				
-				<!--4-->
-				<a data-remodal-target="modal5">
-					<li style="background-image: url(/images/locaciones/1.jpg);"></li>
-				</a>
-				
-				<!--5-->
-				<a data-remodal-target="modal6">
-					<li style="background-image: url(/images/locaciones/2.jpg);"></li>
-				</a>
-				
-				<!--6-->
-				<a data-remodal-target="modal7">
-					<li style="background-image: url(/images/locaciones/3.jpg);"></li>
-				</a>
-				
-				<!--7-->
-				<a data-remodal-target="modal8">
-					<li style="background-image: url(/images/locaciones/4.jpg);"></li>
-				</a>
-				
-				<!--8-->
-				<a data-remodal-target="modal9">
-					<li style="background-image: url(/images/locaciones/5.jpg);"></li>
-				</a>
+				<!--3-->
+            <li class="locacion_clickable hotspot_clickable4">
+              <div class="reto_image" style="background-image: url(/images/locaciones/1.jpg)"></div>
+              <img class="reto_icon" src="/images/locaciones/locacion.svg" />
+              <h1 class="challenge_title">El Maviri</h1>
+              <ul class="locaciones hotspots4">
+                <li>
+                  <a href="https://goo.gl/maps/LsQYajYmo6L2" target="_blank">Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin.</a>
+                </li>
+              </ul>
+            </li>
+
+            <script>
+        		  var querySelector = document.querySelector.bind(document);
+        		  var locAccordion_h4 = querySelector('.hotspots4');
+        		  var locTrigger_h4 = querySelector('.hotspot_clickable4');
+        		  var locTriggerOther = querySelector('.locacion_clickable');
+        		  function closeAccordion(){
+        		    locTrigger_h4.classList.remove('locaciones_open');
+        		  }
+        		  function toggleAccordion(){
+        		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
+        		    locTrigger_h4.classList.toggle('locaciones_open');
+        		  }
+        		  locTrigger_h4.addEventListener('click', toggleAccordion);
+        		</script>
+
 				
 			</ul>
 		

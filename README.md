@@ -12,19 +12,15 @@ Desarrollo de sitio para Excapes
 ### Tratado de Villamar
 
 Deals:
-Lista igual que en retos
+márgenes derecha
 
 Iconos:
 - Lancha
 - Rueda de la fortuna
 
-Tienes que visitar estos lugares:
-- Objeto de lugares con locaciones de google maps igual a lista de retos
-
 Inicio:
-Imágenes estáticas. Grid estática.
-control pantalla completa video
-quitar los iconos y los links
+Links estáticos? o cómo?
+Iconos?
 
 Correo quieroviajar@excapes.tv
 

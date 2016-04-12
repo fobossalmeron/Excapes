@@ -1164,19 +1164,19 @@ h2 {
 
 .deal {
   background-size: contain;
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center left;
   background-color: #ef3a3a;
-  min-height: 90px;
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
-  -webkit-transition: all 0.4s 0s ease;
-  -moz-transition: all 0.4s 0s ease;
-  -ms-transition: all 0.4s 0s ease;
-  -o-transition: all 0.4s 0s ease;
-  transition: all 0.4s 0s ease;
-  height: auto;
+  -webkit-transition: all 0.2s 0s ease;
+  -moz-transition: all 0.2s 0s ease;
+  -ms-transition: all 0.2s 0s ease;
+  -o-transition: all 0.2s 0s ease;
+  transition: all 0.2s 0s ease;
+  max-height: 105px;
   float: left;
   width: 49%;
   margin-right: 4%;
@@ -1185,43 +1185,69 @@ h2 {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px; }
-  .deal span.deal_hiddeninfo {
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    transform: translateY(100%);
+  .deal:nth-child(2n+2) {
+    margin-right: 0; }
+  .deal .deal_icon {
+    width: 28%; }
+  .deal .deal_hiddeninfo {
+    margin-left: 0;
+    position: relative;
+    float: left;
+    list-style: none;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
     border-radius: 0px;
-    background-color: #a01c1c;
+    background-color: #ef3a3a;
     color: #f9f9f9;
     text-align: center;
-    padding: 7%;
-    position: absolute;
+    padding-bottom: 15px;
     width: 100%;
     height: 100%;
-    -webkit-transition: all 0.4s 0s ease;
-    -moz-transition: all 0.4s 0s ease;
-    -ms-transition: all 0.4s 0s ease;
-    -o-transition: all 0.4s 0s ease;
-    transition: all 0.4s 0s ease; }
+    -webkit-transition: all 0.2s 0s ease;
+    -moz-transition: all 0.2s 0s ease;
+    -ms-transition: all 0.2s 0s ease;
+    -o-transition: all 0.2s 0s ease;
+    transition: all 0.2s 0s ease;
+    opacity: 0;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -ms-border-radius: 0px 0px 5px 5px;
+    -o-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: left;
+    z-index: 2; }
+    .deal .deal_hiddeninfo li {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
+      .deal .deal_hiddeninfo li:nth-last-child(1) {
+        border: 0; }
+    .deal .deal_hiddeninfo h3 {
+      color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      font-size: 15px;
+      text-transform: uppercase;
+      padding-top: 10px;
+      padding-left: 15px; }
+    .deal .deal_hiddeninfo a {
+      text-align: left;
+      color: rgba(0, 0, 0, 0.5);
+      padding-left: 15px; }
+    .deal .deal_hiddeninfo p {
+      text-align: left;
+      margin-bottom: 10px;
+      padding-left: 15px; }
   .deal:hover {
-    background-color: #a01c1c; }
-    .deal:hover span.deal_hiddeninfo {
-      -webkit-transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-      -o-transform: translateY(0%);
-      transform: translateY(0%); }
+    overflow: visible; }
+    .deal:hover .deal_hiddeninfo {
+      opacity: 1; }
 
 .deal_info {
   color: #f9f9f9;
   text-align: right;
   float: right;
-  padding: 7% 7% 7% 0; }
+  padding: 11% 11% 11% 0; }
 
 .challenge_title {
   color: #f9f9f9;
@@ -1245,7 +1271,7 @@ h2 {
   float: left;
   margin-right: 2%;
   border-bottom: 5px solid #a01c1c; }
-  .challenge:nth-child(even) {
+  .challenge li:nth-child(2n+2) {
     margin-right: 0; }
 
 .coupon:nth-child(even) li {
@@ -1280,6 +1306,9 @@ h2 {
   width: 100%;
   margin: 0;
   list-style: none; }
+
+li.challenge.deal:nth-child(even) {
+  margin-right: 0px; }
 
 .challenge_name {
   float: left;
@@ -1461,6 +1490,14 @@ Retos
     opacity: 1 !important; }
   .locaciones_open .reto_image {
     opacity: 0 !important; }
+  .locaciones_open .deal_hiddeninfo {
+    opacity: 1; }
+
+.hotspots li {
+  background-color: #ef3a3a; }
+.hotspots ul {
+  padding-bottom: 10px;
+  background-color: #ef3a3a; }
 
 /*
 About
