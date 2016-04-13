@@ -371,6 +371,7 @@ nav {
   width: 28.571%;
   height: 145px;
   float: left;
+  position: relative;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -380,13 +381,12 @@ nav {
   background-position: 45%;
   background-size: contain;
   background-repeat: no-repeat;
-  position: relaitve;
   overflow: hidden;
-  -webkit-transition: all 0.2s 0s ease;
-  -moz-transition: all 0.2s 0s ease;
-  -ms-transition: all 0.2s 0s ease;
-  -o-transition: all 0.2s 0s ease;
-  transition: all 0.2s 0s ease; }
+  -webkit-transition: all 0.3s 0s ease;
+  -moz-transition: all 0.3s 0s ease;
+  -ms-transition: all 0.3s 0s ease;
+  -o-transition: all 0.3s 0s ease;
+  transition: all 0.3s 0s ease; }
 
 .halfunit {
   width: 14.286%;
@@ -403,11 +403,11 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
-  -webkit-transition: all 0.2s 0s ease;
-  -moz-transition: all 0.2s 0s ease;
-  -ms-transition: all 0.2s 0s ease;
-  -o-transition: all 0.2s 0s ease;
-  transition: all 0.2s 0s ease; }
+  -webkit-transition: all 0.3s 0s ease;
+  -moz-transition: all 0.3s 0s ease;
+  -ms-transition: all 0.3s 0s ease;
+  -o-transition: all 0.3s 0s ease;
+  transition: all 0.3s 0s ease; }
 
 .expandunit {
   width: 42.857%; }
@@ -454,175 +454,89 @@ iframe {
   -o-border-radius: 5px;
   border-radius: 5px; }
 
-#image1 {
-  background-image: url("../images/inicio/1hash.jpg");
+.homegrid_image {
   background-size: cover; }
-  #image1:before {
-    font-family: "Special Elite", serif;
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    transform: translateX(-100%);
-    content: "La Serie";
+  .homegrid_image:before {
     color: #f9f9f9;
+    font-family: "Special Elite", serif;
     font-size: 30px;
     text-transform: uppercase;
-    float: left;
-    position: relative;
-    padding: 1% 4%;
-    -webkit-transition: all 0.4s 0s ease;
-    -moz-transition: all 0.4s 0s ease;
-    -ms-transition: all 0.4s 0s ease;
-    -o-transition: all 0.4s 0s ease;
-    transition: all 0.4s 0s ease; }
-  #image1:hover:before {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%); }
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
+    -ms-transition: all 0.3s 0s ease;
+    -o-transition: all 0.3s 0s ease;
+    transition: all 0.3s 0s ease; }
+  .homegrid_image:hover {
+    opacity: 0.9; }
+    .homegrid_image:hover:before {
+      -webkit-transform: translateY(-5px);
+      -moz-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      -o-transform: translateY(-5px);
+      transform: translateY(-5px); }
+
+.nolink:hover {
+  opacity: 1;
+  border-bottom: 0px; }
+
+#image1 {
+  background-image: url("../images/inicio/1hash.jpg"); }
+  #image1:before {
+    content: "La Serie"; }
 
 #image2 {
-  background-image: url("../images/inicio/2hash.jpg");
-  background-size: cover; }
+  background-image: url("../images/inicio/2hash.jpg"); }
 
 #image3 {
-  background-image: url("../images/inicio/6hash.jpg");
-  background-size: cover; }
+  background-image: url("../images/inicio/6hash.jpg"); }
   #image3:before {
-    font-family: "Special Elite", serif;
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
-    content: "Arma tu Viaje";
-    color: #f9f9f9;
-    font-size: 30px;
-    text-transform: uppercase;
-    float: right;
-    position: relative;
-    padding: 1% 4%;
-    -webkit-transition: all 0.4s 0s ease;
-    -moz-transition: all 0.4s 0s ease;
-    -ms-transition: all 0.4s 0s ease;
-    -o-transition: all 0.4s 0s ease;
-    transition: all 0.4s 0s ease; }
-  #image3:hover:before {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%); }
+    content: "Arma tu Viaje"; }
 
 #image4 {
-  background-image: url("../images/inicio/4hash.jpg");
-  background-size: cover; }
+  background-image: url("../images/inicio/4hash.jpg"); }
   #image4:before {
-    font-family: "Special Elite", serif;
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
-    transform: translateX(-100%);
-    content: "Quienes Somos";
-    color: #f9f9f9;
-    font-size: 30px;
-    text-transform: uppercase;
-    float: left;
-    position: relative;
-    padding: 1% 4%;
-    -webkit-transition: all 0.4s 0s ease;
-    -moz-transition: all 0.4s 0s ease;
-    -ms-transition: all 0.4s 0s ease;
-    -o-transition: all 0.4s 0s ease;
-    transition: all 0.4s 0s ease; }
-  #image4:hover:before {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%); }
+    content: "Jalate"; }
 
 #image5 {
-  background-image: url("../images/inicio/5hash.jpg");
-  background-size: cover; }
+  background-image: url("../images/inicio/5hash.jpg"); }
   #image5:before {
-    font-family: "Special Elite", serif;
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%);
-    content: "Jálate";
-    color: #f9f9f9;
-    font-size: 30px;
-    text-transform: uppercase;
-    float: right;
-    position: relative;
-    padding: 1% 4%;
-    -webkit-transition: all 0.4s 0s ease;
-    -moz-transition: all 0.4s 0s ease;
-    -ms-transition: all 0.4s 0s ease;
-    -o-transition: all 0.4s 0s ease;
-    transition: all 0.4s 0s ease; }
-  #image5:hover:before {
-    -webkit-transform: translateX(0%);
-    -moz-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    -o-transform: translateX(0%);
-    transform: translateX(0%); }
+    content: "Quienes Somos"; }
 
 #image6 {
   background-image: url("../images/inicio/3hash.jpg");
-  background-size: cover;
   width: 95%;
   margin: 0 5% 0 0; }
 
 #image7 {
   background-image: url("../images/inicio/7hash.jpg");
-  background-size: cover;
   margin: 0 0 0 5%;
   width: 95%; }
 
-#icon1 {
-  background-image: url("../images/inicio/icon1.svg");
-  background-size: contain;
-  background-repeat: no-repeat; }
-
-#icon2 {
-  width: 100%;
-  clear: both;
-  background-image: url("../images/inicio/icon2.svg"); }
-
-#icon3 {
-  background-image: url("../images/inicio/icon3.svg");
-  width: 95%; }
-
 #graphic1 {
-  margin: 5% 5% 0 5%;
+  margin: 5% 5% 0 4%;
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url("../images/inicio/graphic2.svg");
-  background-color: #ef3a3a; }
+  background-image: url("../images/inicio/graphic2.svg"); }
 
 #graphic2 {
   background-image: url("../images/inicio/graphic1.svg");
-  margin: 5% 5% 5% 45%;
-  background-color: #ef3a3a; }
+  margin: 4% 5% 5% 46%; }
 
 #graphic3 {
-  background-image: url("../images/inicio/graphic5.svg");
-  margin: 5px;
-  background-color: #ef3a3a; }
+  background-image: url("../images/inicio/graphic3.svg");
+  margin: 5px; }
 
 .spaces {
   margin-left: 28.571%; }
 
 #graphic4 {
-  background-image: url("../images/inicio/graphic4.svg");
   float: right;
   margin: 0 5%;
   background-color: #ef3a3a; }
@@ -908,29 +822,47 @@ main {
 
 .calltoaction {
   width: 90% !important;
-  margin: 0 5%;
+  margin: 6px 5% 2.3% 5%;
   font-size: 1.5em;
   box-sizing: border-box;
-  padding-top: 1%; }
+  padding-top: 1%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #ef3a3a;
+  box-shadow: 0px 0px #a01c1c;
+  -webkit-transition: all 0.4s 0s ease;
+  -moz-transition: all 0.4s 0s ease;
+  -ms-transition: all 0.4s 0s ease;
+  -o-transition: all 0.4s 0s ease;
+  transition: all 0.4s 0s ease; }
   .calltoaction a {
-    color: #ef3a3a;
+    color: #a01c1c;
     padding: 6px 6px 2px 6px;
     width: 100%;
+    height: 100%;
     text-align: center;
     float: left;
-    background-position: 100% 0;
-    box-shadow: inset 0 0 0 0 #ef3a3a;
-    border-radius: 5px;
     -webkit-transition: all 0.4s 0s ease;
     -moz-transition: all 0.4s 0s ease;
     -ms-transition: all 0.4s 0s ease;
     -o-transition: all 0.4s 0s ease;
-    transition: all 0.4s 0s ease; }
-    .calltoaction a:hover {
-      box-shadow: inset 700px 0 0 0 #ef3a3a;
-      text-decoration: none;
-      color: #a01c1c;
-      background-position: 0 0; }
+    transition: all 0.4s 0s ease;
+    text-decoration: none; }
+  .calltoaction:hover {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+    transform: translateY(-6px);
+    box-shadow: 0px 6px #a01c1c; }
+    .calltoaction:hover a {
+      color: #f9f9f9; }
+
+.lesser {
+  font-size: 1.2em; }
 
 .episodio {
   float: left;
@@ -1162,10 +1094,20 @@ h2 {
   padding: 2%;
   float: left; }
 
+.deals_list {
+  float: left;
+  width: 100%;
+  margin: 0;
+  list-style: none; }
+  .deals_list li:nth-child(3n+0) {
+    margin-right: 0px !important; }
+
 .deal {
   background-size: contain;
-  cursor: pointer;
   background-repeat: no-repeat;
+  float: left;
+  margin-right: 2%;
+  border-bottom: 5px solid #a01c1c;
   background-position: center left;
   background-color: #ef3a3a;
   margin-bottom: 30px;
@@ -1179,14 +1121,11 @@ h2 {
   max-height: 105px;
   float: left;
   width: 49%;
-  margin-right: 4%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px; }
-  .deal:nth-child(2n+2) {
-    margin-right: 0; }
   .deal .deal_icon {
     width: 28%; }
   .deal .deal_hiddeninfo {
@@ -1267,16 +1206,6 @@ h2 {
   clear: both;
   letter-spacing: 6px; }
 
-.challenge {
-  float: left;
-  margin-right: 2%;
-  border-bottom: 5px solid #a01c1c; }
-  .challenge li:nth-child(2n+2) {
-    margin-right: 0; }
-
-.coupon:nth-child(even) li {
-  margin-right: 0; }
-
 .challenge_img {
   float: left;
   clear: both;
@@ -1300,15 +1229,6 @@ h2 {
   border-radius: 0px;
   margin-bottom: 30px;
   background-color: #ef3a3a; }
-
-.challenge_list {
-  float: left;
-  width: 100%;
-  margin: 0;
-  list-style: none; }
-
-li.challenge.deal:nth-child(even) {
-  margin-right: 0px; }
 
 .challenge_name {
   float: left;
@@ -1346,7 +1266,6 @@ Retos
     -o-border-radius: 5px;
     border-radius: 5px;
     margin: 0 5% 3% 0;
-    cursor: pointer;
     overflow: hidden;
     -webkit-transition: all 0.1s 0s ease;
     -moz-transition: all 0.1s 0s ease;

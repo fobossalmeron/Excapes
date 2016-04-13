@@ -7,22 +7,22 @@ video: https://www.youtube.com/embed/v_vqxGQW5lg
 
 <div class="homegrid">
   <a href="{{ site.baseurl }}serie/">
-   <div id="image1" class="unit"></div>
+   <div class="unit homegrid_image" id="image1"></div>
   </a>
   <div id="icon1" class="halfunit mobile_hide"></div>
-  <div id="image2" class="halfunit mobile_hide"></div>
+  <div id="image2" class="halfunit homegrid_image nolink mobile_hide"></div>
 
   <div class="halfunit">
     <div id="graphic1" class="mini"></div>
   </div>
   <a href="{{ site.baseurl }}armatuviaje/">
-   <div id="image3" class="unit"></div>
+   <div class="unit homegrid_image" id="image3"></div>
   </a>
 
   <span class="homegrid_column mobile_hide">
     <div id="icon2" class="halfunit"></div>
 
-    <div id="image6" class="halfunit"></div>
+    <div class="homegrid_image nolink halfunit" id="image6"></div>
 
     <div class="halfunit hardcolumn">
       <div id="graphic2" class="mini"></div>
@@ -38,21 +38,21 @@ video: https://www.youtube.com/embed/v_vqxGQW5lg
       <div id="graphic3" class="mini"></div>
     </div>
 
-    <div id="image7" class="halfunit"></div>
+    <div class="halfunit homegrid_image nolink" id="image7"></div>
 
     <div id="icon3" class="halfunit"></div>
   </span>
   <h2 class="calltoaction mobile_visible"><a href="{{ site.baseurl }}serie/">Ve la serie!</a></h2>
-  <a href="{{ site.baseurl }}quienessomos/">
-    <div id="image4" class="unit"></div>
+  <a href="{{ site.baseurl }}jalate/">
+    <div class="unit homegrid_image" id="image4"></div>
   </a>
 
   <div class="unit expandunit">
   <!--  <div id="graphic4" class="mini"></div>-->
     <h2 class="calltoaction sidebar_visible"><a href="{{ site.baseurl }}serie/">Ve la serie!</a></h2>
   </div>
-  <a href="{{ site.baseurl }}jalate/">
-  <div id="image5" class="unit"></div>
+  <a href="{{ site.baseurl }}quienessomos/">
+  <div class="unit homegrid_image" id="image5"></div>
   </a>
 
 </div>

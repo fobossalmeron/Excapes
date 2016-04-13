@@ -11,8 +11,8 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 ---
 
 <p style="float:left;">Échale un ojo a esta guía para que viajes por México como te dé la gana.</p>
-{% for destination in site.destinations %}
 
+{% for destination in site.destinations %}
 <div class="destination">
 	<h1>{{ destination.title }}</h1>
 	<h2>{{ destination.subtitle }}</h2>
@@ -23,10 +23,10 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
   <main class="destination_content">
     {% if destination.deals %}
 		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
-  	<ul class="challenge_list">
+  	<ul class="deals_list">
 		  {% for deal in destination.deals %}
       <!--{% increment deal_id %}-->
-					<li class="challenge deal locacion_clickable deal_clickable{{deal_id}}">
+					<li class="deal locacion_clickable deal_clickable{{deal_id}}">
 
             {% if deal.type == "plane" %}
             <img class="deal_icon" src="{{ site.baseurl }}images/promociones/plane.svg">

@@ -187,14 +187,14 @@ $grid-height: 145px;
     width: $full-width;
     height: $grid-height;
     float:left;
+    position:relative;
     @include border-radius(5px);
     display: block;
     background-position: 45%;
     background-size: contain;
     background-repeat: no-repeat;
-    position:relaitve;
     overflow: hidden;
-    @include transition(.2s, ease);
+    @include transition(.3s, ease);
 }
 
 .halfunit{
@@ -208,7 +208,7 @@ $grid-height: 145px;
     background-size: contain;
     background-repeat: no-repeat;
     overflow: hidden;
-    @include transition(.2s, ease);
+    @include transition(.3s, ease);
 }
 
 .expandunit{
@@ -254,151 +254,94 @@ iframe{
     @include border-radius(5px);
 }
 
+.homegrid_image{
+    background-size: cover;
+    &:before{
+      color: $white;
+      font-family: $secondary-font-family;
+      font-size: 30px;
+      text-transform: uppercase;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      box-sizing: border-box;
+      position: absolute;
+      @include transition(.3s, ease);
+    }
+    &:hover{
+      opacity:0.9;
+      &:before{
+        @include transform(translateY(-5px));
+      }
+    }
+}
+
+.nolink{
+  &:hover{
+    opacity:1;
+    border-bottom:0px;
+  }
+}
+
 #image1{
     background-image: url("../images/inicio/1hash.jpg");
-    background-size: cover;
-
     &:before{
-        font-family: $secondary-font-family;
-        @include translateX(-100%);
         content: "La Serie";
-        color: $white;
-        font-size: 30px;
-        text-transform: uppercase;
-        float: left;
-        position: relative;
-        padding: 1% 4%;
-        @include transition(.4s, ease);
-    }
-
-    &:hover{
-        &:before{
-            @include translateX(0%);
-        }
     }
 }
 
 #image2{
     background-image: url("../images/inicio/2hash.jpg");
-    background-size: cover;
 }
 
 #image3{
     background-image: url("../images/inicio/6hash.jpg");
-    background-size: cover;
-
     &:before{
-        font-family: $secondary-font-family;
-        @include translateX(100%);
         content: "Arma tu Viaje";
-        color: $white;
-        font-size: 30px;
-        text-transform: uppercase;
-        float: right;
-        position: relative;
-        padding: 1% 4%;
-        @include transition(.4s, ease);
-    }
-
-    &:hover{
-        &:before{
-            @include translateX(0%);
-        }
     }
 }
 
 #image4{
     background-image: url("../images/inicio/4hash.jpg");
-    background-size: cover;
     &:before{
-        font-family: $secondary-font-family;
-        @include translateX(-100%);
-        content: "Quienes Somos";
-        color: $white;
-        font-size: 30px;
-        text-transform: uppercase;
-        float: left;
-        position: relative;
-        padding: 1% 4%;
-        @include transition(.4s, ease);
-    }
-
-    &:hover{
-        &:before{
-            @include translateX(0%);
-        }
+        content: "Jalate";
     }
 }
 
 #image5{
     background-image: url("../images/inicio/5hash.jpg");
-    background-size: cover;
     &:before{
-        font-family: $secondary-font-family;
-        @include translateX(100%);
-        content: "Jálate";
-        color: $white;
-        font-size: 30px;
-        text-transform: uppercase;
-        float: right;
-        position: relative;
-        padding: 1% 4%;
-        @include transition(.4s, ease);
-    }
-
-    &:hover{
-        &:before{
-            @include translateX(0%);
-        }
+        content: "Quienes Somos";
     }
 }
 
 #image6{
     background-image: url("../images/inicio/3hash.jpg");
-    background-size: cover;
     width: 95%;
     margin: 0 5% 0 0;
 }
 
 #image7{
     background-image: url("../images/inicio/7hash.jpg");
-    background-size: cover;
     margin: 0 0 0 5%;
     width:95%;
 }
 
-#icon1{
-    background-image: url("../images/inicio/icon1.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-#icon2{
-    width:100%;
-    clear:both;
-    background-image: url("../images/inicio/icon2.svg");
-}
-#icon3{
-    background-image: url("../images/inicio/icon3.svg");
-    width:95%;
-}
-
 #graphic1{
-    margin: 5% 5% 0 5%;
+    margin: 5% 5% 0 4%;
     position: absolute;
     bottom: 0;
     left: 0;
     background-image: url("../images/inicio/graphic2.svg");
-    background-color: $red;
 }
 #graphic2{
     background-image: url("../images/inicio/graphic1.svg");
-    margin: 5% 5% 5% 45%;
-    background-color: $red;
+    margin: 4% 5% 5% 46%;
 }
 #graphic3{
-    background-image: url("../images/inicio/graphic5.svg");
+    background-image: url("../images/inicio/graphic3.svg");
     margin: 5px;
-    background-color: $red;
 }
 
 .spaces{
@@ -406,7 +349,6 @@ iframe{
 }
 
 #graphic4{
-    background-image: url("../images/inicio/graphic4.svg");
     float: right;
     margin: 0 5%;
     background-color: $red;
@@ -691,28 +633,38 @@ padding: 0 3% 3% 3%
 
 .calltoaction{
     width:90% !important;
-    margin: 0 5%;
+    margin: 6px 5% 2.3% 5%;
     font-size: 1.5em;
     box-sizing: border-box;
     padding-top:1%;
+    @include border-radius(5px);
+    background-color: $red;
+    box-shadow: 0px 0px $contrastred;
+    @include transition(0.4s,ease);
 
       a{
-        color:$red;
+        color:$contrastred;
         padding: 6px 6px 2px 6px;
         width:100%;
+        height:100%;
         text-align: center;
         float: left;
-        background-position: 100% 0;
-        box-shadow: inset 0 0 0 0 $red;
-        border-radius: 5px;
         @include transition(0.4s,ease);
-        &:hover{
-          box-shadow: inset 700px 0 0 0 $red;
-          text-decoration: none;
-          color: $contrastred;
-          background-position: 0 0;
-        }
+        text-decoration: none;
       }
+
+      &:hover{
+          @include transform(translateY(-6px));
+          box-shadow: 0px 6px $contrastred;
+          a{
+            color: $white;
+          //  @include transform(scale(1.2));
+          }
+      }
+}
+
+.lesser{
+  font-size: 1.2em;
 }
 
 .episodio{
@@ -966,10 +918,23 @@ h2 {
     float: left;
  }
 
+ .deals_list{
+     float: left;
+     width: 100%;
+     margin: 0;
+     list-style: none;
+
+     li:nth-child(3n+0){
+       margin-right:0px !important;
+    }
+ }
+
  .deal{
     background-size: contain;
-    cursor: pointer;
     background-repeat: no-repeat;
+    float: left;
+    margin-right: 2%;
+    border-bottom: 5px solid $contrastred;
     background-position: center left;
     background-color: $red;
     margin-bottom: 30px;
@@ -979,12 +944,7 @@ h2 {
     max-height: 105px;
     float: left;
     width:49%;
-    margin-right: 4%;
     @include border-radius(5px);
-
-    &:nth-child(2n+2){
-      margin-right:0;
-    }
 
     .deal_icon{
       width: 28%;
@@ -1065,22 +1025,6 @@ h2 {
     letter-spacing: 6px;
 }
 
-.challenge{
-    float:left;
-    margin-right: 2%;
-    border-bottom: 5px solid $contrastred;
-    li:nth-child(2n+2){
-        margin-right:0;
-    }
-}
-
-.coupon{
-    &:nth-child(even){
-      li{ margin-right: 0;
-      }
-    }
-}
-
 .challenge_img{
     float: left;
     clear: both;
@@ -1102,16 +1046,6 @@ h2 {
     margin-bottom: 30px;
     background-color:$red;
 
-}
-
-.challenge_list{
-    float: left;
-    width: 100%;
-    margin: 0;
-    list-style: none;
-}
-li.challenge.deal:nth-child(even){
-  margin-right:0px;
 }
 
 .challenge_name{
@@ -1150,7 +1084,6 @@ Retos
         background-color: cornflowerblue;
         @include border-radius(5px);
         margin: 0 5% 3% 0;
-        cursor:pointer;
         overflow: hidden;
         @include transition(.1s, ease);
         opacity: 1;

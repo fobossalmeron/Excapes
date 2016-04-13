@@ -60,7 +60,7 @@ secondarysponsorlink: http://www.redbull.com/mx/es/surfing
 </div>
 
 <div class="panel descarga_material">
-	<a href="{{ site.baseurl }}pdfs/promocion.pdf">
+	<a href="{{ site.baseurl }}descargables/Stencils_Excapes.pdf">
 			<div class="descarga_boton">
 			<p>Descarga stickers y stencils de la serie!</p>
 			<div class="graphicseparator xbutton"></div>

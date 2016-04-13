@@ -16,7 +16,7 @@ secondarysponsorlink: /patrocinadores/
 	<div class="main_video">
 		<iframe src="{{ episode.video }}" frameborder="0" allowfullscreen></iframe>
 	</div>
-    <h2 class="calltoaction"><a href="{{ site.baseurl }}jalate/">Se el próximo aventurero, jálate!</a></h2>
+    <h2 class="calltoaction lesser"><a href="{{ site.baseurl }}jalate/">Se el próximo aventurero, jálate!</a></h2>
 	{{ episode.content }}
     {% for capsule in episode.capsules %}
       {% if capsule.image %}
