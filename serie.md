@@ -16,14 +16,13 @@ secondarysponsorlink: /patrocinadores/
 	<div class="main_video">
 		<iframe src="{{ episode.video }}" frameborder="0" allowfullscreen></iframe>
 	</div>
-    <h2 class="calltoaction lesser"><a href="{{ site.baseurl }}jalate/">Se el próximo aventurero, jálate!</a></h2>
 	{{ episode.content }}
     {% for capsule in episode.capsules %}
       {% if capsule.image %}
       		<!--{% increment capsule_id %}-->
 			<div class="remodal" data-remodal-id="modal{{ capsule_id }}" data-remodal-action="confirm">
 				<button data-remodal-action="close" class="remodal-close"></button>
-				<img src="{{ site.baseurl }}images/locaciones/{{ capsule.image }}">
+				<img src="{{ site.baseurl }}images/episodios/{{ capsule.image }}">
 			</div>
 	  {% endif %}
 	{% endfor %}
@@ -44,6 +43,7 @@ secondarysponsorlink: /patrocinadores/
 			<h2>{{ capsule.title }}</h2>
 		</li>
 		{% endfor %}
+    <h2 class="calltoaction lesser"><a href="{{ site.baseurl }}jalate/">Se el próximo aventurero, jálate!</a></h2>
 	</ul>
 </div>
 {% endfor %}

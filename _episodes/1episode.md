@@ -1,5 +1,5 @@
 ---
-title: "1x01 Bienvenidos a Puebla"
+title: "1x01 ¿Cuál es tu excusa para viajar?"
 video: "https://www.youtube.com/embed/wJF5NXygL4k"
 capsules:
   - title: "Tips de viajero"
@@ -8,11 +8,5 @@ capsules:
     video: "https://www.youtube.com/embed/wJF5NXygL4k"
   - title: "Top 5"
     video: "https://www.youtube.com/embed/wJF5NXygL4k"
-  - title: "Detrás de cámara"
-    video: "https://www.youtube.com/embed/wJF5NXygL4k"
-  - title: "Bloopers"
-    video: "https://www.youtube.com/embed/wJF5NXygL4k"
-  - title: "Nuevos integrantes"
-    video: "https://www.youtube.com/embed/wJF5NXygL4k"
 ---
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+Manu elige como primera parada la ciudad de Puebla. En este viaje él tiene dos objetivos: encontrar la cascada que aparece en la fotografía de su padre y llegar a La Estrella para conocer a sus tres compañeros de viaje.

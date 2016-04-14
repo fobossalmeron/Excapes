@@ -1,5 +1,5 @@
 ---
-title: "Documental"
+title: "Excapes"
 video: "https://www.youtube.com/embed/wJF5NXygL4k"
 ---
-En este documental narramos la historia de Manu perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+Manu tiene 28 años, acaban de despedirlo de su trabajo y en este mismo momento está viajando. ¿La excusa que le impulsó a viajar? Encontró unas fotos de su papá, a quien nunca conoció y decidió ir a los lugares a donde él había viajado. Pero las fotos no dicen ni lugar, ni fecha. ¿Cómo encontrarlos? 

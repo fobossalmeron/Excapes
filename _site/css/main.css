@@ -853,7 +853,7 @@ main {
     font-size: 35px; }
   .episodio p {
     float: left;
-    margin-bottom: 4%;
+    margin-bottom: 2.5%;
     text-align: justify; }
 
 .capsulas {
@@ -865,6 +865,14 @@ main {
     float: left;
     width: 30.66%;
     margin: 0 4% 0 0; }
+    .capsulas li h2 {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      width: 100%;
+      text-align: center;
+      font-family: "Titillium Web", sans-serif;
+      margin-bottom: 4%; }
     .capsulas li a img {
       width: 100%; }
     .capsulas li:nth-child(3n+3) {
