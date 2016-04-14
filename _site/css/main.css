@@ -518,28 +518,8 @@ iframe {
   margin: 0 0 0 5%;
   width: 95%; }
 
-#graphic1 {
-  margin: 5% 5% 0 4%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-image: url("../images/inicio/graphic2.svg"); }
-
-#graphic2 {
-  background-image: url("../images/inicio/graphic1.svg");
-  margin: 4% 5% 5% 46%; }
-
-#graphic3 {
-  background-image: url("../images/inicio/graphic3.svg");
-  margin: 5px; }
-
 .spaces {
   margin-left: 28.571%; }
-
-#graphic4 {
-  float: right;
-  margin: 0 5%;
-  background-color: #ef3a3a; }
 
 .social-home-block {
   padding: 0 3%;
