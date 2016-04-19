@@ -1115,7 +1115,8 @@ h2 {
   -o-border-radius: 5px;
   border-radius: 5px; }
   .deal .deal_icon {
-    width: 28%; }
+    width: 40%;
+    max-height: 105px; }
   .deal .deal_hiddeninfo {
     margin-left: 0;
     position: relative;
@@ -1166,7 +1167,8 @@ h2 {
       margin-bottom: 10px;
       padding-left: 15px; }
   .deal:hover {
-    overflow: visible; }
+    overflow: visible;
+    border-radius: 5px 5px 0px 0px; }
     .deal:hover .deal_hiddeninfo {
       opacity: 1; }
 
@@ -2216,7 +2218,10 @@ Sidebar
     width: 70%; }
 
   .stickyheader .logo {
-    width: 55%; } }
+    width: 55%; }
+
+  .locaciones li a {
+    padding-bottom: 15px; } }
 /**
 Tablet Down
 **/

@@ -935,7 +935,8 @@ h2 {
     @include border-radius(5px);
 
     .deal_icon{
-      width: 28%;
+      width: 40%;
+      max-height: 105px;
     }
 
         .deal_hiddeninfo{
@@ -985,6 +986,7 @@ h2 {
 
     &:hover{
         overflow: visible;
+        border-radius: 5px 5px 0px 0px;
         .deal_hiddeninfo{
           opacity:1;
         }
