@@ -951,7 +951,7 @@ h2 {
             padding-bottom: 15px;
             width: 100%;
             @include transition(.2s, ease);
-            opacity:0;
+            // opacity:0;
             @include border-radius-multiple(0px, 0px, 5px, 5px);
             text-align: left;
             z-index:2;
@@ -986,6 +986,7 @@ h2 {
     &:hover{
         overflow: visible;
         border-radius: 5px 5px 0px 0px;
+        z-index: 3;
         .deal_hiddeninfo{
           opacity:1;
         }
@@ -1084,6 +1085,7 @@ Retos
         &:hover{
             opacity: 1;
             overflow: visible;
+            z-index: 3;
             @include border-radius-multiple(5px, 5px, 0px, 0px);
             background-size: 0px 0px !important;
             .reto_icon{

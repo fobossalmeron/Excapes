@@ -1137,7 +1137,6 @@ h2 {
     -ms-transition: all 0.2s 0s ease;
     -o-transition: all 0.2s 0s ease;
     transition: all 0.2s 0s ease;
-    opacity: 0;
     -webkit-border-radius: 0px 0px 5px 5px;
     -moz-border-radius: 0px 0px 5px 5px;
     -ms-border-radius: 0px 0px 5px 5px;
@@ -1167,7 +1166,8 @@ h2 {
       padding-left: 15px; }
   .deal:hover {
     overflow: visible;
-    border-radius: 5px 5px 0px 0px; }
+    border-radius: 5px 5px 0px 0px;
+    z-index: 3; }
     .deal:hover .deal_hiddeninfo {
       opacity: 1; }
 
@@ -1267,6 +1267,7 @@ Retos
     .retos li:hover {
       opacity: 1;
       overflow: visible;
+      z-index: 3;
       -webkit-border-radius: 5px 5px 0px 0px;
       -moz-border-radius: 5px 5px 0px 0px;
       -ms-border-radius: 5px 5px 0px 0px;
