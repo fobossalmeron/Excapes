@@ -1106,7 +1106,7 @@ h2 {
   -ms-transition: all 0.2s 0s ease;
   -o-transition: all 0.2s 0s ease;
   transition: all 0.2s 0s ease;
-  max-height: 105px;
+  height: 105px;
   float: left;
   width: 49%;
   -webkit-border-radius: 5px;
@@ -1132,7 +1132,6 @@ h2 {
     text-align: center;
     padding-bottom: 15px;
     width: 100%;
-    height: 100%;
     -webkit-transition: all 0.2s 0s ease;
     -moz-transition: all 0.2s 0s ease;
     -ms-transition: all 0.2s 0s ease;
@@ -1176,7 +1175,7 @@ h2 {
   color: #f9f9f9;
   text-align: right;
   float: right;
-  padding: 11% 11% 11% 0; }
+  padding: 35px 35px 35px 0; }
 
 .challenge_title {
   color: #f9f9f9;
@@ -2254,6 +2253,10 @@ Smartphone Down
 
   .sponfoot ul {
     width: 350px; }
+
+  .deal {
+    width: 100%;
+    margin-right: 0px; }
 
   .retos li {
     width: 100%;
