@@ -4,6 +4,8 @@ RewriteCond %{HTTP_HOST} !^drive.excapes.tv$ [NC]
 RewriteRule ^(.*)$ http://excapes.tv/$1 [L,R=301]
 RedirectMatch 301 ^/_site/(.*)$ http://excapes.tv/
 
+AddDefaultCharset UTF-8
+
 ErrorDocument 404 /404/
 
 # 3 WEEKS
