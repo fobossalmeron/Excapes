@@ -1182,6 +1182,7 @@ h2 {
   float: left;
   font-size: 20px;
   position: relative;
+  letter-spacing: 3px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -1192,8 +1193,7 @@ h2 {
   text-transform: uppercase;
   display: block;
   padding: 5px 0;
-  clear: both;
-  letter-spacing: 6px; }
+  clear: both; }
 
 .challenge_img {
   float: left;

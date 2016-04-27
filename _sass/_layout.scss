@@ -1005,6 +1005,7 @@ h2 {
     float: left;
     font-size: 20px;
     position: relative;
+    letter-spacing: 3px;
     left: 50%;
     @include translateX(-50%);
     font-family: $base-font-family;
@@ -1012,7 +1013,6 @@ h2 {
     display: block;
     padding: 5px 0;
     clear: both;
-    letter-spacing: 6px;
 }
 
 .challenge_img{
