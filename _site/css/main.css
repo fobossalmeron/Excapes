@@ -1301,7 +1301,12 @@ Retos
       -moz-border-radius: 5px;
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      -webkit-box-shadow: inset 0px -30px 90px -20px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: inset 0px -30px 90px -20px rgba(0, 0, 0, 0.3);
+      -ms-box-shadow: inset 0px -30px 90px -20px rgba(0, 0, 0, 0.3);
+      -o-box-shadow: inset 0px -30px 90px -20px rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0px -30px 90px -20px rgba(0, 0, 0, 0.3); }
     .retos li .reto_icon {
       position: relative;
       float: left;

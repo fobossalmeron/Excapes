@@ -78,15 +78,15 @@ challenges:
         info: "53-84-63-99-62"
 hotspots:
   - name: "El Fuerte"
-    image: "1.jpg"
+    image: "elfuerte.jpg"
     linktext: "Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin."
     link: "https://goo.gl/maps/LsQYajYmo6L2"
   - name: "Santa María"
-    image: "2.jpg"
+    image: "santamaria.jpg"
     linktext: "Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin."
     link: "https://goo.gl/maps/LsQYajYmo6L2"
   - name: "Beach Club"
-    image: "3.jpg"
+    image: "beachclub.jpg"
     linktext: "Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin."
     link: "https://goo.gl/maps/LsQYajYmo6L2"
 ---

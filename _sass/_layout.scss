@@ -1114,6 +1114,7 @@ Retos
             opacity: 1;
             @include transition(.2s, ease);
             @include border-radius(5px);
+            @include box-shadow(inset 0px -30px 90px -20px rgba(0,0,0,0.3));
         }
         .reto_icon{
             position: relative;
