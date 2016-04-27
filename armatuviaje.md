@@ -12,7 +12,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 
 <p style="float:left;">Échale un ojo a esta guía para que viajes por México como te dé la gana.</p>
 
-{% for destination in site.destinations %}
+{% for destination in site.destinations reversed %}
 <div class="destination">
 	<h1>{{ destination.title }}</h1>
 	<h2>{{ destination.subtitle }}</h2>
