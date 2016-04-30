@@ -122,9 +122,14 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
               <img class="reto_icon" src="{{ site.baseurl }}images/locaciones/locacion.svg">
               <h1 class="challenge_title">{{ hotspot.name }}</h1>
               <ul class="locaciones hotspots{{ hotspot_id }}">
-                <li>
+								<li>
+								{% if hotspot.info %}
+									<p>{{hotspot.info}}</p>
+								{% endif %}
+								{% if hotspot.link %}
                   <a href="{{hotspot.link}}" target="_blank">{{hotspot.linktext}}</a>
-                </li>
+								{% endif %}
+								</li>
               </ul>
             </li>
 

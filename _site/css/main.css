@@ -1281,9 +1281,11 @@ Retos
     .retos li h1 {
       text-align: center;
       color: #f9f9f9;
-      margin: 0;
-      padding: 0 0 6px 0;
-      font-size: 15px; }
+      padding: 5px;
+      font-size: 15px;
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
     .retos li .reto_image {
       position: absolute;
       background-size: cover;
@@ -1326,12 +1328,13 @@ Retos
       transition: all 0.2s 0s ease; }
 
 .locaciones {
+  position: absolute;
+  top: 130px;
   width: 100%;
   list-style: none;
   margin-left: 0;
   opacity: 1;
   background-color: cornflowerblue;
-  float: left;
   -webkit-transition: all 0.2s 0s ease;
   -moz-transition: all 0.2s 0s ease;
   -ms-transition: all 0.2s 0s ease;
@@ -1356,7 +1359,7 @@ Retos
     cursor: auto;
     z-index: 2;
     opacity: 1;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.8); }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
     .locaciones li:nth-last-child(1) {
       border-radius: 0px 0px 5px 5px;
       -webkit-border-radius: 0px 0px 5px 5px;
@@ -1393,7 +1396,8 @@ Retos
       margin-bottom: 0;
       float: left;
       color: rgba(0, 0, 0, 0.5);
-      clear: both; }
+      clear: both;
+      text-align: left; }
 
 .locaciones_open {
   overflow: visible !important;
@@ -1409,6 +1413,8 @@ Retos
 
 .hotspots li {
   background-color: #ef3a3a; }
+  .hotspots li p {
+    margin: 10px 0 0 0; }
 .hotspots ul {
   padding-bottom: 10px;
   background-color: #ef3a3a; }
@@ -2223,10 +2229,7 @@ Sidebar
     width: 70%; }
 
   .stickyheader .logo {
-    width: 55%; }
-
-  .locaciones li a {
-    padding-bottom: 15px; } }
+    width: 55%; } }
 /**
 Tablet Down
 **/

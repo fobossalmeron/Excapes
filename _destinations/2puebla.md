@@ -64,6 +64,7 @@ hotspots:
     image: "barriodelartista.jpg"
     linktext: "Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin."
     link: "https://goo.gl/maps/LsQYajYmo6L2"
+    info: "Información sobre el fuerte"
   - name: "Cholula"
     image: "cholula.jpg"
     linktext: "Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin."
@@ -116,4 +117,5 @@ hotspots:
     image: "presatenango.jpg"
     linktext: "Playa Maviri, Alejandro Peña, 81260 Los Mochis, Sin."
     link: "https://goo.gl/maps/LsQYajYmo6L2"
+    info: "Información sobre el fuerte"
 ---

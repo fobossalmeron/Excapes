@@ -2,12 +2,12 @@
 layout: page
 title: Retos
 permalink: retos/
-mainsponsor: sidebar-ad1.jpg
-mainsponsorhorizontal: horizontal-ad1.jpg 
-mainsponsorlink: http://www.redbull.com/mx/es
-secondarysponsor: sidebar-ad-mini1.jpg
-secondarysponsorhorizontal: horizontal-ad-mini1.jpg
-secondarysponsorlink: http://www.redbull.com/mx/es/surfing
+mainsponsor: sidebar-ad-reflekto.jpg
+mainsponsorhorizontal: horizontal-ad-reflekto.jpg
+mainsponsorlink: /patrocinadores/
+secondarysponsor: sidebar-ad-mini-ojosdepapel.png
+secondarysponsorhorizontal: horizontal-ad-mini-ojosdepapel.png
+secondarysponsorlink: http://www.ojosdepapelvolando.com
 ---
 <ul class="retos">
 	{% for challenge in site.challenges %}
@@ -38,7 +38,7 @@ secondarysponsorlink: http://www.redbull.com/mx/es/surfing
 		  }
 
 		  function toggleAccordion(){
-		  	$('.locacion_clickable').not(this).removeClass('locaciones_open'); 
+		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
 		    locTrigger{{ challenge.id }}.classList.toggle('locaciones_open');
 		  }
 

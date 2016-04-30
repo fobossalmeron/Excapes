@@ -2,13 +2,13 @@
 layout: page
 title: Quiénes somos?
 permalink: quienessomos/
-mainsponsor: sidebar-ad1.jpg
-mainsponsorhorizontal: horizontal-ad1.jpg
-mainsponsorlink: http://www.redbull.com/mx/es
-secondarysponsor: sidebar-ad-mini1.jpg
-secondarysponsorhorizontal: horizontal-ad-mini1.jpg
-secondarysponsorlink: http://www.redbull.com/mx/es/surfing
---- 
+mainsponsor: sidebar-ad-reflekto.jpg
+mainsponsorhorizontal: horizontal-ad-reflekto.jpg
+mainsponsorlink: /patrocinadores/
+secondarysponsor: sidebar-ad-mini-ojosdepapel.png
+secondarysponsorhorizontal: horizontal-ad-mini-ojosdepapel.png
+secondarysponsorlink: http://www.ojosdepapelvolando.com
+---
 
 <div class="about_info">
 </b>E<span class="xtext">X</span>CAPES</b> nace de la idea de unir nuestra profesión con nuestras ganas de viajar. Behind the scenes somos una banda de cineastas, <a href="http://kapturaprojects.com">Kaptura Projects</a>, que decidimos arriesgarnos: agarrar la mochila, preparar la cámara y realizar la serie.

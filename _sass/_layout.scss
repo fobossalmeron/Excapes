@@ -1097,11 +1097,13 @@ Retos
         }
 
         h1{
-            text-align: center;
-            color: $white;
-            margin: 0;
-            padding: 0 0 6px 0;
-            font-size: 15px;
+          text-align: center;
+          color: $white;
+          padding: 5px;
+          font-size: 15px;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
         }
 
         .reto_image{
@@ -1130,12 +1132,13 @@ Retos
 }
 
 .locaciones{
+  position: absolute;
+  top: 130px;
   width:100%;
   list-style: none;
   margin-left:0;
   opacity: 1;
   background-color: cornflowerblue;
-  float: left;
   @include transition(.2s, ease);
   @include border-radius(5px);
 
@@ -1149,7 +1152,7 @@ Retos
     cursor:auto;
     z-index: 2;
     opacity: 1;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
     &:nth-last-child(1){
         border-radius: 0px 0px 5px 5px;
@@ -1186,6 +1189,7 @@ Retos
         float:left;
         color: rgba(0,0,0,0.5);
         clear:both;
+        text-align: left;
     }
   }
 }
@@ -1210,6 +1214,9 @@ Retos
 .hotspots{
   li{
     background-color: $red;
+    p{
+      margin: 10px 0 0 0;
+    }
   }
   ul{
     padding-bottom: 10px;
