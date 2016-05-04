@@ -11,7 +11,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 ---
 
 <div class="about_info">
-</b>E<span class="xtext">X</span>CAPES</b> nace de la idea de unir nuestra profesión con nuestras ganas de viajar. Behind the scenes somos una banda de cineastas, <a href="http://kapturaprojects.com">Kaptura Projects</a>, que decidimos arriesgarnos: agarrar la mochila, preparar la cámara y realizar la serie.
+<b>E<span class="xtext">X</span>CAPES</b> nace de la idea de unir nuestra profesión con nuestras ganas de viajar. Behind the scenes somos una banda de cineastas, <a href="http://kapturaprojects.com">Kaptura Projects</a>, que decidimos arriesgarnos: agarrar la mochila, preparar la cámara y realizar la serie.
 </div>
 
 <h2 class="about_doc_h2">⇣ El equipo ⇣</h2>
