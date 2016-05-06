@@ -14,6 +14,14 @@
           border-radius: $a $b $c $d;
 }
 
+@mixin border-radius-multiple-important($a, $b, $c, $d) {
+  -webkit-border-radius: $a $b $c $d !important;
+     -moz-border-radius: $a $b $c $d !important;
+      -ms-border-radius: $a $b $c $d !important;
+       -o-border-radius: $a $b $c $d !important;
+          border-radius: $a $b $c $d !important;
+}
+
 @mixin box-shadow($shadow) {
   -webkit-box-shadow: $shadow;
      -moz-box-shadow: $shadow;

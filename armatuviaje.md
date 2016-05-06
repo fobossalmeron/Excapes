@@ -25,56 +25,72 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
   	<ul class="deals_list">
 		  {% for deal in destination.deals %}
-      <!--{% increment deal_id %}-->
 					<li class="deal locacion_clickable deal_clickable{{deal_id}}">
-
             {% if deal.type == "plane" %}
             <img class="deal_icon" src="{{ site.baseurl }}images/promociones/plane.svg">
             <span class="deal_info">Vuelos</span>
             {% endif %}
             {% if deal.type == "hotel" %}
             <img class="deal_icon" src="{{ site.baseurl }}images/promociones/hotel.svg">
-            <span class="deal_info">Hoteles</span>
+            <span class="deal_info">Hospedaje</span>
             {% endif %}
             {% if deal.type == "bus" %}
             <img class="deal_icon" src="{{ site.baseurl }}images/promociones/bus.svg">
             <span class="deal_info">Autobuses</span>
             {% endif %}
-
-            <ul class="deal_hiddeninfo deals{{ deal_id }}">
+            <ul class="deal_hiddeninfo deals{{ deal_id }} superselectable">
   						{% for location in deal.locations %}
   						<li>
-                <h3>{{location.place}}</h3>
-                <a href="{{location.link}}">{{location.name}}</a>
-                <p>{{location.info}}</p>
+                <h2>{{location.place}}</h2>
+								{% if location.web %}
+								<a class="dealbrand" href="{{ location.web }}">
+								{{ location.name }}
+								</a>
+								{% else %}
+								<h3>{{ location.name }}</h3>
+								{% endif %}
+								<div class="infocontainer">
+									{% if location.tel %}
+									<a class="phonecontact" href="tel:{{location.tel}}">
+										<img src="{{ site.baseurl }}images/layout/mobile.svg">
+										+(52) {{ location.tel }}
+									</a>
+									{% endif %}
+									{% if location.tel2 %}
+									<a class="phonecontact" href="tel:{{ location.tel2 }}">
+										<img src="{{ site.baseurl }}images/layout/mobile.svg">
+										+(52) {{ location.tel2 }}
+									</a>
+									{% endif %}
+									{% if location.whatsapp %}
+									<a class="phonecontact" href="tel:{{ location.whatsapp }}">
+								 		<img src="{{ site.baseurl }}images/layout/whatsapp.svg"> {{ location.whatsapp }}
+									</a>
+									{% endif %}
+									{% if location.mail %}
+									<a class="dealicon dealmail" href="mailto:{{ location.mail }}" target="_blank">
+										<img src="{{ site.baseurl }}images/layout/contactored.svg">
+									</a>
+									{% endif %}
+									{% if location.facebook %}
+									<a class="dealicon dealfacebook" href="{{location.facebook}}" target="_blank">
+										<img src="{{ site.baseurl }}images/layout/fbred.svg">
+									</a>
+									{% endif %}
+									<p>{{location.info}}</p>
+								</div>
               </li>
               {% endfor %}
             </ul>
 					</li>
-
-          <script>
-            var querySelector = document.querySelector.bind(document);
-            var locAccordiond{{ deal_id }} = querySelector('.deals{{ deal_id }}');
-            var locTriggerd{{ deal_id }} = querySelector('.deal_clickable{{ deal_id }}');
-            var locTriggerOther = querySelector('.locacion_clickable');
-            function closeAccordion(){
-              locTriggerd{{ deal_id }}.classList.remove('locaciones_open');
-            }
-            function toggleAccordion(){
-              $('.locacion_clickable').not(this).removeClass('locaciones_open');
-              locTriggerd{{ deal_id }}.classList.toggle('locaciones_open');
-            }
-            locTriggerd{{ deal_id }}.addEventListener('click', toggleAccordion);
-          </script>
 			{% endfor %}
 		</ul>
     {% endif %}
 
 		{% if destination.challenges %}
 		<h2>¿Te avientas?</h2>
-    <ul class="retos">
+    <ul class="retos superselectable">
 	    {% for challenge in destination.challenges %}
-		  <!--{% increment challenge_id %}-->
 	  	<li class="locacion_clickable locacion_clickable{{challenge_id}}">
 				{% if challenge.alterimg %}
 				<div class="reto_image" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.alterimg }}.jpg)"></div>
@@ -93,30 +109,14 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 		    	{% endfor %}
 		    </ul>
 		  </li>
-
-  		<script>
-  		  var querySelector = document.querySelector.bind(document);
-  		  var locAccordion{{ challenge_id }} = querySelector('.locaciones{{ challenge_id }}');
-  		  var locTrigger{{ challenge_id }} = querySelector('.locacion_clickable{{ challenge_id }}');
-  		  var locTriggerOther = querySelector('.locacion_clickable');
-  		  function closeAccordion(){
-  		    locTrigger{{ challenge_id }}.classList.remove('locaciones_open');
-  		  }
-  		  function toggleAccordion(){
-  		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-  		    locTrigger{{ challenge_id }}.classList.toggle('locaciones_open');
-  		  }
-  		  locTrigger{{ challenge_id }}.addEventListener('click', toggleAccordion);
-  		</script>
 	    {% endfor %}
     </ul>
     {% endif %}
 
 		{% if destination.hotspots %}
 		<h2>Tienes que visitar estos lugares!</h2>
-			<ul class="retos hotspots">
+			<ul class="retos hotspots superselectable">
 				{% for hotspot in destination.hotspots %}
-				<!--{% increment hotspot_id %}-->
             <li class="locacion_clickable hotspot_clickable{{hotspot_id}}">
               <div class="reto_image" style="background-image: url({{ site.baseurl }}images/locaciones/{{ hotspot.image }})"></div>
               <img class="reto_icon" src="{{ site.baseurl }}images/locaciones/locacion.svg">
@@ -132,27 +132,10 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 								</li>
               </ul>
             </li>
-
-            <script>
-        		  var querySelector = document.querySelector.bind(document);
-        		  var locAccordion_h{{ hotspot_id }} = querySelector('.hotspots{{ hotspot_id }}');
-        		  var locTrigger_h{{ hotspot_id }} = querySelector('.hotspot_clickable{{ hotspot_id }}');
-        		  var locTriggerOther = querySelector('.locacion_clickable');
-        		  function closeAccordion(){
-        		    locTrigger_h{{ hotspot_id }}.classList.remove('locaciones_open');
-        		  }
-        		  function toggleAccordion(){
-        		  	$('.locacion_clickable').not(this).removeClass('locaciones_open');
-        		    locTrigger_h{{ hotspot_id }}.classList.toggle('locaciones_open');
-        		  }
-        		  locTrigger_h{{ hotspot_id }}.addEventListener('click', toggleAccordion);
-        		</script>
-
 				{% endfor %}
 			</ul>
 		{% endif %}
 
 	</main>
-
 </div>
 {% endfor %}

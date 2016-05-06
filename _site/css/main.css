@@ -1099,24 +1099,23 @@ h2 {
   background-position: center left;
   background-color: #ef3a3a;
   margin-bottom: 30px;
-  overflow: hidden;
   position: relative;
   -webkit-transition: all 0.2s 0s ease;
   -moz-transition: all 0.2s 0s ease;
   -ms-transition: all 0.2s 0s ease;
   -o-transition: all 0.2s 0s ease;
   transition: all 0.2s 0s ease;
-  height: 105px;
   float: left;
-  width: 49%;
+  width: 100%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px; }
   .deal .deal_icon {
-    width: 40%;
-    max-height: 105px; }
+    width: 100px;
+    height: 100px;
+    float: left; }
   .deal .deal_hiddeninfo {
     margin-left: 0;
     position: relative;
@@ -1145,37 +1144,102 @@ h2 {
     text-align: left;
     z-index: 2; }
     .deal .deal_hiddeninfo li {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
+      background-color: #f9f9f9;
+      width: 30.5%;
+      border-radius: 5px;
+      padding: 2% 0;
+      height: 100px;
+      overflow: hidden;
+      margin-bottom: 2%;
+      float: left;
+      margin-left: 2%;
+      position: relative; }
       .deal .deal_hiddeninfo li:nth-last-child(1) {
         border: 0; }
+      .deal .deal_hiddeninfo li span {
+        float: left;
+        color: #ef3a3a;
+        text-align: left;
+        padding-bottom: 10px; }
+      .deal .deal_hiddeninfo li:hover {
+        overflow: visible;
+        z-index: 4; }
     .deal .deal_hiddeninfo h3 {
-      color: #f9f9f9;
+      color: #ef3a3a;
       margin: 0;
-      padding: 0;
+      float: left;
+      clear: both;
+      padding-left: 5%;
+      font-size: 16px; }
+    .deal .deal_hiddeninfo h2 {
+      color: rgba(0, 0, 0, 0.5);
+      width: 70%;
+      float: left;
+      clear: both;
+      font-family: "Titillium Web", sans-serif;
+      padding-top: 0;
+      padding-bottom: 3px;
+      padding-left: 10px;
       font-size: 15px;
-      text-transform: uppercase;
-      padding-top: 10px;
-      padding-left: 15px; }
+      letter-spacing: 2px;
+      font-weight: 600; }
+    .deal .deal_hiddeninfo .dealbrand {
+      padding-left: 10px; }
     .deal .deal_hiddeninfo a {
       text-align: left;
-      color: rgba(0, 0, 0, 0.5);
-      padding-left: 15px; }
+      float: left;
+      color: #ef3a3a; }
     .deal .deal_hiddeninfo p {
       text-align: left;
-      margin-bottom: 10px;
-      padding-left: 15px; }
-  .deal:hover {
-    overflow: visible;
-    border-radius: 5px 5px 0px 0px;
-    z-index: 3; }
-    .deal:hover .deal_hiddeninfo {
-      opacity: 1; }
+      padding-bottom: 0;
+      float: left;
+      clear: both;
+      margin-bottom: 3px;
+      color: rgba(0, 0, 0, 0.5); }
+
+.dealicon {
+  float: left;
+  clear: none;
+  margin-right: 2%;
+  width: 32%;
+  box-sizing: border-box; }
+
+.phonecontact img {
+  width: 25px;
+  height: 25px; }
+
+.ui-selected {
+  overflow: visible !important;
+  z-index: 3 !important;
+  -webkit-border-radius: 5px 5px 0px 0px !important;
+  -moz-border-radius: 5px 5px 0px 0px !important;
+  -ms-border-radius: 5px 5px 0px 0px !important;
+  -o-border-radius: 5px 5px 0px 0px !important;
+  border-radius: 5px 5px 0px 0px !important; }
+  .ui-selected .reto_image {
+    opacity: 0 !important; }
+  .ui-selected .reto_icon {
+    opacity: 1 !important; }
+
+.infocontainer {
+  background-color: #f9f9f9;
+  padding: 5%;
+  float: left;
+  width: 100%;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -ms-border-radius: 0px 0px 5px 5px;
+  -o-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px; }
 
 .deal_info {
   color: #f9f9f9;
-  text-align: right;
-  float: right;
-  padding: 35px 35px 35px 0; }
+  text-align: left;
+  float: left;
+  padding: 35px;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
 
 .challenge_title {
   color: #f9f9f9;
@@ -1262,7 +1326,7 @@ Retos
     -o-transition: all 0.1s 0s ease;
     transition: all 0.1s 0s ease;
     opacity: 1; }
-    .retos li:nth-child(6n+5) {
+    .retos li:nth-child(3n+0) {
       margin-right: 0; }
     .retos li:hover {
       opacity: 1;
@@ -1335,6 +1399,7 @@ Retos
   margin-left: 0;
   opacity: 1;
   background-color: cornflowerblue;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.2s 0s ease;
   -moz-transition: all 0.2s 0s ease;
   -ms-transition: all 0.2s 0s ease;

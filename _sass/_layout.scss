@@ -926,17 +926,16 @@ h2 {
     background-position: center left;
     background-color: $red;
     margin-bottom: 30px;
-    overflow: hidden;
     position: relative;
     @include transition(.2s, ease);
-    height: 105px;
     float: left;
-    width:49%;
+    width:100%;
     @include border-radius(5px);
 
     .deal_icon{
-      width: 40%;
-      max-height: 105px;
+      width: 100px;
+      height: 100px;
+      float:left;
     }
 
         .deal_hiddeninfo{
@@ -951,53 +950,117 @@ h2 {
             padding-bottom: 15px;
             width: 100%;
             @include transition(.2s, ease);
-            // opacity:0;
             @include border-radius-multiple(0px, 0px, 5px, 5px);
             text-align: left;
             z-index:2;
 
             li{
-              border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+              background-color: $white;
+              width: 30.5%;
+              border-radius: 5px;
+              padding: 2% 0;
+              height: 100px;
+              overflow: hidden;
+              margin-bottom: 2%;
+              float: left;
+              margin-left: 2%;
+              position: relative;
               &:nth-last-child(1){
                   border:0;
               }
+              span{
+                float:left;
+                color:$red;
+                text-align: left;
+                padding-bottom: 10px;
+              }
+              &:hover{
+                overflow:visible;
+                z-index: 4;
+              }
             }
             h3{
-              color: $white;
+              color: $red;
               margin: 0;
-              padding: 0;
+              float:left;
+              clear:both;
+              padding-left: 5%;
+              font-size: 16px;
+            }
+            h2{
+              color: rgba(0, 0, 0, 0.5);
+              width: 70%;
+              float:left;
+              clear:both;
+              font-family: $base-font-family;
+              padding-top:0;
+              padding-bottom: 3px;
+              padding-left:10px;
               font-size: 15px;
-              text-transform: uppercase;
-              padding-top: 10px;
-              padding-left:15px;
+              letter-spacing: 2px;
+              font-weight: 600;
+            }
+            .dealbrand{
+              padding-left:10px;
             }
             a{
               text-align: left;
-              color: rgba(0, 0, 0, 0.5);
-              padding-left:15px;
+              float:left;
+              color: $red;
             }
             p{
               text-align: left;
-              margin-bottom: 10px;
-              padding-left:15px;
+              padding-bottom: 0;
+              float:left;
+              clear:both;
+              margin-bottom: 3px;
+              color: rgba(0, 0, 0, 0.5);
             }
-        }
-
-    &:hover{
-        overflow: visible;
-        border-radius: 5px 5px 0px 0px;
-        z-index: 3;
-        .deal_hiddeninfo{
-          opacity:1;
-        }
     }
  }
 
+.dealicon{
+  float:left;
+  clear:none;
+  margin-right:2%;
+  width:32%;
+  box-sizing: border-box;
+}
+
+.phonecontact{
+  img{
+      width:25px;
+      height:25px;
+      }
+}
+
+ .ui-selected{
+   overflow: visible !important;
+   z-index: 3 !important;
+   @include border-radius-multiple-important(5px, 5px, 0px, 0px);
+   .reto_image{
+     opacity:0 !important;
+   }
+   .reto_icon{
+     opacity:1 !important;
+   }
+ }
+
+.infocontainer{
+  background-color: $white;
+  padding: 5%;
+  float:left;
+  width:100%;
+  border-bottom: 5px solid rgba(0,0,0,0.1);
+  @include border-radius-multiple(0px, 0px, 5px, 5px);
+}
  .deal_info{
-    color: $white;
-    text-align: right;
-    float: right;
-    padding: 35px 35px 35px 0;
+   color: $white;
+   text-align: left;
+   float: left;
+   padding: 35px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
  }
 
 .challenge_title{
@@ -1078,7 +1141,7 @@ Retos
         @include transition(.1s, ease);
         opacity: 1;
 
-        &:nth-child(6n+5) {
+        &:nth-child(3n+0) {
             margin-right: 0;
         }
 
@@ -1139,6 +1202,7 @@ Retos
   margin-left:0;
   opacity: 1;
   background-color: cornflowerblue;
+  border-bottom: 5px solid rgba(0,0,0,0.1);
   @include transition(.2s, ease);
   @include border-radius(5px);
 
