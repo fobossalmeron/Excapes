@@ -1088,7 +1088,7 @@ h2 {
   margin: 0;
   list-style: none; }
   .deals_list li:nth-child(3n+0) {
-    margin-right: 0px !important; }
+    margin-right: 0px; }
 
 .deal {
   background-size: contain;
@@ -1118,6 +1118,7 @@ h2 {
     float: left; }
   .deal .deal_hiddeninfo {
     margin-left: 0;
+    padding: 2%;
     position: relative;
     float: left;
     list-style: none;
@@ -1143,48 +1144,29 @@ h2 {
     border-radius: 0px 0px 5px 5px;
     text-align: left;
     z-index: 2; }
-    .deal .deal_hiddeninfo li {
-      background-color: #f9f9f9;
-      width: 30.5%;
-      border-radius: 5px;
-      padding: 2% 0;
-      height: 100px;
-      overflow: hidden;
-      margin-bottom: 2%;
-      float: left;
-      margin-left: 2%;
-      position: relative; }
-      .deal .deal_hiddeninfo li:nth-last-child(1) {
-        border: 0; }
-      .deal .deal_hiddeninfo li span {
-        float: left;
-        color: #ef3a3a;
-        text-align: left;
-        padding-bottom: 10px; }
-      .deal .deal_hiddeninfo li:hover {
-        overflow: visible;
-        z-index: 4; }
     .deal .deal_hiddeninfo h3 {
       color: #ef3a3a;
       margin: 0;
       float: left;
       clear: both;
-      padding-left: 5%;
+      padding-left: 4%;
       font-size: 16px; }
     .deal .deal_hiddeninfo h2 {
       color: rgba(0, 0, 0, 0.5);
-      width: 70%;
+      width: 150px;
       float: left;
       clear: both;
       font-family: "Titillium Web", sans-serif;
       padding-top: 0;
       padding-bottom: 3px;
-      padding-left: 10px;
+      padding-left: 4%;
       font-size: 15px;
       letter-spacing: 2px;
       font-weight: 600; }
     .deal .deal_hiddeninfo .dealbrand {
-      padding-left: 10px; }
+      padding-left: 4%;
+      line-height: 26px;
+      background-color: #f9f9f9; }
     .deal .deal_hiddeninfo a {
       text-align: left;
       float: left;
@@ -1197,6 +1179,28 @@ h2 {
       margin-bottom: 3px;
       color: rgba(0, 0, 0, 0.5); }
 
+.hiddenli {
+  background-color: #f9f9f9;
+  width: 30.6%;
+  border-radius: 5px;
+  padding: 2% 0;
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 2%;
+  margin-right: 4%;
+  float: left;
+  position: relative; }
+  .hiddenli:nth-last-child(1) {
+    border: 0; }
+  .hiddenli span {
+    float: left;
+    color: #ef3a3a;
+    text-align: left;
+    padding-bottom: 10px; }
+  .hiddenli:hover {
+    overflow: visible;
+    z-index: 4; }
+
 .dealicon {
   float: left;
   clear: none;
@@ -1204,9 +1208,15 @@ h2 {
   width: 32%;
   box-sizing: border-box; }
 
-.phonecontact img {
-  width: 25px;
-  height: 25px; }
+.dealmail {
+  clear: left; }
+
+.phonecontact {
+  clear: both;
+  width: 100%; }
+  .phonecontact img {
+    width: 25px;
+    height: 25px; }
 
 .ui-selected {
   overflow: visible !important;
@@ -2243,11 +2253,24 @@ Sidebar
     .challenge_mini:nth-child(4n+4) {
       margin-right: 0px; }
 
+  .hiddenli {
+    width: 48%; }
+    .hiddenli:nth-child(3n+0) {
+      margin-right: 2%; }
+    .hiddenli:nth-child(2n+0) {
+      margin-right: 0%; }
+
+  .deals_list li:nth-child(3n+0) {
+    margin-right: 4%; }
+
+  .dealbrand {
+    clear: both; }
+
   .retos li {
     width: 47.5%; }
-    .retos li:nth-child(6n+5) {
+    .retos li:nth-child(3n+0) {
       margin-right: 5%; }
-    .retos li:nth-child(4n+3) {
+    .retos li:nth-child(2n+0) {
       margin-right: 0%; }
 
   .locaciones li {
@@ -2331,6 +2354,9 @@ Smartphone Down
   .deal {
     width: 100%;
     margin-right: 0px; }
+
+  .hiddenli {
+    width: 100%; }
 
   .retos li {
     width: 100%;

@@ -913,7 +913,7 @@ h2 {
      list-style: none;
 
      li:nth-child(3n+0){
-       margin-right:0px !important;
+       margin-right:0px;
     }
  }
 
@@ -940,6 +940,7 @@ h2 {
 
         .deal_hiddeninfo{
             margin-left: 0;
+            padding: 2%;
             position: relative;
             float:left;
             list-style: none;
@@ -954,54 +955,31 @@ h2 {
             text-align: left;
             z-index:2;
 
-            li{
-              background-color: $white;
-              width: 30.5%;
-              border-radius: 5px;
-              padding: 2% 0;
-              height: 100px;
-              overflow: hidden;
-              margin-bottom: 2%;
-              float: left;
-              margin-left: 2%;
-              position: relative;
-              &:nth-last-child(1){
-                  border:0;
-              }
-              span{
-                float:left;
-                color:$red;
-                text-align: left;
-                padding-bottom: 10px;
-              }
-              &:hover{
-                overflow:visible;
-                z-index: 4;
-              }
-            }
             h3{
               color: $red;
               margin: 0;
               float:left;
               clear:both;
-              padding-left: 5%;
+              padding-left: 4%;
               font-size: 16px;
             }
             h2{
               color: rgba(0, 0, 0, 0.5);
-              width: 70%;
+              width: 150px;
               float:left;
               clear:both;
               font-family: $base-font-family;
               padding-top:0;
               padding-bottom: 3px;
-              padding-left:10px;
+              padding-left:4%;
               font-size: 15px;
               letter-spacing: 2px;
               font-weight: 600;
             }
             .dealbrand{
-              padding-left:10px;
+              padding-left:4%;
+              line-height: 26px;
+              background-color: $white;
             }
             a{
               text-align: left;
@@ -1019,6 +997,32 @@ h2 {
     }
  }
 
+ .hiddenli{
+   background-color: $white;
+   width: 30.6%;
+   border-radius: 5px;
+   padding: 2% 0;
+   height: 90px;
+   overflow: hidden;
+   margin-bottom: 2%;
+   margin-right:4%;
+   float: left;
+   position: relative;
+   &:nth-last-child(1){
+       border:0;
+   }
+   span{
+     float:left;
+     color:$red;
+     text-align: left;
+     padding-bottom: 10px;
+   }
+   &:hover{
+     overflow:visible;
+     z-index: 4;
+   }
+ }
+
 .dealicon{
   float:left;
   clear:none;
@@ -1027,7 +1031,13 @@ h2 {
   box-sizing: border-box;
 }
 
+.dealmail{
+  clear:left;
+}
+
 .phonecontact{
+  clear:both;
+  width:100%;
   img{
       width:25px;
       height:25px;

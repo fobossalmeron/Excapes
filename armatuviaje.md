@@ -40,7 +40,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
             {% endif %}
             <ul class="deal_hiddeninfo deals{{ deal_id }} superselectable">
   						{% for location in deal.locations %}
-  						<li>
+  						<li class="hiddenli">
                 <h2>{{location.place}}</h2>
 								{% if location.web %}
 								<a class="dealbrand" href="{{ location.web }}">

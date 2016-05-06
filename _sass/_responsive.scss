@@ -60,13 +60,27 @@ Sidebar
 			margin-right: 0px;
 		}
 	}
-
+  .hiddenli{
+			width: 48%;
+			&:nth-child(3n+0){
+				margin-right: 2%;
+			}
+			&:nth-child(2n+0){
+				margin-right: 0%;
+			}
+	}
+	.deals_list li:nth-child(3n+0) {
+    margin-right: 4%;
+	}
+	.dealbrand{
+		clear:both;
+	}
 	.retos li{
 		width: 47.5%;
-		&:nth-child(6n+5) {
+		&:nth-child(3n+0) {
     		margin-right: 5%;
 		}
-		&:nth-child(4n+3) {
+		&:nth-child(2n+0) {
     		margin-right: 0%;
 		}
 	}
@@ -164,6 +178,10 @@ Smartphone Down
 	.deal {
 	    width: 100%;
 	    margin-right: 0px;
+	}
+
+	.hiddenli{
+			width: 100%;
 	}
 
 	.retos li{
