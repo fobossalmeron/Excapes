@@ -58,7 +58,7 @@ video: https://www.youtube.com/embed/v_vqxGQW5lg
 </div>
 <h1 class="introtitle">Bienvenido a Excapes!</h1>
 <p class="intro">
-</b>E<span class="xtext">X</span>CAPES</b> es un proyecto que sigue a Manu en su viaje por México. Cualquiera puede <a href="{{site.baseurl}}jalate/">unirse al plan</a>, te invitamos a que nos acompañes no sólo desde tu computadora, queremos que vengas de viaje con nosotros y formes parte de <a href="{{site.baseurl}}serie/">la serie</a>.
+<b>E<span class="xtext">X</span>CAPES</b> es un proyecto que sigue a Manu en su viaje por México. Cualquiera puede <a href="{{site.baseurl}}jalate/">unirse al plan</a>, te invitamos a que nos acompañes no sólo desde tu computadora, queremos que vengas de viaje con nosotros y formes parte de <a href="{{site.baseurl}}serie/">la serie</a>.
 <br><br>
 El itinerario de Manu está marcado por los lugares de México por los que viajó su padre pero las personas y las vivencias que el grupo de amigos se vaya topando en el camino, marcarán el destino de los capítulos.
 </p>
