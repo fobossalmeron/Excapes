@@ -1095,7 +1095,7 @@ button {
   width: 20px;
   margin: 0px 10px;
   height: 20px;
-  box-sizing: border-box;
+  box-sizing: content-box;
   cursor: pointer;
   background-color: transparent;
   -webkit-transition: all 0.4s 0s ease;
