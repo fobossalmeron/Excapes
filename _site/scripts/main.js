@@ -55,8 +55,4 @@ $(document).ready(function(){
   $(".closeme").click(function(){
     $(".ui-selected").removeClass("ui-selected");
   });
-  //ESTA ES CORRECTA
-  //$(".ui-selected").removeClass("ui-selected");
-  //Lo que no funciona es el click
-
 });

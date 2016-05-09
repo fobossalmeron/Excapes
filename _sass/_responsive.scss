@@ -135,6 +135,21 @@ Sidebar
 Tablet Down
 **/
 @include media-query($tablet-down) {
+
+	.hiddenli:hover {
+		overflow:hidden;
+	}
+	.retos li:hover{
+		opacity: 1;
+ 		overflow: hidden;
+		@include border-radius(5px);
+		.reto_image{
+			opacity: 1;
+		}
+		.reto_icon{
+			opacity:0;
+		}
+	}
 	.sponsor li {
 	    padding: 0 6%;
 	    width: 33.3%;

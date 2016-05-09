@@ -2351,6 +2351,22 @@ Sidebar
 Tablet Down
 **/
 @media screen and (max-width: 980px) {
+  .hiddenli:hover {
+    overflow: hidden; }
+
+  .retos li:hover {
+    opacity: 1;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; }
+    .retos li:hover .reto_image {
+      opacity: 1; }
+    .retos li:hover .reto_icon {
+      opacity: 0; }
+
   .sponsor li {
     padding: 0 6%;
     width: 33.3%; }
