@@ -47,5 +47,12 @@
 })();
 
 $(document).ready(function(){
-    $( ".superselectable" ).selectable({filter: "li", cancel: 'a'});
+   $( ".superselectable" ).selectable({
+     filter: "li",
+     cancel: "a, p, button",
+   });
+
+  $(".closeme").click(function(){
+    $(".ui-selected").removeClass("ui-selected");
+  });
 });

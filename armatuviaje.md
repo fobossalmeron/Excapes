@@ -42,6 +42,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
   						{% for location in deal.locations %}
   						<li class="hiddenli">
                 <h2>{{location.place}}</h2>
+								<button class="closeme">{% include closeme.html %}</button>
 								{% if location.web %}
 								<a class="dealbrand" href="{{ location.web }}">
 								{{ location.name }}
@@ -99,6 +100,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 			 {% endif %}
 		  	<img class="reto_icon" src="{{ site.baseurl }}images/retos/{{ challenge.name }}.svg">
 		    <h1 class="challenge_title">{{challenge.name}}</h1>
+				<button class="closeme whitepadding">{% include closeme.html %}</button>
 		    <ul class="locaciones locaciones{{ challenge_id }}">
 		    	{% for location in challenge.locations %}
 		    	<li>
@@ -121,6 +123,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
               <div class="reto_image" style="background-image: url({{ site.baseurl }}images/locaciones/{{ hotspot.image }})"></div>
               <img class="reto_icon" src="{{ site.baseurl }}images/locaciones/locacion.svg">
               <h1 class="challenge_title">{{ hotspot.name }}</h1>
+							<button class="closeme whitepadding">{% include closeme.html %}</button>
               <ul class="locaciones hotspots{{ hotspot_id }}">
 								<li>
 								{% if hotspot.info %}

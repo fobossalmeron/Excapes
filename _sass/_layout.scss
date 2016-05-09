@@ -917,6 +917,36 @@ h2 {
     }
  }
 
+ button{
+   position: absolute;
+   width: 20px;
+   margin: 0px 10px;
+   height: 20px;
+   box-sizing: border-box;
+   cursor: pointer;
+   background-color: transparent;
+   @include transition(.4s, ease);
+   padding: 0;
+   border: none;
+   right: 0;
+   display:none;
+   opacity:0;
+   svg{
+     path{
+       fill:$red;
+     }
+   }
+ }
+
+.whitepadding{
+  padding-top:10px;
+  svg{
+    path{
+      fill:$white;
+    }
+  }
+}
+
  .deal{
     background-size: contain;
     background-repeat: no-repeat;
@@ -1052,6 +1082,10 @@ h2 {
      opacity:0 !important;
    }
    .reto_icon{
+     opacity:1 !important;
+   }
+   button{
+     display:block !important;
      opacity:1 !important;
    }
  }
