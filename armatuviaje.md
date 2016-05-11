@@ -23,6 +23,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
   <main class="destination_content">
     {% if destination.deals %}
 		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
+		<p style="float:left;clear:both;">Promociones exclusivas para <b>E<span class="xtext">X</span>CAPES</b></p>
   	<ul class="deals_list">
 		  {% for deal in destination.deals %}
 					<li class="deal locacion_clickable deal_clickable{{deal_id}}">

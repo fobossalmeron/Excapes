@@ -819,7 +819,7 @@ main {
   -o-transition: all 0.4s 0s ease;
   transition: all 0.4s 0s ease; }
   .calltoaction a {
-    color: #a01c1c;
+    color: #f9f9f9;
     padding: 6px 6px 2px 6px;
     width: 100%;
     height: 100%;
@@ -839,7 +839,12 @@ main {
     transform: translateY(-6px);
     box-shadow: 0px 6px #a01c1c; }
     .calltoaction:hover a {
-      color: #f9f9f9; }
+      color: #f9f9f9;
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      transform: scale(1.05); }
 
 .lesser {
   font-size: 1.2em; }
@@ -1115,6 +1120,11 @@ button {
   padding-top: 10px; }
   .whitepadding svg path {
     fill: #f9f9f9; }
+
+.stamp {
+  float: left;
+  max-width: 100px;
+  width: 25%; }
 
 .deal {
   background-size: contain;
