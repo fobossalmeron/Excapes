@@ -31,6 +31,10 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
             <img class="deal_icon" src="{{ site.baseurl }}images/promociones/plane.svg">
             <span class="deal_info">Vuelos</span>
             {% endif %}
+						{% if deal.type == "restaurante" %}
+            <img class="deal_icon" src="{{ site.baseurl }}images/promociones/bus.svg">
+            <span class="deal_info">Restaurante</span>
+            {% endif %}
             {% if deal.type == "hotel" %}
             <img class="deal_icon" src="{{ site.baseurl }}images/promociones/hotel.svg">
             <span class="deal_info">Hospedaje</span>
@@ -53,30 +57,31 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 								{% endif %}
 								<div class="infocontainer">
 									{% if location.tel %}
-									<a class="phonecontact" href="tel:{{location.tel}}">
-										<img src="{{ site.baseurl }}images/layout/mobile.svg">
-										+(52) {{ location.tel }}
+									<a class="phonecontact redsvg" href="tel:{{location.tel}}">
+										{% include icons/telephone.html %}
+										{{ location.tel }}
 									</a>
 									{% endif %}
 									{% if location.tel2 %}
-									<a class="phonecontact" href="tel:{{ location.tel2 }}">
-										<img src="{{ site.baseurl }}images/layout/mobile.svg">
-										+(52) {{ location.tel2 }}
+									<a class="phonecontact redsvg" href="tel:{{ location.tel2 }}">
+										{% include icons/telephone.html %}
+										{{ location.tel2 }}
 									</a>
 									{% endif %}
 									{% if location.whatsapp %}
-									<a class="phonecontact" href="tel:{{ location.whatsapp }}">
-								 		<img src="{{ site.baseurl }}images/layout/whatsapp.svg"> {{ location.whatsapp }}
+									<a class="phonecontact redsvg" href="tel:{{ location.whatsapp }}">
+								 		{% include icons/whatsapp.html %}
+										{{ location.whatsapp }}
 									</a>
 									{% endif %}
 									{% if location.mail %}
-									<a class="dealicon dealmail" href="mailto:{{ location.mail }}" target="_blank">
-										<img src="{{ site.baseurl }}images/layout/contactored.svg">
+									<a class="dealicon dealmail redsvg" href="mailto:{{ location.mail }}" target="_blank">
+										{% include icons/mail.html %}
 									</a>
 									{% endif %}
 									{% if location.facebook %}
-									<a class="dealicon dealfacebook" href="{{location.facebook}}" target="_blank">
-										<img src="{{ site.baseurl }}images/layout/fbred.svg">
+									<a class="dealicon dealfacebook redsvg" href="{{location.facebook}}" target="_blank">
+										{% include icons/facebook.html %}
 									</a>
 									{% endif %}
 									<p>{{location.info}}</p>
@@ -100,13 +105,52 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 			 <div class="reto_image" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.name }}.jpg)"></div>
 			 {% endif %}
 		  	<img class="reto_icon" src="{{ site.baseurl }}images/retos/{{ challenge.name }}.svg">
-		    <h1 class="challenge_title">{{challenge.name}}</h1>
+		    <h2 class="challenge_title">{{challenge.name}}</h2>
 				<button class="closeme whitepadding">{% include closeme.html %}</button>
 		    <ul class="locaciones locaciones{{ challenge_id }}">
 		    	{% for location in challenge.locations %}
 		    	<li>
-		    		<h3 class="challenge_title">{{ location.place }}</h3>
-			    		<a href="{{ location.link }}" target="_blank">{{ location.name }}</a>
+		    		<h3>{{ location.place }}</h3>
+							{% if location.web %}
+							<a href="{{ location.web }}" target="_blank">
+							{{ location.name }}
+							</a>
+							{% else %}
+							<h4>{{ location.name }}</h4>
+							{% endif %}
+							{% if location.tel %}
+							<a class="phonecontact opacitysvg" href="tel:{{location.tel}}">
+								{% include icons/telephone.html %}
+								{{ location.tel }}
+							</a>
+							{% endif %}
+							{% if location.tel2 %}
+							<a class="phonecontact opacitysvg" href="tel:{{ location.tel2 }}">
+								{% include icons/telephone.html %}
+								{{ location.tel2 }}
+							</a>
+							{% endif %}
+							{% if location.whatsapp %}
+							<a class="phonecontact opacitysvg" href="tel:{{ location.whatsapp }}">
+								{% include icons/whatsapp.html %}
+								{{ location.whatsapp }}
+							</a>
+							{% endif %}
+							{% if location.mail %}
+							<a class="dealicon dealmail opacitysvg" href="mailto:{{ location.mail }}" target="_blank">
+								<img src="{{ site.baseurl }}images/layout/contactored.svg">
+							</a>
+							{% endif %}
+							{% if location.facebook %}
+							<a class="dealicon dealfacebook opacitysvg" href="{{location.facebook}}" target="_blank">
+								{% include icons/facebook.html %}
+							</a>
+							{% endif %}
+							{% if location.maps %}
+							<a class="dealicon dealmaps opacitysvg" href="{{location.maps}}" target="_blank">
+								{% include icons/maps.html %}
+							</a>
+							{% endif %}
 			    		<p>{{ location.info }}</p>
 		    	</li>
 		    	{% endfor %}
@@ -123,15 +167,26 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
             <li class="locacion_clickable hotspot_clickable{{hotspot_id}}">
               <div class="reto_image" style="background-image: url({{ site.baseurl }}images/locaciones/{{ hotspot.image }})"></div>
               <img class="reto_icon" src="{{ site.baseurl }}images/locaciones/locacion.svg">
-              <h1 class="challenge_title">{{ hotspot.name }}</h1>
+							{% if hotspot.web %}
+							<a href="{{ hotspot.web }}" target="_blank" class="challenge_title">
+								{{ hotspot.name }}
+							</a>
+							{% else %}
+              <h2 class="challenge_title">{{ hotspot.name }}</h2>
+							{% endif %}
 							<button class="closeme whitepadding">{% include closeme.html %}</button>
-              <ul class="locaciones hotspots{{ hotspot_id }}">
+              <ul class="locaciones hotspots">
 								<li>
 								{% if hotspot.info %}
 									<p>{{hotspot.info}}</p>
 								{% endif %}
 								{% if hotspot.link %}
-                  <a href="{{hotspot.link}}" target="_blank">{{hotspot.linktext}}</a>
+                  <a href="{{hotspot.link}}" target="_blank" class="superclear">{{hotspot.linktext}}</a>
+								{% endif %}
+								{% if hotspot.facebook %}
+								<a class="dealicon dealfacebook opacitysvg" href="{{hotspot.facebook}}" target="_blank">
+									{% include icons/facebook.html %}
+								</a>
 								{% endif %}
 								</li>
               </ul>
