@@ -1,19 +1,9 @@
 # Excapes
 Desarrollo de sitio para Excapes
 
-## Falta
-- X's en mobile  
-- Logo en iPhone 6s
-
 ### Bernardo:
 - Descripción del sitio
+- Formato final de los teléfonos
 
 ### Tratado de Villamar
-
-Iconos:
-- Lancha
-- Rueda de la fortuna
-
-Correo quieroviajar@excapes.tv
-
-Factura
+Correo quieroviajar@excapes.tv ??

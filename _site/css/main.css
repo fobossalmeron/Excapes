@@ -1252,7 +1252,8 @@ button {
 
 .phonecontact {
   clear: both;
-  width: 100%; }
+  width: 100%;
+  margin-top: 5px; }
   .phonecontact img {
     height: 25px; }
   .phonecontact svg {
@@ -1501,7 +1502,7 @@ Retos
     border-radius: 0px;
     color: #f9f9f9;
     height: auto;
-    padding: 10px 10px 0px 10px;
+    padding: 10px;
     cursor: auto;
     z-index: 2;
     opacity: 1;
@@ -1533,9 +1534,10 @@ Retos
       clear: both; }
     .locaciones li p {
       padding: 0;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       float: left;
-      clear: both; }
+      clear: both;
+      width: 100%; }
     .locaciones li a, .locaciones li h4 {
       padding: 0;
       margin-bottom: 0;
@@ -1565,9 +1567,8 @@ Retos
 .hotspots li {
   background-color: #ef3a3a; }
   .hotspots li p {
-    margin: 10px 0 0 0; }
+    margin: 0 0 5px 0; }
 .hotspots ul {
-  padding-bottom: 10px;
   background-color: #ef3a3a; }
 
 /*

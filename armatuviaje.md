@@ -118,6 +118,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 							{% else %}
 							<h4>{{ location.name }}</h4>
 							{% endif %}
+							<p>{{ location.info }}</p>
 							{% if location.tel %}
 							<a class="phonecontact opacitysvg" href="tel:{{location.tel}}">
 								{% include icons/telephone.html %}
@@ -151,7 +152,6 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 								{% include icons/maps.html %}
 							</a>
 							{% endif %}
-			    		<p>{{ location.info }}</p>
 		    	</li>
 		    	{% endfor %}
 		    </ul>
