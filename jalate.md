@@ -15,6 +15,7 @@ travelers:
     video: "https://www.youtube.com/embed/wJF5NXygL4k"
   - title: "Andrea"
     video: "https://www.youtube.com/embed/wJF5NXygL4k"
+travelerson: "false"
 mainsponsor: sidebar-ad-reflekto.jpg
 mainsponsorhorizontal: horizontal-ad-reflekto.jpg
 mainsponsorlink: /patrocinadores/
@@ -24,9 +25,9 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 ---
 
 <div class="main_video">
-	<iframe src="https://www.youtube.com/embed/WTYXsprhc0M" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/54Dz4FZV69U" frameborder="0" allowfullscreen></iframe>
 </div>
-
+ {% if page.travelerson == "true" %}
 <ul class="capsulas">
 		{% for traveler in page.travelers %}
 	<li>
@@ -37,6 +38,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 	</li>
 	{% endfor %}
 </ul>
+{% endif %}
 
 <div class="about_info">
 	Queremos invitarte a que agarres tu mochila y vengas a descubrir México con <b>E<span class="xtext">X</span>CAPES</b>. Si quieres participar graba un video contándonos cuál es tu e<span class="xtext">x</span>cusa para viajar.

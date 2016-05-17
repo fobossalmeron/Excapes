@@ -49,7 +49,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
                 <h2>{{location.place}}</h2>
 								<button class="closeme">{% include closeme.html %}</button>
 								{% if location.web %}
-								<a class="dealbrand" href="{{ location.web }}">
+								<a class="dealbrand" href="{{ location.web }}" target="_blank">
 								{{ location.name }}
 								</a>
 								{% else %}
