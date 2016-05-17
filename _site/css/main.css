@@ -501,7 +501,7 @@ iframe {
 #image4 {
   background-image: url("../images/inicio/4hash.jpg"); }
   #image4:before {
-    content: "Jalate"; }
+    content: "Jálate"; }
 
 #image5 {
   background-image: url("../images/inicio/5hash.jpg"); }
@@ -1406,6 +1406,12 @@ Retos
     -o-transition: all 0.1s 0s ease;
     transition: all 0.1s 0s ease;
     opacity: 1; }
+    .retos li ul li:hover {
+      -webkit-border-radius: 0px 0px 0px 0px;
+      -moz-border-radius: 0px 0px 0px 0px;
+      -ms-border-radius: 0px 0px 0px 0px;
+      -o-border-radius: 0px 0px 0px 0px;
+      border-radius: 0px 0px 0px 0px; }
     .retos li:nth-child(3n+0) {
       margin-right: 0; }
     .retos li:hover {
@@ -1515,7 +1521,7 @@ Retos
       text-transform: uppercase;
       margin: 0px;
       letter-spacing: 6px;
-      text-align: right;
+      text-align: left;
       -webkit-transform: translateX(0%);
       -moz-transform: translateX(0%);
       -ms-transform: translateX(0%);
@@ -1538,6 +1544,8 @@ Retos
       color: rgba(0, 0, 0, 0.5);
       text-align: left;
       clear: both; }
+    .locaciones li h4 {
+      width: 100%; }
 
 .superclear {
   width: 100%; }

@@ -32,7 +32,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
             <span class="deal_info">Vuelos</span>
             {% endif %}
 						{% if deal.type == "restaurante" %}
-            <img class="deal_icon" src="{{ site.baseurl }}images/promociones/bus.svg">
+            <img class="deal_icon" src="{{ site.baseurl }}images/promociones/restaurant.svg">
             <span class="deal_info">Restaurante</span>
             {% endif %}
             {% if deal.type == "hotel" %}
@@ -102,9 +102,9 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 				{% if challenge.alterimg %}
 				<div class="reto_image" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.alterimg }}.jpg)"></div>
 				{% else %}
-			 <div class="reto_image" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.name }}.jpg)"></div>
+			 <div class="reto_image" style="background-image: url({{ site.baseurl }}images/retos/{{ challenge.name | replace:'í','i' }}.jpg)"></div>
 			 {% endif %}
-		  	<img class="reto_icon" src="{{ site.baseurl }}images/retos/{{ challenge.name }}.svg">
+		  	<img class="reto_icon" src="{{ site.baseurl }}images/retos/{{ challenge.name | replace:'í','i' }}.svg">
 		    <h2 class="challenge_title">{{challenge.name}}</h2>
 				<button class="closeme whitepadding">{% include closeme.html %}</button>
 		    <ul class="locaciones locaciones{{ challenge_id }}">

@@ -51,23 +51,23 @@ challenges:
     alterimg: "cuatrimoto2"
     locations:
       - place: "Huauchinango"
-        name: "Luz María"
+        name: "Luz María ????"
         tel: "77 67 67 00 02"
-  - name: "espeleologia"
+  - name: "espeleología"
     locations:
-      - place: "Zapotitlán"
-        name: "Grutas Karmidas"
+      - place: "Zapotitlán: Grutas Karmidas"
+        name: "????"
         maps: "https://goo.gl/maps/mzacq9bfMy12"
         facebook: "https://www.facebook.com/grupoxkitturismoaventura/"
         tel: "23 31 07 86 18"
-      - place: "Zapotitlán"
-        name: "Grutas del Río Ateneo"
+      - place: "Zapotitlán: Grutas del Río Ateneo"
+        name: "Operadora Turística de Zapotitlán"
         tel: "452-33 11 09 72 92"
         facebook: "https://www.facebook.com/Operadora-Tur%C3%ADstica-Zapotitl%C3%A1n-165228227186839/"
   - name: "rapel"
     locations:
-      - place: "Cuetzalan"
-        name: "Cascada Las Brisas"
+      - place: "Cuetzalan: Cascada Las Brisas"
+        name: "????"
         web: "http://www.visitcuetzalan.com/rappel-cascada-las-brisas"
         maps: "https://goo.gl/maps/YakxvUixy7x"
         tel: "23 31 08 67 83"
@@ -82,7 +82,7 @@ challenges:
   - name: "senderismo"
     locations:
       - place: "Zapotitlán"
-        name: "Fernando"
+        name: "Operadora Turística de Zapotitlán"
         tel: "452-33 11 09 72 92"
         facebook: "https://www.facebook.com/Operadora-Tur%C3%ADstica-Zapotitl%C3%A1n-165228227186839/"
 hotspots:
@@ -152,4 +152,5 @@ hotspots:
     image: "presatenango.jpg"
     linktext: "Tenango de las Flores, Pue."
     link: "https://goo.gl/maps/Wtsu6A7JbNN2"
+    facebook: "https://www.facebook.com/pages/Presa-Tenango-De-Las-Flores/478639142175249"
 ---
