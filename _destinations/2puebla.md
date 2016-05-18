@@ -8,33 +8,45 @@ deals:
       - place: "Hostal en Cholula"
         name: "Hostal de San Pedro"
         web: "http://www.hostaldesanpedro.com"
-        info: "Descuento del 7% Código de promoción: <b>EXCAPES</b><br>Reserva!"
+        info: "Descuento del 7% Código de promoción: <b>EXCAPES</b><br>
+        Reserva!"
         tel: "22 21 78 04 95"
         tel2: "22 22 47 23 84"
       - place: "Hostal en Puebla"
         name: "Hostal Santo Domingo"
         web: "http://www.hostalsantodomingo.com.mx"
-        info: "Reserva!<br>De Domingo a Miercoles 10% de descuento en todas las habitaciones privadas."
+        info: "De Domingo a Miercoles 10% de descuento en todas las habitaciones privadas.<br>
+        Reserva!"
         tel: "22 27 59 46 49"
         mail: "hostalstodomingo@yahoo.com.mx"
         facebook: "https://www.facebook.com/hostelsantodomingo.puebla/"
       - place: "Hotel en Zapotitlán"
         name: "Hotel Zapotitlán"
-        info: "1. 30% de descuento en la segunda noche en cabaña de 5 personas. Además, si pagas por anticipado, se aplica un ¡10% de descuento extra!<br>
-        2. 20% de descuento en habitación de 2 personas. ¡Todas las noches! Precio normal: $320; precio Excapes: $256. <br>
-        3. 20% de descuento en habitación de 4 personas.  ¡Todas las noches de verano! Precio normal: $500; Precio Excapes: $400. <br>
-        4. ¡Además, si te alojas en el Hotel Zapotitlán, contarás con numerosos descuentos en actividades turísticas, rutas guiadas, restaurantes y en la entrada a las Grutas Karmidas! "
+        info: "<b>·</b> 30% de descuento en la segunda noche en cabaña de 5 personas. Además, si pagas por anticipado, se aplica un ¡10% de descuento extra!<br>
+        <b>·</b> 20% de descuento en habitación de 2 personas. ¡Todas las noches!<br>
+        Precio normal: $320<br>
+        Precio Excapes: $256<br>
+        <b>·</b> 20% de descuento en habitación de 4 personas.  ¡Todas las noches de verano!<br>
+        Precio normal: $500<br>
+        Precio Excapes: $400.<br>
+        ¡Además, si te alojas en el Hotel Zapotitlán, contarás con numerosos descuentos en actividades turísticas, rutas guiadas, restaurantes y en la entrada a las Grutas Karmidas!<br>
+        Reserva!"
         tel: "23 3­1 09­ 72 ­92"
         tel2: "23 3­7 59­ 36­ 91"
         facebook: "https://www.facebook.com/HOTEL-ZAPOTITLAN-1594792247463869/"
       - place: "Posada en Zapotitlán"
         name: "Posada Zempoala"
-        info: "A las personas que a través de este medio se contacten el mes de mayo del 2016, el costo por persona será de $100.00 por noche con el código Excapes."
+        info: "A las personas que a través de este medio se contacten el mes de mayo del 2016, el costo por persona será de $100 por noche con el código Excapes.<br>
+        Reserva!"
         tel: "23 31 17 03 12"
       - place: "Cabañas en Huauchinango"
         name: "Cabañas Buenavista"
-        info: "1. 15% de descuento en paquete extremo. Precio normal: 600$. Precio Excapes: 510$. ¡Llama e infórmate sobre el contenido del paquete!
-        2. Desayuno gratis con el hospedaje. Aplica solo en parejas y familias."
+        info: "<b>·</b> 15% de descuento en paquete extremo.<br>
+        Precio normal: $600<br>
+        Precio Excapes: $510<br>
+        ¡Llama e infórmate sobre el contenido del paquete!<br>
+        <b>·</b> Desayuno gratis con el hospedaje. Aplica solo en parejas y familias.<br>
+        Reserva!"
         tel: "77 61 02 17 32"
         tel2: "77 61 01 61 55"
         facebook: "https://www.facebook.com/sifon.adventour.7"

@@ -1,8 +1,16 @@
 <div class="social-media-block">
   <p> Visita nuestras <b>redes sociales</b>.</p>
   <ul class="social-media-list">
+            {% if site.youtube_username %}
+            <a href="https://youtube.com/{{ site.youtube_username }}" target="_blank">
+              <li class="youtube">
+                    <img class="icon" src="{{ site.baseurl }}images/layout/yt.svg">
+              </li>
+            </a>
+            {% endif %}
+
             {% if site.facebook_username %}
-            <a href="https://facebook.com/{{ site.facebook_username }}">
+            <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank">
               <li class="facebook">
                     <img class="icon" src="{{ site.baseurl }}images/layout/fb.svg">
               </li>
@@ -10,7 +18,7 @@
             {% endif %}
 
             {% if site.twitter_username %}
-            <a href="https://twitter.com/{{ site.twitter_username }}">
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
               <li class="twitter">
                     <img class="icon" src="{{ site.baseurl }}images/layout/twi.svg">
               </li>
@@ -18,17 +26,9 @@
             {% endif %}
 
             {% if site.instagram_username %}
-            <a href="https://instagram.com/{{ site.instagram_username }}/">
+            <a href="https://instagram.com/{{ site.instagram_username }}/" target="_blank">
               <li class="instagram">
                     <img class="icon" src="{{ site.baseurl }}images/layout/inst.svg">
-              </li>
-            </a>
-            {% endif %}
-
-            {% if site.youtube_username %}
-            <a href="https://youtube.com/{{ site.youtube_username }}">
-              <li class="youtube">
-                    <img class="icon" src="{{ site.baseurl }}images/layout/yt.svg">
               </li>
             </a>
             {% endif %}

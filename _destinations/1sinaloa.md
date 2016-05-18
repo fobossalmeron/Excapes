@@ -8,20 +8,20 @@ deals:
       - place: "Hotel en Los Mochis"
         name: "Hotel Santa Anita"
         web: "http://www.santaanitahotel.com/"
-        info: "????"
+        info: "Reserva!"
         tel: "69 88 16 70 46"
       - place: "Hotel en El Fuerte"
         name: "Hotel Posada del Hidalgo"
         tel: "69 88 93 11 94"
         web: "http://www.hotelposadadelhidalgo.com/"
-        info: "????"
+        info: "Reserva!"
   - type: "restaurante"
     locations:
       - place: "Restaurante en Los Mochis"
         name: "Lola Cocina de Mercado"
         web: "http://www.lolacocinademercado.com"
         tel: "68 98 18 08 02"
-        info: "????"
+        info: "Reserva!"
 challenges:
   - name: "jetski"
     locations:
