@@ -25,14 +25,14 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 ---
 
 <div class="main_video">
-	<iframe src="https://www.youtube.com/embed/54Dz4FZV69U" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/54Dz4FZV69U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
  {% if page.travelerson == "true" %}
 <ul class="capsulas">
 		{% for traveler in page.travelers %}
 	<li>
 		<div class="cap_episode">
-			<iframe src="{{ traveler.video }}" frameborder="0" allowfullscreen></iframe>
+      <iframe src="{{ traveler.video }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<h2>{{ traveler.title }}</h2>
 	</li>
