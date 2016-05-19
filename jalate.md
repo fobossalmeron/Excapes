@@ -25,7 +25,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 ---
 
 <div class="main_video">
-	<iframe src="https://www.youtube.com/embed/54Dz4FZV69U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/5Uno5e3S1hk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
  {% if page.travelerson == "true" %}
 <ul class="capsulas">
