@@ -1000,7 +1000,6 @@ h2 {
             @include transition(.2s, ease);
             @include border-radius-multiple(0px, 0px, 5px, 5px);
             text-align: left;
-            z-index:2;
 
             h3{
               color: $red;
