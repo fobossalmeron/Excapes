@@ -1,7 +1,7 @@
 # Site settings
 title: Excapes
 email: contacto@excapes.tv
-description: Excapes es una web-serie de viajes.
+description: Excapes.tv es una web-serie y una guía para viajeros que busca inspirarte a conocer México y llevar tu experiencia al extremo.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://excapes.tv" # the base hostname & protocol for your site
 twitter_username: #excapes.twitter
