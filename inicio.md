@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Inicio
-permalink: inicio/
+permalink: /
 video: https://www.youtube.com/embed/m3D5slovTJg
 ---
 
