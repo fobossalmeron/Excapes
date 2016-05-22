@@ -24,13 +24,13 @@ deals:
         tel: "68 98 18 08 02"
         info: "Reserva!"
 challenges:
-  - name: "jetski"
+  - name: "kiteboard"
     locations:
       - place: "Isla Maviri"
         name: "Beach Club Maviri"
-        facebook: "https://www.facebook.com/BeachClubMaviri/"
         tel: "66 81 73 95 79"
-        info: "Uno de los deportes extremos más fáciles de aprender! Elige entre la gran variedad de motos de agua que ofrece el Beach Club."
+        facebook: "https://www.facebook.com/BeachClubMaviri/"
+        info: "Aprende a hacer kiteboard con una de las campeonas de México."
   - name: "tirolesa"
     locations:
       - place: "Isla Maviri"
@@ -71,13 +71,6 @@ challenges:
         tel: "66 81 73 95 79"
         facebook: "https://www.facebook.com/BeachClubMaviri/"
         info: "No puedes irte del Maviri sin conocer y nadar con el Pechocho. "
-  - name: "kitesurf"
-    locations:
-      - place: "Isla Maviri"
-        name: "Beach Club Maviri"
-        tel: "66 81 73 95 79"
-        facebook: "https://www.facebook.com/BeachClubMaviri/"
-        info: "Aprende a hacer kitesurf con una de las campeonas de México."
 hotspots:
   - name: "El Fuerte"
     image: "elfuerte.jpg"
