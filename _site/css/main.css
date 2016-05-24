@@ -437,13 +437,21 @@ nav {
 
 #homevideo {
   width: 71.428%;
-  height: 435px;
+  height: 0;
+  padding-bottom: 40%;
   float: left;
   border-radius: 5px;
   overflow: hidden;
   margin: .55% 0;
   display: block;
-  position: relative; }
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+  #homevideo iframe {
+    position: absolute; }
 
 iframe {
   width: 100%;
@@ -2394,7 +2402,8 @@ Sidebar
     width: 22.8%; }
 
   #homevideo {
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 56.25%; }
 
   .spaces {
     margin-left: 0px; }
@@ -2493,9 +2502,6 @@ Smartphone Down
       margin-right: 0px; }
     .social-media-list a:nth-last-child(1) {
       margin-right: 0px; }
-
-  #homevideo {
-    height: 265px; }
 
   .stickyheader .logo {
     width: 80%; }

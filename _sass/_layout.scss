@@ -239,13 +239,19 @@ $grid-height: 145px;
 
 #homevideo{
     width: 71.428%;
-    height: $grid-height * 3;
+    height: 0;
+    padding-bottom: 40%;
     float: left;
     border-radius: 5px;
     overflow: hidden;
     margin: .55% 0;
     display:block;
     position:relative;
+    @include border-radius(5px);
+
+    iframe{
+      position:absolute;
+    }
 }
 
 iframe{
