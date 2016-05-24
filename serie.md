@@ -43,7 +43,7 @@ secondarysponsorlink: /patrocinadores/
 			<h2>{{ capsule.title }}</h2>
 		</li>
 		{% endfor %}
-    <h2 class="calltoaction lesser"><a href="{{ site.baseurl }}jalate/">Se el próximo aventurero, jálate!</a></h2>
+    <h2 class="calltoaction lesser"><a href="{{ site.baseurl }}jalate/">Sé el próximo aventurero, jálate!</a></h2>
 	</ul>
 </div>
 {% endfor %}

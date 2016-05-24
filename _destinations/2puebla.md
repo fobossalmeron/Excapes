@@ -8,21 +8,22 @@ deals:
       - place: "Hostal en Cholula"
         name: "Hostal de San Pedro"
         web: "http://www.hostaldesanpedro.com"
-        info: "Descuento del 7% Código de promoción: <b>EXCAPES</b><br>
+        info: "Descuento del 7%<br>
+        Código de promoción: <b>EXCAPES</b><br>
         Reserva!"
         tel: "22 21 78 04 95"
         tel2: "22 22 47 23 84"
       - place: "Hostal en Puebla"
         name: "Hostal Santo Domingo"
         web: "http://www.hostalsantodomingo.com.mx"
-        info: "De Domingo a Miercoles 10% de descuento en todas las habitaciones privadas.<br>
+        info: "De domingo a miércoles 10% de descuento en todas las habitaciones privadas.<br>
         Reserva!"
         tel: "22 27 59 46 49"
         mail: "hostalstodomingo@yahoo.com.mx"
         facebook: "https://www.facebook.com/hostelsantodomingo.puebla/"
       - place: "Hotel en Zapotitlán"
         name: "Hotel Zapotitlán"
-        info: "<b>·</b> 30% de descuento en la segunda noche en cabaña de 5 personas. Además, si pagas por anticipado, se aplica un ¡10% de descuento extra!<br>
+        info: "<b>·</b> 30% de descuento en la segunda noche en una cabaña para 5 personas. Además, si pagas por anticipado, se aplica un ¡10% de descuento extra!<br>
         <b>·</b> 20% de descuento en habitación de 2 personas. ¡Todas las noches!<br>
         Precio normal: $320<br>
         Precio Excapes: $256<br>
@@ -36,7 +37,7 @@ deals:
         facebook: "https://www.facebook.com/HOTEL-ZAPOTITLAN-1594792247463869/"
       - place: "Posada en Zapotitlán"
         name: "Posada Zempoala"
-        info: "A las personas que a través de este medio se contacten el mes de mayo del 2016, el costo por persona será de $100 por noche con el código Excapes.<br>
+        info: "A las personas que contacten a través de este medio durante el mes de mayo de 2016, el costo por persona/noche será de $100. Código de promoción: <b>EXCAPES</b>.<br>
         Reserva!"
         tel: "23 31 17 03 12"
       - place: "Cabañas en Huauchinango"

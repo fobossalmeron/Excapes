@@ -7,4 +7,4 @@ capsules:
   - title: "Tips de Viajero"
     video: "https://www.youtube.com/embed/54Mc_nZ8_kw"
 ---
-Manu, Pante, Valentina y Pepe se despiertan crudos en mitad de la plaza de un pueblo. Pepe los convencerá para visitar las grutas, pero esa decisión les llevará a perder a uno de ellos en el camino.
+Manu, Pante, Valentina y Pepe se despiertan crudos en mitad de la plaza de un pueblo. Pepe los convencerá para visitar unas grutas, pero esa decisión les llevará a perder a uno de ellos en el camino.
