@@ -34,19 +34,19 @@ challenges:
   - name: "tirolesa"
     locations:
       - place: "Isla Maviri"
-        name: "Beach Club Maviri"
-        facebook: "https://www.facebook.com/BeachClubMaviri/"
-        tel: "66 81 73 95 79"
+        name: "Tirolesa el Maviri"
+        tel: "66 81 13 24 24"
         info: "No te pierdas cruzar sobre el Mar de Cortés en tirolesa."
   - name: "sandboard"
     locations:
       - place: "Isla Maviri"
         name: "Baro Sandboards"
         facebook: "https://www.facebook.com/Baroboards/"
-        info: "El Beach Club no sólo es experto en deportes de agua, atrévete a probar también sobre la arena."
+        tel: "67 31 04 27 60"
+        info: "En la Isla del Maviri no sólo puedes practicar deportes de agua, atrévete a probar también sobre la arena. "
   - name: "wakeboard"
     locations:
-      - place: "Isla Maviri"
+      - place: "Bahía de Topolobampo"
         name: "Beach Club Maviri"
         tel: "66 81 73 95 79"
         facebook: "https://www.facebook.com/BeachClubMaviri/"
@@ -58,12 +58,12 @@ challenges:
         tel: "66 81 73 95 79"
         facebook: "https://www.facebook.com/BeachClubMaviri/"
         info: "Si quieres dar un paseo en lancha por mar abierto y la bahía del Maviri contacta con Papanico y Julián Bojorquez."
-  - name: "cuatrimoto"
-    locations:
-      - place: "Isla Maviri"
-        name: "Beach Club Maviri"
-        facebook: "https://www.facebook.com/BeachClubMaviri/"
-        info: "Recorre la playa del Maviri con estas potentes cuatrimotos."
+#  - name: "cuatrimoto"
+#    locations:
+#      - place: "Isla Maviri"
+#        name: "Beach Club Maviri"
+#        facebook: "https://www.facebook.com/BeachClubMaviri/"
+#        info: "Recorre la playa del Maviri con estas potentes cuatrimotos."
   - name: "delfines"
     locations:
       - place: "Isla Maviri"

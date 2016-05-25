@@ -8,7 +8,7 @@ deals:
       - place: "Hostal en Cholula"
         name: "Hostal de San Pedro"
         web: "http://www.hostaldesanpedro.com"
-        info: "Descuento del 7%<br>
+        info: "Descuento del <b>7%</b><br>
         Código de promoción: <b>EXCAPES</b><br>
         Reserva!"
         tel: "22 21 78 04 95"
@@ -16,18 +16,18 @@ deals:
       - place: "Hostal en Puebla"
         name: "Hostal Santo Domingo"
         web: "http://www.hostalsantodomingo.com.mx"
-        info: "De domingo a miércoles 10% de descuento en todas las habitaciones privadas.<br>
+        info: "De domingo a miércoles <b>10%</b> de descuento en todas las habitaciones privadas.<br>
         Reserva!"
         tel: "22 27 59 46 49"
         mail: "hostalstodomingo@yahoo.com.mx"
         facebook: "https://www.facebook.com/hostelsantodomingo.puebla/"
       - place: "Hotel en Zapotitlán"
         name: "Hotel Zapotitlán"
-        info: "<b>·</b> 30% de descuento en la segunda noche en una cabaña para 5 personas. Además, si pagas por anticipado, se aplica un ¡10% de descuento extra!<br>
-        <b>·</b> 20% de descuento en habitación de 2 personas. ¡Todas las noches!<br>
+        info: "<b>· 30%</b> de descuento en la segunda noche en una cabaña para 5 personas. Además, si pagas por anticipado, se aplica un ¡<b>10%</b> de descuento extra!<br>
+        <b>· 20%</b> de descuento en habitación de 2 personas. ¡Todas las noches!<br>
         Precio normal: $320<br>
         Precio Excapes: $256<br>
-        <b>·</b> 20% de descuento en habitación de 4 personas.  ¡Todas las noches de verano!<br>
+        <b>· 20%</b> de descuento en habitación de 4 personas.  ¡Todas las noches de verano!<br>
         Precio normal: $500<br>
         Precio Excapes: $400.<br>
         ¡Además, si te alojas en el Hotel Zapotitlán, contarás con numerosos descuentos en actividades turísticas, rutas guiadas, restaurantes y en la entrada a las Grutas Karmidas!<br>
@@ -42,7 +42,7 @@ deals:
         tel: "23 31 17 03 12"
       - place: "Cabañas en Huauchinango"
         name: "Cabañas Buenavista"
-        info: "<b>·</b> 15% de descuento en paquete extremo.<br>
+        info: "<b>· 15%</b> de descuento en paquete extremo.<br>
         Precio normal: $600<br>
         Precio Excapes: $510<br>
         ¡Llama e infórmate sobre el contenido del paquete!<br>
