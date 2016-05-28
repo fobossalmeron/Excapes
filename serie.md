@@ -14,7 +14,7 @@ secondarysponsorlink: /patrocinadores/
 <div class="episodio">
   <h1 class="inversed_name">{{ episode.title }}</h1>
 	<div class="main_video">
-    <iframe src="{{ episode.video }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="{{ episode.video }}&amp;rel=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	{{ episode.content }}
     {% for capsule in episode.capsules %}
