@@ -2,6 +2,7 @@
 title: "Puebla"
 subtitle: "Checa lo que encontramos!"
 video: "https://www.youtube.com/embed/-T71KThguzk"
+form: "https://docs.google.com/forms/d/16x-Yg9iICSliB9pfn_g-i6_dQwZtfqQmGAXoCi_Qc24/viewform?embedded=true"
 deals:
   - type: "hotel"
     locations:
