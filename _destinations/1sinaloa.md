@@ -15,14 +15,14 @@ deals:
         name: "Hotel Posada del Hidalgo"
         tel: "69 88 93 11 94"
         web: "http://www.hotelposadadelhidalgo.com/"
-        info: "Reserva!"
+        info: "Duerme en uno de los lugares más bonitos de Sinaloa al mejor precio!<br>Reserva!"
   - type: "restaurante"
     locations:
       - place: "Restaurante en Los Mochis"
         name: "Lola Cocina de Mercado"
         web: "http://www.lolacocinademercado.com"
         tel: "68 98 18 08 02"
-        info: "Reserva!"
+        info: "Ideal para saborear lo mejor de la gastronomía local.<br>Reserva!"
 challenges:
   - name: "kiteboard"
     locations:
