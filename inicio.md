@@ -2,7 +2,7 @@
 layout: default
 title: Inicio
 permalink: /
-video: https://www.youtube.com/embed/a9vRoyEIkIA
+video: https://www.youtube.com/embed/D5BoLNLLpxE?list=PLa3oL93O2Vq4_6vjuK9b93GQEz4y4VC4o
 ---
 
 <div class="homegrid">
@@ -30,7 +30,7 @@ video: https://www.youtube.com/embed/a9vRoyEIkIA
   </span>
 
   <div id="homevideo" class="video">
-    <iframe src="{{ page.video }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="{{ page.video }}&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <span class="homegrid_column mobile_hide">

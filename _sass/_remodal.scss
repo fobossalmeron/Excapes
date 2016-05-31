@@ -77,7 +77,6 @@ html.remodal-is-locked {
 .remodal {
   position: relative;
   @include border-radius(5px);
-  overflow:hidden;
   outline: none;
 
   -webkit-text-size-adjust: 100%;

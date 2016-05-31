@@ -1,6 +1,6 @@
 ---
 title: "1x04 Y ¿Ahora a dónde?"
-video: "https://www.youtube.com/embed/i1ZBdgcpi9k?list=PLa3oL93O2Vq4_6vjuK9b93GQEz4y4VC4o"
+video: "https://www.youtube.com/embed/i1ZBdgcpi9k"
 capsules:
   - title: "Top 5 Huauchinango"
     video: "https://www.youtube.com/embed/vP7wSBDnRgk"
