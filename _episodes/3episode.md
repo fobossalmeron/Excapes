@@ -1,6 +1,6 @@
 ---
 title: 1x03 Siempre no
-video: https://www.youtube.com/embed/Z8h4nJlqg4I
+video: https://www.youtube.com/embed/aZ7e54ExQ0s
 teaser: https://www.youtube.com/embed/UJp-lFrGAks
 capsules:
   - title: Tips de Viajero
