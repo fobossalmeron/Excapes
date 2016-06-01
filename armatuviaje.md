@@ -20,6 +20,11 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 	  <iframe src="{{ destination.video }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 
+	<div class="remodal" data-remodal-id="modal{{ destination.title }}" data-remodal-action="confirm">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<iframe src="{{ destination.form }}" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+	</div>
+
   <main class="destination_content">
     {% if destination.deals %}
 		<h2 class="promociones_title">¡Ahórrate un varo!</h2>
@@ -85,6 +90,9 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 									</a>
 									{% endif %}
 									<p>{{location.info}}</p>
+									{% if location.hascode %}
+									<h2 class="calltoaction"><a data-remodal-target="modal{{ destination.title }}">Código de promoción!</a></h2>
+									{% endif %}
 								</div>
               </li>
               {% endfor %}
@@ -118,7 +126,6 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 							{% else %}
 							<h4>{{ location.name }}</h4>
 							{% endif %}
-							<p>{{ location.info }}</p>
 							{% if location.tel %}
 							<a class="phonecontact opacitysvg" href="tel:{{location.tel}}">
 								{% include icons/telephone.html %}
@@ -151,6 +158,10 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 							<a class="dealicon dealmaps opacitysvg" href="{{location.maps}}" target="_blank">
 								{% include icons/maps.html %}
 							</a>
+							{% endif %}
+							<p>{{ location.info }}</p>
+							{% if location.hascode %}
+							<h2 class="calltoaction"><a data-remodal-target="modal{{ destination.title }}">Código de promoción!</a></h2>
 							{% endif %}
 		    	</li>
 		    	{% endfor %}
