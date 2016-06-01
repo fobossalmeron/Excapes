@@ -12,6 +12,8 @@
   <meta property="og:title" content="{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="http://excapes.tv/images/layout/ogimage.jpg"/>
+  <meta property="og:locale" content="es_MX" />
+  <meta property="og:locale:alternate" content="es_ES" />
 
   <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,300italic|Special+Elite' rel='stylesheet' type='text/css'>
