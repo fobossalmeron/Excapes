@@ -90,7 +90,9 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 									</a>
 									{% endif %}
 									<p>{{location.info}}</p>
-									<h2 class="calltoaction lesser"><a data-remodal-target="modal{{ destination.title }}">Obtén tu código de promoción!</a></h2>
+									{% if location.hascode %}
+									<h2 class="calltoaction"><a data-remodal-target="modal{{ destination.title }}">Obtén tu código de promoción!</a></h2>
+									{% endif %}
 								</div>
               </li>
               {% endfor %}
@@ -124,7 +126,6 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 							{% else %}
 							<h4>{{ location.name }}</h4>
 							{% endif %}
-							<p>{{ location.info }}</p>
 							{% if location.tel %}
 							<a class="phonecontact opacitysvg" href="tel:{{location.tel}}">
 								{% include icons/telephone.html %}
@@ -157,6 +158,10 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 							<a class="dealicon dealmaps opacitysvg" href="{{location.maps}}" target="_blank">
 								{% include icons/maps.html %}
 							</a>
+							{% endif %}
+							<p>{{ location.info }}</p>
+							{% if location.hascode %}
+							<h2 class="calltoaction"><a data-remodal-target="modal{{ destination.title }}">Obtén tu código de promoción!</a></h2>
 							{% endif %}
 		    	</li>
 		    	{% endfor %}

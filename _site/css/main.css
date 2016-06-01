@@ -658,7 +658,7 @@ iframe {
     list-style: none;
     margin: 5px 0 20px 0; }
     .sponfoot ul:last-of-type {
-      margin-bottom: 2%; }
+      margin-bottom: 3%; }
 
 #logo_footer {
   width: 300px;
@@ -814,6 +814,7 @@ main {
   font-size: 1.5em;
   box-sizing: border-box;
   padding-top: 1%;
+  padding-left: 0px !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -1560,6 +1561,19 @@ Retos
       float: left;
       font-family: "Titillium Web", sans-serif;
       clear: both; }
+    .locaciones li h2 {
+      background-color: rgba(0, 0, 0, 0.3);
+      font-family: "Titillium Web", sans-serif;
+      letter-spacing: 2px;
+      font-weight: 600;
+      padding: 0px;
+      margin-top: 10px;
+      box-shadow: 0px 0px rgba(0, 0, 0, 0.5); }
+      .locaciones li h2:hover {
+        box-shadow: 0px 6px rgba(0, 0, 0, 0.5); }
+      .locaciones li h2 a {
+        padding: 6px;
+        font-size: 15px; }
     .locaciones li p {
       padding: 0;
       margin-bottom: 0px;

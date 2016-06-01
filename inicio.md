@@ -30,7 +30,7 @@ video: https://www.youtube.com/embed/D5BoLNLLpxE?list=PLa3oL93O2Vq4_6vjuK9b93GQE
   </span>
 
   <div id="homevideo" class="video">
-    <iframe src="{{ page.video }}&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="{{ page.video }}&amp;rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <span class="homegrid_column mobile_hide">
