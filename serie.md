@@ -8,7 +8,7 @@ mainsponsorlink: https://www.facebook.com/diablofashion/
 secondarysponsor: sidebar-ad-mini-semiosfera.png
 secondarysponsorhorizontal: horizontal-ad-mini-semiosfera.png
 secondarysponsorlink: /patrocinadores/
-#released: true
+released: true
 ---
 
 {% for episode in site.episodes %}
