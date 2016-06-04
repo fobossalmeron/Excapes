@@ -1,6 +1,6 @@
 ---
 title: 1x01 ¿Cuál es tu excusa para viajar?
-video: https://www.youtube.com/embed/vDEiaZHh4eY
+video: https://www.youtube.com/embed/2dxyqd74TJQ
 teaser: https://www.youtube.com/embed/JXIi4wLM7rw
 capsules:
   - title: Top 5 Puebla

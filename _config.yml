@@ -5,8 +5,8 @@ description: Excapes es una serie web y una guía de viajes que te ayuda a descu
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://excapes.tv" # the base hostname & protocol for your site
 twitter_username: #excapes.twitter
-facebook_username:  #excapes.facebook
-instagram_username: excapes.tv
+facebook_username: excapestv
+instagram_username: excapes.tv 
 youtube_username: playlist?list=PLa3oL93O2Vq4_6vjuK9b93GQEz4y4VC4o
 
 # Build settings
