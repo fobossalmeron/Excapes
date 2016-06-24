@@ -56,7 +56,7 @@ secondarysponsorlink: http://www.ojosdepapelvolando.com
 		</li>
 	</ul>
 	<p>
-	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext">x</span>cusa más original. Recuerda que al enviarlo aceptas nuestros <a href="{{ site.baseurl }}pdfs/terminosycondiciones.pdf">términos y condiciones</a>.<br><br>
+	Con base en los vídeos recibidos seleccionaremos a los tres participantes con la e<span class="xtext">x</span>cusa más original. Recuerda que al enviarlo aceptas nuestros <a href="{{ site.baseurl }}descargables/Terminos_y_Condiciones_Excapes.pdf">términos y condiciones</a>.<br><br>
 	<b>No esperes más y envíanos tu video!!!</b>
 	</p>
 </div>

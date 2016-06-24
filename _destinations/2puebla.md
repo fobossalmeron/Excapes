@@ -56,6 +56,52 @@ deals:
         tel2: 77 61 01 61 55
         facebook: "https://www.facebook.com/sifon.adventour.7"
         hascode: true
+      - place: Hotel en Huauchinango
+        name: Hotel Villa de Cortez
+        tel: 77 67 62 62 30
+        tel2: 77 61 09 31 46
+        mail: hotelvilladecortez@hotmail.com
+        facebook: "https://www.facebook.com/pages/Hotel-Villa-De-Cortez/131407190280474"
+        info: "Precios Excapes:<br>
+        · $540 para 1.<br>
+        · $700 para 2.<br>
+        · $845 para 3.<br>
+        · $965 para 4.<br>
+        · $1,177 Jr. Suite.<br>
+        · $754 para 1 o 2 habitación ejecutiva."
+        hascode: true
+      - place: Hotel en Cuetzalan
+        name: Hotel Taswlotzin
+        web: http://taselotzin.mex.tl/
+        tel: 23 33 31 04 80
+        info: "<b>10%</b> de descuento en hospedaje.<br>
+        <b>20%</b> de descuento en paquetes:<br>
+        · $1,050 Hospedaje en cabaña + desayuno + temascal.<br>
+        · $1,367 Hospedaje en cabaña + desayuno + masaje.<br>
+        · $967 Hospedaje en cabaña + recorrido guiado.<br>
+        Aplica todo el mes de junio de domingo a jueves."
+        hascode: true
+      - place: Hotel en Cuetzalan
+        name: Hotel Posada Cuetzalan
+        tel: 23 33 31 01 54
+        web: www.posadacuetzalan.com
+        mail: informes@posadacuetzalan.com
+        info: 15% de descuento de lunes a jueves.
+        hascode: true
+      - place: Hotel en Cuetzalan
+        name: Hotel Posada Molina
+        tel: 23 33 31 04 61
+        tel2: 23 33 31 10 99
+        web: http://www.hotelposadamolina.com.mx/
+        mail: reservaciones@hotelposadamolina.com.mx
+        info: "<b>10%</b> de descuento sobre la tarifa expuesta en el sitio web."
+        hascode: true
+      - place: Hotel en Cuetzalan
+        name: Hotel Mesón de Don Ángel
+        tel: 23 31 04 59 19
+        mail: fohdm@yahoo.com.mx
+        info: "<b>10%</b> de descuento en hospedaje."
+        hascode: true
 challenges:
   - name: caballo
     locations:
@@ -158,6 +204,7 @@ hotspots:
     linktext: "Av 12 Oriente Casi Esquina 2 Norte,San Juan Aquiahuac,72810 Tlaxcalancingo, Pue."
     link: https://goo.gl/maps/6R3qprkEeUm
     web: http://www.containercity.com.mx/
+    facebook: https://www.facebook.com/containercity/
     info: "50 contenedores forman una zona de restaurantes y bares."
   - name: Cuetzalan Zócalo
     image: cuetzalanzocalo.jpg
